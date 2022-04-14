@@ -24,7 +24,8 @@ echo "
 
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  ♻️   Track LFS DataSet  🔐  "
 git lfs track "*.files"
-#git lfs uninstall
+
+# git lfs uninstall
 sleep 1
 echo "\n"
 
