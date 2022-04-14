@@ -34,7 +34,7 @@ read -p "⚠️  Tips 2. _> Please Enter A Description Of The Build Version Info
 echo "\n"
 
 echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Creating Package Description Information  📲\n"
-git tag -u "280EA4A955314C8F37077DA8591382FD2D728AB1" -s $parameter_v1 -m "$parameter_v2"
+git tag -u "7FB56C9F0D98D92C7A0CD812F84171596D5D9101" -s $parameter_v1 -m "$parameter_v2"
 #sleep 3
 echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Information Summary  💬\n"
 echo "⚠️  Tips 3. _> Repositories Version => $parameter_v1 & Information Summary => $parameter_v2"
