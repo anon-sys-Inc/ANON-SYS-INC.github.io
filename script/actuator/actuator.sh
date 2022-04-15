@@ -24,6 +24,7 @@ echo "
 "
 
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  ⚠️   START SERVICE ✅  "
+
 bundle exec jekyll serve --livereload --open-url --trace
 
 echo "\n\n -- WE ARE ANON SYS. WE ARE LEGION. --"
