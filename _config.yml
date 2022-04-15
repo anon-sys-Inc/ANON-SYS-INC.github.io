@@ -55,3 +55,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+nextworldhub_platform_services:
+  -
+    href_1: /OpenAPIs/ServerlessEngine/PaaS/Container/XXX/Publicized/
+    href_2: /PublicizedAPIs/ServerlessEngine/SaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
+    href_3: /OpenAPIs/ServerlessEngine/DBaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
+    href_4: /OpenAPIs/ServerlessEngine/FaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
+    test: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Global-Plans/Pull-Requests=PreviewPlans/NBM
+    t: Reaction=Actions/Publicized/Services/XXX | watch?v=IGyX98EzG3g | Events | Lives
+    label: Fluid Exchange
