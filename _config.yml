@@ -1,16 +1,17 @@
+# Basic Configuration
+encoding: UTF-8
+locale: en-US``
+baseurl: ""
 title: ANON SYS, INC.
 SEOTitle: "ANON SYS, INC."
 email: 0XE7BC5E3W@onion.org
 description: WE ARE ANON SYS. WE ARE LEGION.
 keyword: "ANON SYS, INC."
-locale: en-US
-baseurl: ""
 organization: "ANON SYS, INC."
 url: "https://anonymous-sys.github.io"
-favicon: "/assets/resource/icon/favassets/icon-32x32.png"
+sys_favicon: "/assets/resource/icon/favicon/icon-32x32.png"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
