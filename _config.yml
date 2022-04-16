@@ -56,12 +56,24 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-nextworldhub_platform_services:
+test:
   -
     href_1: /OpenAPIs/ServerlessEngine/PaaS/Container/XXX/Publicized/
     href_2: /PublicizedAPIs/ServerlessEngine/SaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
     href_3: /OpenAPIs/ServerlessEngine/DBaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
     href_4: /OpenAPIs/ServerlessEngine/FaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
-    test: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Global-Plans/Pull-Requests=PreviewPlans/NBM
-    t: Reaction=Actions/Publicized/Services/XXX | watch?v=IGyX98EzG3g | Events | Lives
+    href_5: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Global-Plans/Pull-Requests=PreviewPlans/NBM
+    href_6: Reaction=Actions/Publicized/Services/XXX | watch?v=IGyX98EzG3g | Events | Lives
     label: Fluid Exchange
+
+
+#  ────────────────────────(START AUTOMATED BUILD SERVICE)─────────────────────────────────
+
+# PaaS Containers VMS-0XPTO Configuration
+remote_network_vm_for_anon_inc_title: ANON SYS, INC.
+remote_network_vm_for_anon_inc_description: WE ARE ANON SYS. WE ARE LEGION.
+remote_network_vm_for_anon_inc_favicon: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/icon/favicon/icon-32x32.png"
+remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/
+remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
+#  ────────────────────────(END AUTOMATED BUILD SERVICE)──────────────────────────────────
