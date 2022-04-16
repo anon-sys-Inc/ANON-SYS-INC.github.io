@@ -513,7 +513,7 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
   opacity: 0;
   top: 0;
-  background-color: #16151a;
+  background-color: #0f161c;
   border-radius: 16px;
   padding: 0 20px;
   width: 200px;
