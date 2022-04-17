@@ -5417,7 +5417,7 @@ body::-webkit-scrollbar-thumb {
 .footer__social a svg {
   width: 100%;
   height: auto;
-  fill: #bdbdbd;
+  fill: #ffffff;
   transition: fill 0.5s ease;
 }
 .footer__social a:last-child {
@@ -5433,7 +5433,7 @@ body::-webkit-scrollbar-thumb {
 .footer__copyright {
   display: block;
   font-size: 13px;
-  color: #bdbdbd;
+  color: #ffffff;
   margin-top: 20px;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -5494,7 +5494,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
 }
 .footer__lang-btn span {
-  color: #bdbdbd;
+  color: #ffffff;
   font-size: 14px;
   line-height: 20px;
   font-weight: 600;
@@ -5538,7 +5538,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
 }
 .footer__lang-dropdown a span {
-  color: #bdbdbd;
+  color: #ffffff;
   font-size: 14px;
   line-height: 20px;
   font-weight: 600;
