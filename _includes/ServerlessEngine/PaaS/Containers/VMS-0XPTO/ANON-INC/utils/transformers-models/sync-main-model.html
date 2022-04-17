@@ -1,0 +1,16 @@
+<!-- Sync With System -->
+<script type="text/javascript">
+	function SyncTransformersModel() {
+		var currentTime = new Date().getHours();
+		if (0 <= currentTime && currentTime < 5) {
+		document.write("<script src='/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/js/sync-main-dark-model.js'>" + "<" + "/script>");
+		}
+		if (5 <= currentTime && currentTime < 19) {
+		document.write("<script src='/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/js/sync-main-light-model.js'>" + "<" + "/script>");
+		}
+		if (19 <= currentTime && currentTime < 24) {
+		document.write("<script src='/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/js/sync-main-dark-model.js'>" + "<" + "/script>");
+		}
+	}
+	SyncTransformersModel();
+</script>

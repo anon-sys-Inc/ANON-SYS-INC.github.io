@@ -56,6 +56,87 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
 test:
   -
     href_1: /OpenAPIs/ServerlessEngine/PaaS/Container/XXX/Publicized/
@@ -76,4 +157,21 @@ remote_network_vm_for_anon_inc_favicon: "/OpenAPIs/ServerlessEngine/PaaS/Contain
 remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
 remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/
 remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
+
+navs:
+  -
+    href: /
+    label: Home
+  -
+    href: /activity
+    label: Activity
+  -
+    href: /explore
+    label: Explore
+  -
+    href: /enterprise
+    label: Enterprise
+  -
+    href: /marketplace
+    label: Marketplace
 #  ────────────────────────(END AUTOMATED BUILD SERVICE)──────────────────────────────────
