@@ -2,7 +2,7 @@ var WeCloudDance = function () {
     "use strict";
     var e = $(window).width(),
         t = function () {
-            $("#global_preloader").fadeOut(3000),
+            $("#global_preloader").fadeOut(4000),
                 setTimeout(function () {
                     $("#master").addClass("show")
                 }, 400)
@@ -10,12 +10,12 @@ var WeCloudDance = function () {
         n = function () {
             var e = {
                 init: function () {
-                    var e = document.querySelectorAll(".draggable-zone");
+                    var e = document.querySelectorAll(".main show");
                     if (0 === e.length)
                         return !1;
                     new Sortable.default(e, {
-                        draggable: ".draggable",
-                        handle: ".draggable.draggable-handle",
+                        draggable: ".main show",
+                        handle: ".footer",
                         mirror: {
                             appendTo: "body",
                             constrainDimensions: !0
@@ -24,9 +24,9 @@ var WeCloudDance = function () {
                         setTimeout(function () {
                             var e;
                             e = 0,
-                                jQuery(".dropzoneContainer").each(function () {
-                                    e = jQuery(this).find(".draggable-handle").length,
-                                        jQuery(this).find(".totalCount").html(e)
+                                jQuery(".footer").each(function () {
+                                    e = jQuery(this).find(".container").length,
+                                        jQuery(this).find(".container").html(e)
                                 })
                         }, 200)
                     })
@@ -196,7 +196,7 @@ jQuery(document).ready(function () {
     }),
     jQuery(window).on("load", function () {
         "use strict";
-        WeCloudDance.load(1000)
+        WeCloudDance.load()
     }),
     jQuery(window).on("resize", function () {
         "use strict";

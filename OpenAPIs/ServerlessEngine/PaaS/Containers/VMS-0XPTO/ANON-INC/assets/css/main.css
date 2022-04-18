@@ -52,51 +52,62 @@
 	Common styles
 ==============================*/
 
-[sync-transformers-model-version="light-models"] #preloader {
+[sync-transformers-model-version="light-models"] #global_preloader {
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	left: 0;
 	top: 0;
 	background-color: #fff;
-  z-index: 9;
 }
 
-[sync-transformers-model-version="dark-models"] #preloader {
+[sync-transformers-model-version="light-models"] .lockedsys {
+	color: #2ade81;
+}
+
+[sync-transformers-model-version="light-models"] .sk-three-bounce {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: #fff;
+}
+
+[sync-transformers-model-version="light-models"] .sk-three-bounce .sk-child {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 20px;
+	background-color: #68fe9a;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
+	animation: sk-three-bounce 1.4s ease-in-out 0s infinite both
+}
+
+[sync-transformers-model-version="dark-models"] #global_preloader {
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	left: 0;
 	top: 0;
 	background-color: #0F161C;
-  z-index: 9;
 }
 
-[sync-transformers-model-version="dark-models"]  .lockedsys {
+[sync-transformers-model-version="dark-models"] .lockedsys {
 	color: #2ade81;
 }
 
-.lockedsys {
-	color: #1a3353;
-}
-
-[sync-transformers-model-version="dark-models"]  .sk-three-bounce {
+[sync-transformers-model-version="dark-models"] .sk-three-bounce {
 	margin: 0;
 	width: 100%;
 	height: 100%;
 	text-align: center;
 	background-color: #0F161C;
-  z-index: 9;
-}
-.sk-three-bounce {
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	background-color: white;
 }
 
-.sk-three-bounce .sk-child {
+[sync-transformers-model-version="dark-models"] .sk-three-bounce .sk-child {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
@@ -180,8 +191,21 @@ body {
   height: 70px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  z-index: 101;
+  z-index: 5;
   box-shadow: -20px 6px 30px 0 rgb(82 63 105 / 8%);
+}
+
+[sync-transformers-model-version="light-models"] .feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f4f7;
 }
 
 [sync-transformers-model-version="light-models"] .header__search {
@@ -584,7 +608,7 @@ body {
 }
 
 [sync-transformers-model-version="light-models"] .main__tabs a:hover {
-  color: #00fe3c;
+  color:#1a3353;
 }
 
 [sync-transformers-model-version="light-models"] .author__followers p {
@@ -1762,7 +1786,7 @@ body::-webkit-scrollbar-thumb {
 }
 .main__carousel .owl-dot.active span {
   width: 20px;
-  background-color: #43CE65;
+  background-color: #00fe3c;
 }
 .main__nav {
   display: none;
@@ -3064,8 +3088,9 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
   width: 40px !important;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 50px;
   margin-right: 10px;
+  box-shadow: 0 8px 20px rgb(32 54 86 / 30%);
 }
 .card__author a {
   font-family: 'Inter', sans-serif;
@@ -3998,7 +4023,7 @@ body::-webkit-scrollbar-thumb {
 /*==============================
 	Feature
 ==============================*/
-.feature {
+[sync-transformers-model-version="dark-models"] .feature {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -4010,6 +4035,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 20px;
   border-bottom: 1px solid #222227;
 }
+
 .feature__icon {
   display: flex;
   flex-direction: row;
@@ -4018,7 +4044,7 @@ body::-webkit-scrollbar-thumb {
   width: 50px;
   height: 50px;
   border-radius: 12px;
-  background-color: rgba(97,100,255,0.15);
+  background-color: rgb(67 206 101 / 24%);
 }
 .feature__icon svg {
   fill: #43CE65;
@@ -4433,14 +4459,15 @@ body::-webkit-scrollbar-thumb {
   display: block;
   width: 60px;
   height: 60px;
-  border-radius: 16px;
+  border-radius: 50px;
   margin-top: -30px;
   margin-bottom: 12px;
   position: relative;
 }
 .author__avatar img {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px rgb(32 54 86 / 30%);
   /* border: 1px solid #16151a; */
 }
 .author__avatar--verified:after {
@@ -6196,7 +6223,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   display: block;
   width: 100%;
-  color: #bdbdbd;
+  color: #ffffff;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 30px;
