@@ -3,24 +3,61 @@
 
 <style>
 @media only screen and (min-width: 1026px) {
-  #mini-navbar {
+  #MINI-UI {
     display: none;
   }
+}
+[sync-transformers-model-version="light-models"] .un-bottom-navigation .em_body_navigation {
+    background-color: rgb(255 255 255 / 71%);
+    min-height: 56px;
+    position: fixed;
+    width: 95%;
+    bottom: 35px;
+    left: 11px;
+    right: 0;
+    z-index: 99;
+    border-top: 1px solid rgb(255 255 255 / 71%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+[sync-transformers-model-version="dark-models"] .un-bottom-navigation .em_body_navigation {
+    background-color: rgb(45 65 72 / 55%);
+    min-height: 56px;
+    position: fixed;
+    width: 95%;
+    bottom: 35px;
+    left: 11px;
+    right: 0;
+    z-index: 99;
+    border-top: 1px solid rgb(45 65 72 / 55%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
 }
 </style>
 
 <!-- FOOTER START -->
-<footer class="un-bottom-navigation filter-blur" id="mini-navbar">
+<footer class="un-bottom-navigation filter-blur" id="MINI-UI">
   <div class="em_body_navigation border-0 -active-links">
       <div class="item_link">
-          <a href="homepage.html" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="homepage.html" class="btn btn_navLink active" aria-label="btnNavigation">
               <div class="icon_current">
-                  <i class="ri-home-5-line">
-                  </i>
+                  <i class="ri-home-5-line"></i>
               </div>
               <div class="icon_active">
-                  <i class="ri-home-5-fill">
-                  </i>
+                  <i class="ri-home-5-fill"></i>
               </div>
           </a>
       </div>
@@ -40,8 +77,7 @@
           <button type="button" name="uploadItem" aria-label="uploadItem" class="btn btn_navLink without_active"
           data-bs-toggle="modal" data-bs-target="#mdllUploadItem" aria-label="btnNavigation">
               <div class="btn btnCircle_default">
-                  <i class="ri-add-line">
-                  </i>
+                  <i class="ri-add-line"></i>
               </div>
           </button>
       </div>
@@ -52,20 +88,17 @@
                   </i>
               </div>
               <div class="icon_active">
-                  <i class="ri-heart-3-fill">
-                  </i>
+                  <i class="ri-heart-3-fill"></i>
               </div>
           </a>
       </div>
       <div class="item_link">
           <a href="page-account.html" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current">
-                  <i class="ri-user-4-line">
-                  </i>
+                  <i class="ri-user-4-line"></i>
               </div>
               <div class="icon_active">
-                  <i class="ri-user-4-fill">
-                  </i>
+                  <i class="ri-user-4-fill"></i>
               </div>
           </a>
       </div>
