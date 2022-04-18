@@ -4211,10 +4211,10 @@ body::-webkit-scrollbar-thumb {
   fill: #2f80ed;
 }
 .feature__icon--green {
-  background-color: rgba(37,165,106,0.15);
+  background-color: rgba(97,100,255,0.15);
 }
 .feature__icon--green svg {
-  fill: #25a56a;
+  fill: #6164ff;
 }
 .feature__title {
   font-family: 'Inter', sans-serif;
@@ -4671,7 +4671,7 @@ body::-webkit-scrollbar-thumb {
   color: #bdbdbd;
   font-weight: 600;
   margin-bottom: 0;
-  min-height: 72px;
+  min-height: 27px;
 }
 .author__wrap {
   display: flex;
