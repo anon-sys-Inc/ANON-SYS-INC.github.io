@@ -145,7 +145,18 @@ test:
     href_4: /OpenAPIs/ServerlessEngine/FaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
     href_5: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Global-Plans/Pull-Requests=PreviewPlans/NBM
     href_6: Reaction=Actions/Publicized/Services/XXX | watch?v=IGyX98EzG3g | Events | Lives
-    label: Fluid Exchange
+    label_1: ANON-INC/i18n/EN/Breaking-News/Breaking-News.yaml
+    label_2: ANON-INC/i18n/EN/Top-News/Top-News.yaml
+    label_3: ANON-INC/common/i18n/EN/xxxx
+    label_4: ANON-INC/common/i18n/CN/xxxx
+    label_5: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/USA-美国
+    label_6: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/CHN-中国
+    label_7: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/JPN-日本
+    label_8: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KOR-韩国
+    label_9: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/UK-英国
+    label_10: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/RUS-俄罗斯
+    label_11: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/ESP-西班牙
+    label_12: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KSA-沙特阿拉伯
 
 
 #  ────────────────────────(START AUTOMATED BUILD SERVICE)─────────────────────────────────
