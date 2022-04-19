@@ -3,35 +3,16 @@
   <div class="row">
     <div class="col-12">
       <div class="hero owl-carousel" id="hero">
-        <div class="hero__slide" data-bg="http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg">
-          <h1 class="hero__title" style="font-family: 'Do Hyeon', sans-serif;">We Will Pre-Release <br> NATT Plan <b style="font-size: 17px; color:bisque;">Public Version</b></h1>
-          <p class="hero__text" style="font-family: 'Do Hyeon', sans-serif;">
-            The NATT Plan As A Characteristic And New Type Of Explorer And Practitioner, <br>We Will Concentrate On Mining Data Theory And Continuously Innovate Management Practices. We Actively Learn And Learn From The World's Top Cutting-Edge Concepts And Management Practices, And Continue To Promote Through Multiple Channels Such As International Research Cooperation. International Top Academic Exchanges And Management Experience Sharing, The NATT Plan While Providing Rich And Valuable Content, Is Committed To Building A Three-Dimensional Professional Life Circle Media;
-          </p>
+        {% for top_news in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.i18n.EN.Top-News.Top-News %}
+        <div class="hero__slide" data-bg="{{ top_news.news_cover }}">
+          <h1 class="hero__title" style="font-family: 'Do Hyeon', sans-serif;">{{ top_news.news_title }}</h1>
+          <p class="hero__text" style="font-family: 'Do Hyeon', sans-serif;">{{ top_news.news_content }}</p>
           <div class="hero__btns">
-            <a href="item2.html" class="hero__btn hero__btn--clr">More details</a>
-            <a href="item2.html" class="hero__btn">Place a bid</a>
+            <a href="{{ top_news.news_click_1_link }}" class="hero__btn hero__btn--clr">{{ top_news.news_click_1_title }}</a>
+            <a href="{{ top_news.news_click_2_link }}" class="hero__btn">{{ top_news.news_click_2_title }}</a>
           </div>
         </div>
-        <div class="hero__slide" data-bg="http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg">
-          <h2 class="hero__title" style="font-family: 'Do Hyeon', sans-serif;">Next World Hub <b style="font-size: 17px; color:bisque;">(Crypto Exchange Platform)</b></h2>
-          <p class="hero__text" style="font-family: 'Do Hyeon', sans-serif;">
-            Next World Hub - Real-Time Data And Market-Leading Analysis Driven By The Cloud, <br>Open The Global Anon Encryption Exchang Platform.
-          </p>
-          <div class="hero__btns">
-            <a href="explore.html" class="hero__btn hero__btn--clr">Explore Features</a>
-            <a href="/OpenAPI/Serverless/PaaS/NextWorldHub" class="hero__btn">Start Free Trial</a>
-            <!--<a href="{{ site.platform_nextworldhub.href }}" class="hero__btn">Start Free Trial</a>-->
-          </div>
-        </div>
-        <div class="hero__slide" data-bg="http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg">
-          <h2 class="hero__title" style="font-family: 'Do Hyeon', sans-serif;">Explore <br>NNP</h2>
-          <p class="hero__text" style="font-family: 'Do Hyeon', sans-serif;">Under The Wave Of Digitalization, Competition Among Enterprises Is Becoming Increasingly Fierce, <br>And Enterprise Development Is Facing "Internal And External Troubles". The Continuous Innovation Of Business Models Has Led To A Blowout Growth Of Enterprise Applications. It Is Imperative To Systematically Promote Enterprise Digital Reshaping On A Platform.</p>
-          <div class="hero__btns">
-            <a href="explore.html" class="hero__btn hero__btn--clr">Explore</a>
-            <a href="signin.html" class="hero__btn">Create</a>
-          </div>
-        </div>
+        {% endfor %}
       </div>
       <button class="main__nav main__nav--hero main__nav--prev" data-nav="#hero" type="button">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -47,3 +28,4 @@
   </div>
 </div>
 <!-- HOME END -->
+

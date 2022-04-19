@@ -1,0 +1,125 @@
+# Explore & Promote Global Ecology Marketplace
+- explore_item_id: "#item_1"
+  explore_item_controls: item_1
+  explore_item_title: All
+  explore_item_active: active
+
+  explore_item_loops: item_1
+  explore_item_active_show: active show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover7.jpg
+  card_link: 555.html
+  card_title: item 1 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Ashford to Acquire Chesapeake Hospitality for Up to $26 Million"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover2.jpg
+  card_link: 555.html
+  card_title: item 2 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "To Infinity And Beyond"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide1.jpg
+  card_link: 555.html
+  card_title: item 3 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "To Infinity And Beyond"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover3.jpg
+  card_link: 555.html
+  card_title: item 4 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "To Infinity And Beyond"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover5.jpg
+  card_link: 555.html
+  card_title: item 5 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "To Infinity And Beyond"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide2.jpg
+  card_link: 555.html
+  card_title: item 6 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "To Infinity And Beyond"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide3.jpg
+  card_link: 555.html
+  card_title: item 7 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "To Infinity And Beyond"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover6.jpg
+  card_link: 555.html
+  card_title: item 8 News
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "To Infinity And Beyond"
+  card_info_2: "Get The Full Story"
+
+#--------------------------
+- explore_item_id: "#item_2"
+  explore_item_controls: item_2
+  explore_item_title: Business
+# - explore_item_loops: item_2
+#   explore_item_active_show: show
+#   card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover2.jpg
+#   card_link: 555.html
+#   card_title: Walking on Air
+#   card_author: https://avatars.githubusercontent.com/u/48172110
+#   card_author_name: "@ANONYMOUS"
+#   card_info_1: "To Infinity And Beyond"
+#   card_info_2: "Get The Full Story"
+
+#--------------------------
+
+- explore_item_id: "#item_3"
+  explore_item_controls: item_3
+  explore_item_title: Technology
+
+
+- explore_item_id: "#item_4"
+  explore_item_controls: item_4
+  explore_item_title: Finance
+
+
+- explore_item_id: "#item_5"
+  explore_item_controls: item_5
+  explore_item_title: Education
+
+
+- explore_item_id: "#item_6"
+  explore_item_controls: item_6
+  explore_item_title: Biological Tech
+
+
+- explore_item_id: "#item_7"
+  explore_item_controls: item_7
+  explore_item_title: More

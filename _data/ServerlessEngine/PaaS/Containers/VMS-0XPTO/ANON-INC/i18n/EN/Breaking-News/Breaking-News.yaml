@@ -1,0 +1,44 @@
+# Breaking News
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small3.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "Roblox’s $17 Million Acquisition to Enhance the Gaming Juggernaut’s Value"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "Apparently, decentralized finance means re-incentivized crime right now – a recent report highlighting that a staggering $1.3bn has been swiped in Q1 2022 alone."
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: InvestorPlace
+  get_reading_link: /test
+
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "Yields hit three-year highs, housing data in focus"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "U.S. Treasury yields reached three-year highs on Monday as investors adjusted for the Federal Reserve to aggressively raise rates as it tries to stem soaring inflation that is running at its fastest pace in 40 years."
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: InvestorPlace
+  get_reading_link: /test
+
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small2.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "Yields hit three-year highs, housing data in focus"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "U.S. Treasury yields reached three-year highs on Monday as investors adjusted for the Federal Reserve to aggressively raise rates as it tries to stem soaring inflation that is running at its fastest pace in 40 years."
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: InvestorPlace
+  get_reading_link: /test
+
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small6.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "Yields hit three-year highs, housing data in focus"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "U.S. Treasury yields reached three-year highs on Monday as investors adjusted for the Federal Reserve to aggressively raise rates as it tries to stem soaring inflation that is running at its fastest pace in 40 years."
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: InvestorPlace
+  get_reading_link: /test

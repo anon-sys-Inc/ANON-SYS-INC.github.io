@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>We Will Pre-Release <br> NATT Plan <b style="font-size: 17px; color:bisque;">Public Version</b>'
+  news_content: "The NATT Plan As A Characteristic And New Type Of Explorer And Practitioner, <br>We Will Concentrate On Mining Data Theory And Continuously Innovate Management Practices. We Actively Learn And Learn From The World's Top Cutting-Edge Concepts And Management Practices, And Continue To Promote Through Multiple Channels Such As International Research Cooperation. International Top Academic Exchanges And Management Experience Sharing, The NATT Plan While Providing Rich And Valuable Content, Is Committed To Building A Three-Dimensional Professional Life Circle Media;"
+  news_click_1_link: item2.html
+  news_click_1_title: More Details
+  news_click_2_link: item2.html
+  news_click_2_title: Explore
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: 'Next World Hub <b style="font-size: 17px; color:bisque;">(Crypto Exchange Platform)</b>'
+  news_content: "Next World Hub - Real-Time Data And Market-Leading Analysis Driven By The Cloud, <br>Open The Global Anon Encryption Exchang Platform."
+  news_click_1_link: item2.html
+  news_click_1_title: Explore
+  news_click_2_link: item2.html
+  news_click_2_title: Start Free Trial
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: 'Explore <br>NNP'
+  news_content: "Under The Wave Of Digitalization, Competition Among Enterprises Is Becoming Increasingly Fierce, <br>And Enterprise Development Is Facing Internal And External Troubles. The Continuous Innovation Of Business Models Has Led To A Blowout Growth Of Enterprise Applications. It Is Imperative To Systematically Promote Enterprise Digital Reshaping On A Platform."
+  news_click_1_link: item2.html
+  news_click_1_title: Explore
+  news_click_2_link: item2.html
+  news_click_2_title: Create
