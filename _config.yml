@@ -149,15 +149,16 @@ test:
     label_2: ANON-INC/i18n/EN/Top-News/Top-News.yaml
     label_3: ANON-INC/common/i18n/EN/xxxx
     label_4: ANON-INC/common/i18n/CN/xxxx
-    label_5: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/USA-美国
-    label_6: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/CHN-中国
-    label_7: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/JPN-日本
-    label_8: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KOR-韩国
-    label_9: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/UK-英国
-    label_10: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/RUS-俄罗斯
-    label_11: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/ESP-西班牙
-    label_12: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KSA-沙特阿拉伯
-
+    label_5: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/USA-美国 U
+    label_6: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/CHN-中国 C
+    label_91: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/DEU-德国 D
+    label_11: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/ESP-西班牙 E
+    label_61: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/HKG-香港 H
+    label_7: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/JPN-日本 J
+    label_8: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KOR-韩国 K
+    label_12: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KSA-沙特阿拉伯 K
+    label_10: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/RUS-俄罗斯 R
+    label_9: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/UK-英国 U
 
 #  ────────────────────────(START AUTOMATED BUILD SERVICE)─────────────────────────────────
 
@@ -169,9 +170,59 @@ remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Con
 remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/
 remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
 
+# PaaS Containers VMS-0XPTO i18n Configuration
+remote_network_api_i18n_CHN: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+remote_network_api_i18n_DEU: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/DEU
+remote_network_api_i18n_ESP: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/ESP
+remote_network_api_i18n_HKG: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/HKG
+remote_network_api_i18n_JPN: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/JPN
+remote_network_api_i18n_KOR: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KOR
+remote_network_api_i18n_KSA: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KSA
+remote_network_api_i18n_RUS: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/RUS
+remote_network_api_i18n_UK: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
+
+nav_menu_i18n_CHN:
+-
+  menu_api_id: home
+  label_api: 首页
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+-
+  menu_api_id: activity
+  label_api: 活动
+  link_api: "#"
+  label_api_v2:
+      open_label: Live
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+      label_api_v3:
+          open_label_v3: Live
+          open_link_v3: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+
+-
+  menu_api_id: explore
+  label_api: 探索
+  link_api: "#"
+  label_api_v2:
+      open_label: 区块链
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+-
+  menu_api_id: enterprise
+  label_api: 企业
+  link_api: "#"
+  label_api_v2:
+      open_label: 交易中心
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+-
+  menu_api_id: marketplace
+  label_api: 市场
+  link_api: "#"
+  label_api_v2:
+      open_label: 世界中心
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+
+
 navs:
   -
-    href: /
+    href: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
     label: Home
   -
     href: /activity
@@ -185,4 +236,7 @@ navs:
   -
     href: /marketplace
     label: Marketplace
+
+
+
 #  ────────────────────────(END AUTOMATED BUILD SERVICE)──────────────────────────────────
