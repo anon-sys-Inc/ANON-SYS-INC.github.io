@@ -1,0 +1,125 @@
+# Explore & Promote Global Ecology Marketplace
+- explore_item_id: "#item_1"
+  explore_item_controls: item_1
+  explore_item_title: 全部分类
+  explore_item_active: active
+
+  explore_item_loops: item_1
+  explore_item_active_show: active show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover7.jpg
+  card_link: 555.html
+  card_title: "Canopy Growth 股票看涨论点依然存在"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Canopy Growth （纳斯达克股票代码：CGC）股票的坏消息是它已经连续下跌了一年。 更糟糕的消息是，即使股市创出新高，它也确实如此。"
+  card_info_2: "阅读完整故事线"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover2.jpg
+  card_link: 555.html
+  card_title: "匈牙利将从 Aero Vodochody 购买 12 架 L-39NG 军用教练机"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "匈牙利负责军队发展的专员周三在其 Facebook 页面上的一段视频中表示，匈牙利将从捷克公司 Aero Vodochody 购买 12 架新一代 L-39NG 军用教练机。"
+  card_info_2: "阅读完整故事线"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide1.jpg
+  card_link: 555.html
+  card_title: "流媒体股票警报：为什么 NFLX、DIS、PARA、WBD、ROKU 股票今天下跌？"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "在 Netflix（纳斯达克股票代码：NFLX）报告其第一季度订户总数下降后，几只流媒体股票在早盘交易中下跌。"
+  card_info_2: "阅读完整故事线"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover3.jpg
+  card_link: 555.html
+  card_title: "贝克休斯，油田服务的另一个买入机会"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "前瞻性数据表明，该公司即将经历将持续数年的业务激增。"
+  card_info_2: "阅读完整故事线"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover5.jpg
+  card_link: 555.html
+  card_title: "多伦多指数因医疗保健和科技股下跌而下跌"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "由于医疗保健和科技股疲软，加拿大主要股指周三抹去早盘涨幅，走低，国内通胀数据好于预期，打压了投资者情绪。"
+  card_info_2: "阅读完整故事线"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide2.jpg
+  card_link: 555.html
+  card_title: "ETF 预览：ETF 指向更高，期货在 3 月房屋销售报告前涨跌互现"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "美国股票期货涨跌互现，标准普尔 500 指数上涨 0.5%，纳斯达克指数在交易开始前上涨 0.5%。"
+  card_info_2: "阅读完整故事线"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide3.jpg
+  card_link: 555.html
+  card_title: "加密交易专家表示，比特币有望重回 45,000 美元甚至 50,000 美元"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "在过去几天以红色交易之后，比特币（BTC）于 4 月 20 日星期三重新以绿色交易。"
+  card_info_2: "阅读完整故事线"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover6.jpg
+  card_link: 555.html
+  card_title: "波罗的海指数上涨 1.3% 因船舶费率上涨"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "波罗的海交易所的干散货海运指数 (.BADI)，追踪运送干散货商品的船舶的运价，周三上涨，主要得益于船舶板块的上涨。"
+  card_info_2: "阅读完整故事线"
+
+#--------------------------
+- explore_item_id: "#item_2"
+  explore_item_controls: item_2
+  explore_item_title: 商业
+# - explore_item_loops: item_2
+#   explore_item_active_show: show
+#   card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover2.jpg
+#   card_link: 555.html
+#   card_title: Walking on Air
+#   card_author: https://avatars.githubusercontent.com/u/48172110
+#   card_author_name: "@ANONYMOUS"
+#   card_info_1: "To Infinity And Beyond"
+#   card_info_2: "阅读完整故事线"
+
+#--------------------------
+
+- explore_item_id: "#item_3"
+  explore_item_controls: item_3
+  explore_item_title: 科技
+
+
+- explore_item_id: "#item_4"
+  explore_item_controls: item_4
+  explore_item_title: 金融
+
+
+- explore_item_id: "#item_5"
+  explore_item_controls: item_5
+  explore_item_title: 教育
+
+
+- explore_item_id: "#item_6"
+  explore_item_controls: item_6
+  explore_item_title: 生物科技
+
+
+- explore_item_id: "#item_7"
+  explore_item_controls: item_7
+  explore_item_title: 更多

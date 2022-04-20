@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>我们将预发布 <br> NATT 计划 <b style="font-size: 17px; color:bisque;">公开版</b>'
+  news_content: "NATT计划作为具有特色的新型探索者和实践者，<br>我们将专注于挖掘数据理论，不断创新管理实践。 我们积极学习和借鉴世界顶尖前沿理念和管理实践，并通过国际研究合作等多种渠道持续推进。 国际顶级学术交流与管理经验分享，NATT计划在提供丰富有价值内容的同时，致力于打造立体的专业生活圈媒体；"
+  news_click_1_link: item2.html
+  news_click_1_title: 更多详情
+  news_click_2_link: item2.html
+  news_click_2_title: 探索
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: '世界中心 <b style="font-size: 17px; color:bisque;">(加密货币交易平台)</b>'
+  news_content: "世界中心 - 云端驱动的实时数据和市场领先的分析，<br>开启全球匿名加密交易平台。"
+  news_click_1_link: item2.html
+  news_click_1_title: 开始免费试用
+  news_click_2_link: item2.html
+  news_click_2_title: 探索
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: '探索 <br>NNP 计划'
+  news_content: "数字化浪潮下，企业竞争日趋激烈，<br>企业发展面临内忧外患。 商业模式的不断创新，带动了企业应用的井喷式增长。 平台化推进企业数字化重塑势在必行。"
+  news_click_1_link: item2.html
+  news_click_1_title: 更多详情
+  news_click_2_link: item2.html
+  news_click_2_title: 探索

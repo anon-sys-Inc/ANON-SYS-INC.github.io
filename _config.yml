@@ -170,72 +170,167 @@ remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Con
 remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/
 remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
 
-# PaaS Containers VMS-0XPTO i18n Configuration
+# PaaS Containers VMS-0XPTO i18n All Configuration
+remote_network_api_i18n_USA: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+remote_network_api_i18n_Placeholder_USA: "Explore global crypto, news and more..."
 remote_network_api_i18n_CHN: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+remote_network_api_i18n_Placeholder_CHN: "探索 全球加密货币、新闻和更多可能性..."
 remote_network_api_i18n_DEU: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/DEU
+remote_network_api_i18n_Placeholder_DEU: "Entdecken Sie globale Kryptowährungen, Neuigkeiten und weitere Möglichkeiten..."
 remote_network_api_i18n_ESP: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/ESP
+remote_network_api_i18n_Placeholder_ESP: "Explore criptomonedas globales, noticias y más posibilidades..."
 remote_network_api_i18n_HKG: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/HKG
+remote_network_api_i18n_Placeholder_HKG: "探索 全球加密貨幣、新聞和更多可能性..."
 remote_network_api_i18n_JPN: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/JPN
+remote_network_api_i18n_Placeholder_JPN: "グローバルな暗号通貨、ニュース、その他の可能性を探る..."
 remote_network_api_i18n_KOR: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KOR
+remote_network_api_i18n_Placeholder_KOR: "글로벌 암호화폐, 뉴스 및 더 많은 가능성을 살펴보세요..."
 remote_network_api_i18n_KSA: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KSA
+remote_network_api_i18n_Placeholder_KSA: "استكشف العملات المشفرة العالمية والأخبار والمزيد من الاحتمالات ..."
 remote_network_api_i18n_RUS: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/RUS
+remote_network_api_i18n_Placeholder_RUS: "Исследуйте глобальные криптовалюты, новости и другие возможности..."
 remote_network_api_i18n_UK: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
+remote_network_api_i18n_Placeholder_UK: "Explore global crypto, news and more..."
+
+# PaaS Containers VMS-0XPTO i18n Translate API onfiguration
+remote_network_translate_api:
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/USA.svg
+  code_name: USA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/CHN.svg
+  code_name: CHN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/DEU
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/DEU.svg
+  code_name: DEU
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/ESP
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/ESP.svg
+  code_name: ESP
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/HKG
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/HKG.svg
+  code_name: HKG
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/JPN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/JPN.svg
+  code_name: JPN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KOR
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KOR.svg
+  code_name: KOR
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KSA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KSA.svg
+  code_name: KSA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/RUS
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/RUS.svg
+  code_name: RUS
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/UK.svg
+  code_name: UK
+
+# PaaS Containers VMS-0XPTO i18n Menu API
+nav_menu_i18n_USA:
+-
+  menu_api_id: home
+  label_api: Home
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+  role_api: #
+-
+  menu_api_id: activity
+  label_api: Activity
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Live
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: #
+      label_api_v3:
+          open_label: Live 2
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  menu_api_id: explore
+  label_api: Explore
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Blockchain
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+-
+  menu_api_id: enterprise
+  label_api: Enterprise
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Crypto Exchange Hub
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+-
+  menu_api_id: marketplace
+  label_api: Marketplace
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Next World Hub
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
 
 nav_menu_i18n_CHN:
 -
   menu_api_id: home
   label_api: 首页
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+  role_api: #
 -
   menu_api_id: activity
   label_api: 活动
-  link_api: "#"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   label_api_v2:
       open_label: Live
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: #
       label_api_v3:
-          open_label_v3: Live
-          open_link_v3: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
-
+          open_label: Live 2
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
   menu_api_id: explore
   label_api: 探索
   link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   label_api_v2:
       open_label: 区块链
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
 -
   menu_api_id: enterprise
   label_api: 企业
   link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   label_api_v2:
       open_label: 交易中心
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
 -
   menu_api_id: marketplace
   label_api: 市场
   link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   label_api_v2:
       open_label: 世界中心
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Test
-
-
-navs:
-  -
-    href: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
-    label: Home
-  -
-    href: /activity
-    label: Activity
-  -
-    href: /explore
-    label: Explore
-  -
-    href: /enterprise
-    label: Enterprise
-  -
-    href: /marketplace
-    label: Marketplace
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
 
 
 

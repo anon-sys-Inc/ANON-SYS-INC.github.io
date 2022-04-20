@@ -1,0 +1,44 @@
+# Breaking News
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small3.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "作为一家受欢迎且极为相关的半导体公司，英伟达 (NASDAQ:NVDA) 的股票再次发现自己处于熟悉的境地，陷入困境和困境之间。 从印刷品来看，截至 4 月 14 日收盘，NVDA 的股价今年迄今已下跌超过 29%。 尽管宏观逆风影响了其估值，但标的公司仍可从挑战中受益，使其成为一项令人困惑的投资。"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "显然，去中心化金融现在意味着重新激励犯罪——最近的一份报告强调，仅在 2022 年第一季度，就有惊人的 13 亿美元被刷走。"
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: 投资广场
+  get_reading_link: /test
+
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "银行业巨头德国商业银行提交加密托管许可证申请"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "率先推出数字资产相关服务的银行之一是总部位于德国的德国商业银行，该银行已宣布申请该国联邦金融监管局 (BaFin) 的加密货币托管业务许可证。"
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: 投资广场
+  get_reading_link: /test
+
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small2.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "投资克罗地亚的 5G 网络将在 5 年内带来 13 亿欧元的附加值"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "萨格勒布（克罗地亚），4 月 20 日（SeeNews）——未来几年克罗地亚 5G 网络开发投资预计将为该国经济带来超过 100 亿库纳（14 亿美元/13 亿欧元）的附加值， 周三的研究显示。"
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: 投资广场
+  get_reading_link: /test
+
+- author_cover: http://dmitryvolkov.me/demo/unitok/img/bg/bg-small6.png
+  author_avatar_link: /test
+  author_avatar: https://avatars.githubusercontent.com/u/48172110
+  author_news_link: /test
+  author_title: "美国原油出口升至 2020 年 3 月以来最高 - EIA"
+  author_avatar_name: "@ANONYMOUS"
+  author_content: "美国能源信息署周三公布的数据显示，上周美国原油出口升至 2020 年 3 月以来的最高水平。"
+  author_update: '{{ "now" | date: "%m-%d-%Y" }}'
+  author_text: 投资广场
+  get_reading_link: /test

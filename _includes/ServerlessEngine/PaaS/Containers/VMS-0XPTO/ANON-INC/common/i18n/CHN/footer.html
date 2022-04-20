@@ -15,21 +15,14 @@
         </div>
         <p class="footer__tagline">WE ARE ANONYMOUS SYS. WE ARE LEGION. <br>:: 分布式 远程网络 API ::</p>
         <div class="footer__lang">
-          <a class="footer__lang-btn" href="{{ site.remote_network_api_i18n_CHN }}" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/CHN.svg" alt="CHN"><span>中国</span>
+          <a class="footer__lang-btn" href="{{ site.remote_network_api_i18n_CHN }}" role="button" id="translate-api" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/CHN.svg" alt="CHN"><span>CHN</span>
           </a>
-          <ul class="dropdown-menu footer__lang-dropdown" aria-labelledby="dropdownLang">
-            <li style="text-align: center; font-size: 15px;">ISO 代码 (A ~ Z.)</li>
-            <li><a href="{{ site.remote_network_api_i18n_CHN }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/CHN.svg" alt="CHN"><span>中国</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_DEU }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/DEU.svg" alt="DEU"><span>德国</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_ESP }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/ESP.svg" alt="ESP"><span>西班牙</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_HKG }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/HKG.svg" alt="HKG"><span>香港</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_JPN }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/JPN.svg" alt="JPN"><span>日本</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_KOR }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/KOR.svg" alt="KOR"><span>韩国</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_KSA }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/KSA.svg" alt="KSA"><span>沙特阿拉伯</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_RUS }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/RUS.svg" alt="RUS"><span>俄罗斯</span></a></li>
-            <li><a href="{{ site.remote_network_api_i18n_UK }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/UK.svg" alt="UK"><span>英国</span></a></li>
-            <li><a href="{{ site.remote_network_vm_for_anon_inc_base_network }}"><img src="{{ site.remote_network_vm_for_anon_inc_base_static_addr }}i18n/USA.svg" alt="USA"><span>美国</span></a></li>
+          <ul class="dropdown-menu footer__lang-dropdown" aria-labelledby="translate-api">
+            <li class="footer_i18n">ISO 代码 (A ~ Z.)</li>
+            {% for i18n_api in site.remote_network_translate_api %}
+              <li><a href="{{ i18n_api.code_link }}"><img src="{{ i18n_api.code_icon }}" alt="{{ i18n_api.code_name }}"><span>{{ i18n_api.code_name }}</span></a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>

@@ -3,7 +3,7 @@
   <!-- IMPORT TITLE START -->
   <div class="col-12">
     <div class="main__title">
-      <h2 style="font-family: 'Do Hyeon', sans-serif;"><i class="ri-earth-line" style="margin-right: 6px;"></i>Explore & Promote Global Ecology Marketplace</h2>
+      <h2 style="font-family: 'Do Hyeon', sans-serif;"><i class="ri-earth-line" style="margin-right: 6px;"></i>探索和推广全球生态市场</h2>
     </div>
   </div>
   <!-- IMPORT TITLE END -->
@@ -11,7 +11,7 @@
   <!-- TABS NAV START -->
   <div class="col-12">
     <ul class="nav nav-tabs main__tabs" id="main__tabs" role="tablist">
-      {% for explore_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.i18n.EN.Explore.Explore %}
+      {% for explore_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.CHN.Explore %}
       {% if explore_loop_1.explore_item_title %}
       <li class="nav-item">
         <a class="nav-link {{ explore_loop_1.explore_item_active }}" data-toggle="tab" href="{{ explore_loop_1.explore_item_id }}" role="tab" aria-controls="{{ explore_loop_1.explore_item_controls }}" aria-selected="true">{{ explore_loop_1.explore_item_title }}</a>
@@ -24,10 +24,10 @@
   <div class="col-12">
     <!-- TABS CONTENT START -->
     <div class="tab-content">
-      {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.i18n.EN.Explore.Explore %}
+      {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.CHN.Explore %}
       <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_loops }}" role="tabpanel">
         <div class="row row--grid">
-          {% for explore_loop_3 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.i18n.EN.Explore.Explore %}
+          {% for explore_loop_3 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.CHN.Explore %}
             {% if explore_loop_3.explore_item_loops > "8" %}
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
               <!-- CARD -->
@@ -102,7 +102,7 @@
   <!-- title -->
   <div class="col-12">
     <div class="main__title">
-      <h2><i class="ri-fire-line" style="margin-right: 6px; font-size: 30px;"></i> Breaking news</h2>
+      <h2><i class="ri-fire-line" style="margin-right: 6px; font-size: 30px;"></i> 爆炸新闻</h2>
     </div>
   </div>
   <!-- end title -->
@@ -110,7 +110,7 @@
   <div class="col-12">
     <div class="main__carousel-wrap">
       <div class="main__carousel main__carousel--authors owl-carousel" id="authorsc">
-        {% for breaking_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.i18n.EN.Breaking-News.Breaking-News %}
+        {% for breaking_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.CHN.Breaking-News %}
         <div class="author">
           <a class="author__cover author__cover--bg" data-bg="{{ breaking_loop_1.author_cover }}"></a>
           <div class="author__meta">
@@ -127,7 +127,7 @@
                 <p>{{ "now" | date: "%m-%d-%Y" }}</p>
                 <span>{{ breaking_loop_1.author_text }}</span>
               </div>
-              <a href="{{ breaking_loop_1.get_reading_link }}"><button class="author__follow" type="button">Get Reading</button></a>
+              <a href="{{ breaking_loop_1.get_reading_link }}"><button class="author__follow" type="button">开始阅读</button></a>
             </div>
           </div>
         </div>
