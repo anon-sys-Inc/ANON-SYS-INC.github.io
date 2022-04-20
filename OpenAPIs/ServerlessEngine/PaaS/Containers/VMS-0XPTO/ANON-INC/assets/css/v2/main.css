@@ -1317,12 +1317,12 @@ ul {
 }
 [sync-transformers-model-version="light-models"] .translate-icon {
   font-size: 23px;
-  margin: 0 0 0 12px;
+  margin: 0 0 0 8px;
   color: #43ce64;
 }
 [sync-transformers-model-version="dark-models"] .translate-icon {
   font-size: 23px;
-  margin: 0 0 0 12px;
+  margin: 0 0 0 8px;
   color: #ffffff;
 }
 
