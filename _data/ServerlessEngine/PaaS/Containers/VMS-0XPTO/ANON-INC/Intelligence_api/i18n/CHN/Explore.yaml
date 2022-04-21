@@ -1,7 +1,7 @@
 # Explore & Promote Global Ecology Marketplace
 - explore_item_id: "#item_1"
   explore_item_controls: item_1
-  explore_item_title: 全部分类
+  explore_item_title: 全部
   explore_item_active: active
 
   explore_item_loops: item_1

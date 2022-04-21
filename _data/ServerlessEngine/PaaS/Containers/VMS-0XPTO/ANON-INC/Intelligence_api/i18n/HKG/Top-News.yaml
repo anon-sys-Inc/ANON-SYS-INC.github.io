@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>我們將預發布 <br> NATT 計劃 <b style="font-size: 17px; color:bisque;">公開版</b>'
+  news_content: "NATT計劃作為具有特色的新型探索者和實踐者，<br>我們將專注於挖掘數據理論，不斷創新管理實踐。 我們積極學習和借鑒世界頂尖前沿理念和管理實踐，並通過國際研究合作等多種渠道持續推進。 國際頂級學術交流與管理經驗分享，NATT計劃在提供豐富有價值內容的同時，致力於打造立體的專業生活圈媒體；"
+  news_click_1_link: XXX
+  news_click_1_title: 更多詳情
+  news_click_2_link: XXX
+  news_click_2_title: 探索
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: '下一個世界樞紐 <b style="font-size: 17px; color:bisque;">(加密交換平台)</b>'
+  news_content: "Next World Hub - 由雲驅動的實時數據和市場領先的分析，<br>打開全球匿名加密交換平台。"
+  news_click_1_link: XXX
+  news_click_1_title: 開始免費試用
+  news_click_2_link: XXX
+  news_click_2_title: 探索
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: '探索 <br>NNP 計劃'
+  news_content: "數字化浪潮下，企業競爭日趨激烈，<br>企業發展面臨內憂外患。 商業模式的不斷創新，帶動了企業應用的井噴式增長。 平台化推進企業數字化重塑勢在必行。"
+  news_click_1_link: XXX
+  news_click_1_title: 更多詳情
+  news_click_2_link: XXX
+  news_click_2_title: 探索

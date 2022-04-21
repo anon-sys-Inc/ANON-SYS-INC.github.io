@@ -1,0 +1,80 @@
+<!-- IMPORT HEADER START -->
+<header class="header">
+  <div class="header__content">
+    <div class="header__logo">
+      <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}">
+      <img src="{{ site.remote_network_vm_for_anon_inc_base_addr }}assets/resource/common/anonymous_sys_org-v3.svg" alt="{{ site.title }}">
+      </a>
+    </div>
+    <form class="header__search">
+      <input type="text" placeholder="{{ site.remote_network_api_i18n_Placeholder_DEU }}">
+      <button type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/>
+        </svg>
+      </button>
+      <button type="button" class="close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/>
+        </svg>
+      </button>
+    </form>
+    <div class="header__menu">
+      <ul class="header__nav">
+        {% for i18n in site.nav_menu_i18n_DEU %}
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="{{ i18n.link_api }}" title="{{ i18n.label_api }}" {{ i18n.role_api }} id="{{ i18n.menu_api_id }}">{{ i18n.label_api }}
+            {% if i18n.label_api_v2.open_label %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
+            {% endif %}
+        </a>
+          {% if i18n.label_api_v2.open_label %}
+          <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.menu_api_id }}">
+            <li class="dropdown-submenu"><a class="dropdown-item" href="{{ i18n.label_api_v2.open_link }}" {{ i18n.role_api }}>{{ i18n.label_api_v2.open_label }}
+              {% if i18n.label_api_v2.label_api_v3.open_label %}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
+              {% endif %}
+            </a>
+              {% if i18n.label_api_v2.label_api_v3.open_label %}
+              <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.menu_api_id }}">
+                <li><a href="{{ i18n.label_api_v2.label_api_v3.open_link }}">{{ i18n.label_api_v2.label_api_v3.open_label }}</a></li>
+              </ul>
+              {% endif %}
+            </li>
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="header__actions">
+      <div class="header__action header__action--signin">
+        <a class="header__action-btn header__action-btn--signin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="translate-api">
+            <span class="all-language" style="margin: 0px -3px 0px 0px;">Alle Sprachen</span>
+            <i class="translate-icon ri-translate-2"></i>
+        </a>
+        <ul class="dropdown-menu header__profile-menu" aria-labelledby="translate-api">
+          {% for i18n_api in site.remote_network_translate_api %}
+          <li><a class="header__nav-link" href="{{ i18n_api.code_link }}"><img src="{{ i18n_api.code_icon }}" alt="{{ i18n_api.code_name }}" style="width: 20px; height: 20px; margin: 0 10px 0px 0px;"><span>{{ i18n_api.code_name }}</span></a></li>
+          {% endfor %}
+          <li class="footer_i18n">ISO Code (A ~ Z.)</li>
+        </ul>
+      </div>
+      <div class="header__action header__action--search">
+        <button class="header__action-btn" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <button class="header__btn" type="button">
+    <span></span>
+    <span></span>
+    <span></span>
+    </button>
+  </div>
+</header>
+<!-- IMPORT HEADER END -->

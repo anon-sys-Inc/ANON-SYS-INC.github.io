@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>プレリリースします <br> NATT 計画 <b style="font-size: 17px; color:bisque;">パブリックバージョン</b>'
+  news_content: "特徴的で新しいタイプの探検家および開業医としてのNATT計画、<br>マイニングデータ理論に専念し、経営慣行を継続的に革新します。 私たちは、世界の最先端の概念と管理慣行から積極的に学び、学び、国際的な研究協力などの複数のチャネルを通じて推進し続けます。 国際的なトップアカデミックエクスチェンジと管理経験の共有、豊富で価値のあるコンテンツを提供しながらのNATTプランは、3次元のプロフェッショナルライフサークルメディアの構築に取り組んでいます。"
+  news_click_1_link: XXX
+  news_click_1_title: 詳細
+  news_click_2_link: XXX
+  news_click_2_title: 探検
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: 'ネクストワールドハブ <b style="font-size: 17px; color:bisque;">(暗号交換プラットフォーム)</b>'
+  news_content: "Next World Hub - クラウドが推進するリアルタイムデータと市場をリードする分析、<br>Global Anon EncryptionExchangPlatformを開きます。"
+  news_click_1_link: XXX
+  news_click_1_title: 無料トライアルを開始
+  news_click_2_link: XXX
+  news_click_2_title: 探検
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: '探検 <br>NNP 計画'
+  news_content: "デジタル化の波の下で、企業間の競争はますます激しくなっています。<br>そして、企業の発展は内外の問題に直面しています。 ビジネスモデルの継続的な革新は、エンタープライズアプリケーションの急成長につながりました。 プラットフォーム上でエンタープライズデジタルリシェイプを体系的に推進することが不可欠です。"
+  news_click_1_link: XXX
+  news_click_1_title: 詳細
+  news_click_2_link: XXX
+  news_click_2_title: 探検

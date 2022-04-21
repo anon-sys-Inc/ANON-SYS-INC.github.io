@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>سنقوم بالإفراج المسبق <br>خطة NATT  <b style="font-size: 17px; color:bisque;">الإصدار العام</b>'
+  news_content: "خطة NATT كنوع مميز وجديد من المستكشفين والممارسين ،<br>سوف نركز على نظرية بيانات التعدين وابتكار ممارسات الإدارة باستمرار. نحن نتعلم ونتعلم بنشاط من أفضل المفاهيم والممارسات الإدارية المتطورة في العالم ، ونواصل الترويج من خلال قنوات متعددة مثل التعاون البحثي الدولي. التبادل الأكاديمي الدولي ومشاركة الخبرات الإدارية ، تلتزم خطة NATT مع توفير محتوى غني وقيِّم ببناء وسائط دائرة الحياة المهنية ثلاثية الأبعاد ؛"
+  news_click_1_link: XXX
+  news_click_1_title: المزيد من التفاصيل
+  news_click_2_link: XXX
+  news_click_2_title: يستكشف
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: 'Next World Hub <b style="font-size: 17px; color:bisque;">(منصة تبادل العملات المشفرة)</b>'
+  news_content: "Next World Hub - البيانات في الوقت الفعلي والتحليل الرائد في السوق مدفوعًا بالسحابة ،<br>افتح منصة التبادل العالمية للتشفير الفوري."
+  news_click_1_link: XXX
+  news_click_1_title: ابدأ الإصدار التجريبي المجاني
+  news_click_2_link: XXX
+  news_click_2_title: يستكشف
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: 'يستكشف <br> خطة NNP'
+  news_content: "Under The Wave Of Digitalization, Competition Among Enterprises Is Becoming Increasingly Fierce, <br>And Enterprise Development Is Facing Internal And External Troubles. The Continuous Innovation Of Business Models Has Led To A Blowout Growth Of Enterprise Applications. It Is Imperative To Systematically Promote Enterprise Digital Reshaping On A Platform."
+  news_click_1_link: XXX
+  news_click_1_title: المزيد من التفاصيل
+  news_click_2_link: XXX
+  news_click_2_title: يستكشف

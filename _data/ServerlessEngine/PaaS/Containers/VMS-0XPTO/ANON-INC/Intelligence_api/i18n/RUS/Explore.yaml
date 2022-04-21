@@ -1,0 +1,125 @@
+# Explore & Promote Global Ecology Marketplace
+- explore_item_id: "#item_1"
+  explore_item_controls: item_1
+  explore_item_title: Все
+  explore_item_active: active
+
+  explore_item_loops: item_1
+  explore_item_active_show: active show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover7.jpg
+  card_link: 555.html
+  card_title: "Canopy Growth Stock Bullish Thesis Is Alive and Well"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "The bad news for Canopy Growth (NASDAQ:CGC) stock is that it has been falling non-stop for a year. The even worse news is that it did that even when the stock markets were making new highs."
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover2.jpg
+  card_link: 555.html
+  card_title: "Hungary to buy 12 L-39NG military trainer aircraft from Aero Vodochody"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Hungary will buy 12 new-generation L-39NG military trainer aircraft from Czech company Aero Vodochody, the Hungarian commissioner in charge of army development said in a video on his Facebook page on Wednesday."
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide1.jpg
+  card_link: 555.html
+  card_title: "Streaming Stocks Alert: Why Are NFLX, DIS, PARA, WBD, ROKU Stocks Down Today?"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Several streaming stocks are sinking in morning trading after Netflix (NASDAQ:NFLX) reported that its subscriber total had dropped in the first quarter."
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover3.jpg
+  card_link: 555.html
+  card_title: "Baker Hughes, Another Buy-The-Dip Opportunity In Oilfield Services"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "The forward-looking data suggest the company is about to experience a surge in business that will be sustained for several years. "
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover5.jpg
+  card_link: 555.html
+  card_title: "Toronto index down as healthcare, tech stocks fall"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Canada's main stock index erased early gains to trade lower on Wednesday due to weakness in healthcare and technology stocks, with hotter-than-expected domestic inflation data weighing on investor sentiment."
+  card_info_2: "Get The Full Story Line"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide2.jpg
+  card_link: 555.html
+  card_title: "ETF Preview: ETFs Point Higher, Futures Mixed Ahead of March Home Sales Report"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "US stock futures were mixed with the S&P 500 up 0.5% and Nasdaq rising 0.5% ahead of the start of trading."
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/slide3.jpg
+  card_link: 555.html
+  card_title: "Bitcoin is on track to revisit $45,000 or even $50,000, says crypto trading expert"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Bitcoin (BTC) returned to trade in the green on Wednesday, April 20, after previously trading in the red for the last couple of days."
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover6.jpg
+  card_link: 555.html
+  card_title: "Baltic index gains 1.3% on higher rates across vessels"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "The Baltic Exchange's dry bulk sea freight index (.BADI), tracking rates for ships ferrying dry bulk commodities, rose on Wednesday led by gains across vessel segments."
+  card_info_2: "Get The Full Story"
+
+#--------------------------
+- explore_item_id: "#item_2"
+  explore_item_controls: item_2
+  explore_item_title: Бизнес
+# - explore_item_loops: item_2
+#   explore_item_active_show: show
+#   card_cover: http://dmitryvolkov.me/demo/unitok/img/cover/cover2.jpg
+#   card_link: 555.html
+#   card_title: Walking on Air
+#   card_author: https://avatars.githubusercontent.com/u/48172110
+#   card_author_name: "@ANONYMOUS"
+#   card_info_1: "To Infinity And Beyond"
+#   card_info_2: "Get The Full Story"
+
+#--------------------------
+
+- explore_item_id: "#item_3"
+  explore_item_controls: item_3
+  explore_item_title: Технологии
+
+
+- explore_item_id: "#item_4"
+  explore_item_controls: item_4
+  explore_item_title: Финансы
+
+
+- explore_item_id: "#item_5"
+  explore_item_controls: item_5
+  explore_item_title: Образование
+
+
+- explore_item_id: "#item_6"
+  explore_item_controls: item_6
+  explore_item_title: Биологическая технология
+
+
+- explore_item_id: "#item_7"
+  explore_item_controls: item_7
+  explore_item_title: Более

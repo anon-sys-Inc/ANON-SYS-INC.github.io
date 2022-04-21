@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>사전 출시 예정 <br>NATT 계획  <b style="font-size: 17px; color:bisque;">공개 버전</b>'
+  news_content: "NATT 계획은 특징적이고 새로운 유형의 탐험가이자 실천가로서,<br>마이닝 데이터 이론에 집중하고 관리 관행을 지속적으로 혁신할 것입니다. 우리는 세계 최고의 첨단 개념과 관리 관행을 적극적으로 배우고 배우고 국제 연구 협력과 같은 여러 경로를 통해 계속 홍보합니다. 국제 최고 학술 교류 및 관리 경험 공유, NATT 계획은 풍부하고 가치 있는 콘텐츠를 제공하면서 3차원 전문 라이프 서클 미디어 구축에 전념합니다."
+  news_click_1_link: XXX
+  news_click_1_title: 자세한 내용은
+  news_click_2_link: XXX
+  news_click_2_title: 탐구하다
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: '넥스트 월드 허브 <b style="font-size: 17px; color:bisque;">(암호화 교환 플랫폼)</b>'
+  news_content: "Next World Hub - 클라우드 기반 실시간 데이터 및 시장 선도 분석,<br>글로벌 Anon 암호화 교환 플랫폼을 엽니다."
+  news_click_1_link: XXX
+  news_click_1_title: 무료 평가판 시작
+  news_click_2_link: XXX
+  news_click_2_title: 탐구하다
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: '탐구하다 <br>NNP 계획'
+  news_content: "디지털화의 물결 속에서 기업 간의 경쟁이 점점 치열해지고 있으며,<br>그리고 기업의 발전은 대내외적 어려움에 직면해 있습니다. 비즈니스 모델의 지속적인 혁신은 기업 응용 프로그램의 폭발적인 성장으로 이어졌습니다. 플랫폼에서 Enterprise Digital Reshaping을 체계적으로 촉진하는 것은 필수적입니다."
+  news_click_1_link: XXX
+  news_click_1_title: 자세한 내용은
+  news_click_2_link: XXX
+  news_click_2_title: 탐구하다

@@ -1,0 +1,46 @@
+<!-- ADS START -->
+<div id="ads">
+  <div class="home" id="containers">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="home__content home__content--center">
+            <h1 class="home__title" style="font-family: 'Anton', sans-serif;">МЫ <span><b>АНОНИМНАЯ СИСТЕМА</b>
+            </span>. <br>МЫ <span><b>ЛЕГИОН</b></span>.</h1>
+            <p class="home__text">:: Распределенные удаленно сетевые API ::</p>
+            <p class="home__text">Мы будем <span>
+              <b id="seconds" style="color: #43CE65; font-weight:bold;">15</b></span> Автоматически закрывается через секунд.
+            </p>
+            <div class="home__btns">
+              <a href="javascript:void(0);" class="home__btn home__btn--clr"><i class="ri-compass-2-line" style="margin: 0px 5px -1.5px 0px; font-size: 17px;"></i>Проводить исследования</a>
+              <a href="javascript:void(0);" class="home__btn" id="skip"><i class="ri-logout-circle-r-line" style="margin: 0px 5px -1.5px 0px; font-size: 17px;"></i>Пропустить рекламу</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  window.onload = function() {
+      var times = document.getElementById("seconds");
+      var skip = document.getElementById("skip");
+      var scroll = 15;
+      times.innerHTML = scroll;
+      var load = setInterval(timeFn, 1000);
+      function timeFn() {
+        scroll--;
+          times.innerHTML = scroll;
+          if (scroll == 0) {
+              clearInterval(load);
+              ads.style.display = "none";
+              containers.style.display = "none";
+          }
+      }
+      skip.onclick = function() {
+        ads.style.display = "none";
+          containers.style.display = "none";
+      }
+  }
+</script>
+<!-- ADS END -->

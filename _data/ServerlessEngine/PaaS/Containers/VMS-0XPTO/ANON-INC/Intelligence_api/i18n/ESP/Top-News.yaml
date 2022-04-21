@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>Nosotros prelanzaremos <br>Plan NATT  <b style="font-size: 17px; color:bisque;">Versión pública</b>'
+  news_content: "El Plan NATT como característica y nuevo tipo de explorador y practicante,<br>Nos concentraremos en la teoría de datos de minería e innovaremos continuamente las prácticas de gestión. Aprendemos activamente y aprendemos de los principales conceptos y prácticas de gestión de vanguardia del mundo, y continuamos promoviendo a través de múltiples canales, como la cooperación internacional en investigación. Los mejores intercambios académicos internacionales y el intercambio de experiencias de gestión, el plan NATT, al tiempo que proporciona contenido rico y valioso, está comprometido con la construcción de un círculo de vida profesional tridimensional Medios;"
+  news_click_1_link: XXX
+  news_click_1_title: Más detalles
+  news_click_2_link: XXX
+  news_click_2_title: Explorar
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: 'Próximo centro mundial <b style="font-size: 17px; color:bisque;">(Plataforma de intercambio criptográfico)</b>'
+  news_content: "Próximo centro mundial - Datos en tiempo real y análisis líderes en el mercado impulsados por la nube, <br> Abra la plataforma de intercambio de cifrado global de Anon."
+  news_click_1_link: XXX
+  news_click_1_title: Empiza la prueba gratuita
+  news_click_2_link: XXX
+  news_click_2_title: Explorar
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: 'Explorar <br>Plan NNP'
+  news_content: "Bajo la ola de la digitalización, la competencia entre empresas se está volviendo cada vez más feroz,<br>Y Enterprise Development se enfrenta a problemas internos y externos. La innovación continua de los modelos comerciales ha llevado a un crecimiento espectacular de las aplicaciones empresariales. Es imperativo promover sistemáticamente la remodelación digital empresarial en una plataforma."
+  news_click_1_link: XXX
+  news_click_1_title: Más detalles
+  news_click_2_link: XXX
+  news_click_2_title: Explorar

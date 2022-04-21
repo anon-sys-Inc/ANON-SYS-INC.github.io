@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>Мы выпустим предварительный релиз <br>План НАТТ <b style="font-size: 17px; color:bisque;">Общедоступная версия</b>'
+  news_content: "План NATT как характерный и новый тип исследователя и практика,<br>Мы сосредоточимся на теории интеллектуального анализа данных и постоянном внедрении инноваций в методы управления. Мы активно учимся и учимся у самых передовых мировых концепций и методов управления, а также продолжаем продвигать их по нескольким каналам, таким как международное исследовательское сотрудничество. Международные лучшие академические обмены и обмен управленческим опытом, план NATT, предоставляя богатый и ценный контент, стремится к созданию трехмерной среды профессионального жизненного круга;"
+  news_click_1_link: XXX
+  news_click_1_title: Подробнее
+  news_click_2_link: XXX
+  news_click_2_title: Проводить исследования
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: 'Next World Hub <b style="font-size: 17px; color:bisque;">(Платформа криптобиржи)</b>'
+  news_content: "Next World Hub — данные в режиме реального времени и лучший на рынке анализ, управляемый облаком,<br>Откройте платформу Global Anon Encryption Exchange."
+  news_click_1_link: XXX
+  news_click_1_title: Начать бесплатную пробную версию
+  news_click_2_link: XXX
+  news_click_2_title: Проводить исследования
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: 'Проводить исследования <br>План ННП'
+  news_content: "На волне цифровизации конкуренция среди предприятий становится все более жесткой,<br>И развитие предприятия сталкивается с внутренними и внешними проблемами. Постоянные инновации бизнес-моделей привели к стремительному росту корпоративных приложений. Крайне важно систематически продвигать цифровую перестройку предприятия на платформе."
+  news_click_1_link: XXX
+  news_click_1_title: Подробнее
+  news_click_2_link: XXX
+  news_click_2_title: Проводить исследования

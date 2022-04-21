@@ -1,0 +1,25 @@
+# top_news_list
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide1.jpg
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>Wir werden vorveröffentlichen <br> NATT Plan <b style="font-size: 17px; color:bisque;">Öffentliche Version</b>'
+  news_content: "Der NATT-Plan als charakteristischer und neuer Typ von Entdecker und Praktiker,<br>Wir werden uns auf das Mining der Datentheorie konzentrieren und Managementpraktiken kontinuierlich erneuern. Wir lernen und lernen aktiv von den weltweit führenden innovativen Konzepten und Managementpraktiken und fördern weiterhin über mehrere Kanäle wie internationale Forschungskooperationen. Internationaler akademischer Spitzenaustausch und Erfahrungsaustausch im Management, der NATT-Plan, der reichhaltige und wertvolle Inhalte bereitstellt und sich dem Aufbau eines dreidimensionalen professionellen Lebenskreises verschrieben hat;"
+  news_click_1_link: XXX
+  news_click_1_title: Mehr Details
+  news_click_2_link: XXX
+  news_click_2_title: Entdecken
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide2.jpg
+  news_title: 'Next World Hub <b style="font-size: 17px; color:bisque;">(Krypto-Exchange-Plattform)</b>'
+  news_content: "Next World Hub - Echtzeitdaten und marktführende Analysen, die von der Cloud angetrieben werden,<br>Öffnen Sie die Global Anon Encryption Exchange Platform."
+  news_click_1_link: XXX
+  news_click_1_title: Kostenlos testen
+  news_click_2_link: XXX
+  news_click_2_title: Entdecken
+
+- news_cover: http://dmitryvolkov.me/demo/unitok/img/home/slide3.jpg
+  news_title: 'Entdecken <br>NNP Plan'
+  news_content: "Im Zuge der Digitalisierung wird der Wettbewerb zwischen Unternehmen immer härter, <br> Und die Unternehmensentwicklung steht vor internen und externen Problemen. Die kontinuierliche Innovation von Geschäftsmodellen hat zu einem enormen Wachstum von Unternehmensanwendungen geführt. Es ist unerlässlich, die digitale Umgestaltung von Unternehmen auf einer Plattform systematisch voranzutreiben."
+  news_click_1_link: XXX
+  news_click_1_title: Mehr Details
+  news_click_2_link: XXX
+  news_click_2_title: Entdecken

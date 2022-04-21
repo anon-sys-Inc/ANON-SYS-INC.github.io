@@ -1,0 +1,46 @@
+<!-- ADS START -->
+<div id="ads">
+  <div class="home" id="containers">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="home__content home__content--center">
+            <h1 class="home__title" style="font-family: 'Anton', sans-serif;">우리는 <span><b>익명의 시스템</b>
+            </span>. <br>우리는 <span><b>군단</b></span>.</h1>
+            <p class="home__text">:: 분산 원격 네트워크 API ::</p>
+            <p class="home__text">우리는 <span>
+              <b id="seconds" style="color: #43CE65; font-weight:bold;">15</b></span> 초 후에 자동으로 꺼집니다.
+            </p>
+            <div class="home__btns">
+              <a href="javascript:void(0);" class="home__btn home__btn--clr"><i class="ri-compass-2-line" style="margin: 0px 5px -1.5px 0px; font-size: 17px;"></i>탐구하다</a>
+              <a href="javascript:void(0);" class="home__btn" id="skip"><i class="ri-logout-circle-r-line" style="margin: 0px 5px -1.5px 0px; font-size: 17px;"></i>광고 건너뛰기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  window.onload = function() {
+      var times = document.getElementById("seconds");
+      var skip = document.getElementById("skip");
+      var scroll = 15;
+      times.innerHTML = scroll;
+      var load = setInterval(timeFn, 1000);
+      function timeFn() {
+        scroll--;
+          times.innerHTML = scroll;
+          if (scroll == 0) {
+              clearInterval(load);
+              ads.style.display = "none";
+              containers.style.display = "none";
+          }
+      }
+      skip.onclick = function() {
+        ads.style.display = "none";
+          containers.style.display = "none";
+      }
+  }
+</script>
+<!-- ADS END -->
