@@ -250,7 +250,7 @@ nav_menu_i18n_USA:
 -
   menu_api_id: home
   label_api: Home
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
   role_api: #
 -
   menu_api_id: activity
