@@ -167,7 +167,7 @@ remote_network_vm_for_anon_inc_title: ANON SYS, INC.
 remote_network_vm_for_anon_inc_description: WE ARE ANON SYS. WE ARE LEGION.
 remote_network_vm_for_anon_inc_favicon: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/icon/favicon/icon-32x32.png"
 remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
-remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/
+remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/
 remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
 
 # PaaS Containers VMS-0XPTO i18n All Configuration
