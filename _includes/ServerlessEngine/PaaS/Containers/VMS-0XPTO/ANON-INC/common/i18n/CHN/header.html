@@ -30,11 +30,12 @@
         </a>
           {% if i18n.label_api_v2.open_label %}
           <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.menu_api_id }}">
-            <li class="dropdown-submenu"><a class="dropdown-item" href="{{ i18n.label_api_v2.open_link }}" {{ i18n.role_api }}>{{ i18n.label_api_v2.open_label }}
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" href="{{ i18n.label_api_v2.open_link }}" {{ i18n.label_api_v2.role_api }}>{{ i18n.label_api_v2.open_label }}
               {% if i18n.label_api_v2.label_api_v3.open_label %}
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
               {% endif %}
-            </a>
+              </a>
               {% if i18n.label_api_v2.label_api_v3.open_label %}
               <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.menu_api_id }}">
                 <li><a href="{{ i18n.label_api_v2.label_api_v3.open_link }}">{{ i18n.label_api_v2.label_api_v3.open_label }}</a></li>

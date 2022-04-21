@@ -260,7 +260,7 @@ nav_menu_i18n_USA:
   label_api_v2:
       open_label: Live
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -272,6 +272,7 @@ nav_menu_i18n_USA:
   label_api_v2:
       open_label: Blockchain
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: Enterprise
@@ -280,6 +281,7 @@ nav_menu_i18n_USA:
   label_api_v2:
       open_label: Crypto Exchange Hub
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: Marketplace
@@ -288,6 +290,7 @@ nav_menu_i18n_USA:
   label_api_v2:
       open_label: Next World Hub
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 footer_menu_i18n_USA_v1:
 - menu_title: "Industry"
@@ -376,7 +379,7 @@ nav_menu_i18n_CHN:
   label_api_v2:
       open_label: Live
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -388,6 +391,7 @@ nav_menu_i18n_CHN:
   label_api_v2:
       open_label: 区块链
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: 企业
@@ -396,6 +400,7 @@ nav_menu_i18n_CHN:
   label_api_v2:
       open_label: 交易中心
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: 市场
@@ -404,6 +409,7 @@ nav_menu_i18n_CHN:
   label_api_v2:
       open_label: 世界中心
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 footer_menu_i18n_CHN_v1:
 - menu_title: "产业"
@@ -492,7 +498,7 @@ nav_menu_i18n_HKG:
   label_api_v2:
       open_label: Live
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -504,6 +510,7 @@ nav_menu_i18n_HKG:
   label_api_v2:
       open_label: 區塊鏈
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: 企業
@@ -512,6 +519,7 @@ nav_menu_i18n_HKG:
   label_api_v2:
       open_label: 交易中心
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: 市場
@@ -520,6 +528,7 @@ nav_menu_i18n_HKG:
   label_api_v2:
       open_label: 世界中心
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 footer_menu_i18n_HKG_v1:
 - menu_title: "產業"
@@ -608,7 +617,7 @@ nav_menu_i18n_UK:
   label_api_v2:
       open_label: Live
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -620,6 +629,7 @@ nav_menu_i18n_UK:
   label_api_v2:
       open_label: Blockchain
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: Enterprise
@@ -628,6 +638,7 @@ nav_menu_i18n_UK:
   label_api_v2:
       open_label: Crypto Exchange Hub
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: Marketplace
@@ -636,6 +647,7 @@ nav_menu_i18n_UK:
   label_api_v2:
       open_label: Next World Hub
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 nav_menu_i18n_JPN:
 -
@@ -651,7 +663,7 @@ nav_menu_i18n_JPN:
   label_api_v2:
       open_label: Live
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -663,6 +675,7 @@ nav_menu_i18n_JPN:
   label_api_v2:
       open_label: "ブロックチェーン"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: "エンタープライズ"
@@ -671,6 +684,7 @@ nav_menu_i18n_JPN:
   label_api_v2:
       open_label: "トレーディングセンター"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: "マーケット"
@@ -679,6 +693,7 @@ nav_menu_i18n_JPN:
   label_api_v2:
       open_label: "ワールドセンター"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 footer_menu_i18n_JPN_v1:
 - menu_title: "業界"
@@ -767,7 +782,7 @@ nav_menu_i18n_KOR:
   label_api_v2:
       open_label: "살다"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: "라이브 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -779,6 +794,7 @@ nav_menu_i18n_KOR:
   label_api_v2:
       open_label: "블록체인"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: "기업"
@@ -787,6 +803,7 @@ nav_menu_i18n_KOR:
   label_api_v2:
       open_label: "암호화폐 거래소 허브"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: "시장"
@@ -795,6 +812,7 @@ nav_menu_i18n_KOR:
   label_api_v2:
       open_label: "넥스트 월드 허브"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 nav_menu_i18n_KSA:
 -
@@ -810,7 +828,7 @@ nav_menu_i18n_KSA:
   label_api_v2:
       open_label: "يعيش"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: "يعيش 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -822,6 +840,7 @@ nav_menu_i18n_KSA:
   label_api_v2:
       open_label: "بلوكشين"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: "مَشرُوع"
@@ -830,6 +849,7 @@ nav_menu_i18n_KSA:
   label_api_v2:
       open_label: "مركز تبادل التشفير"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: "المتجر"
@@ -838,6 +858,7 @@ nav_menu_i18n_KSA:
   label_api_v2:
       open_label: "Next World Hub"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 nav_menu_i18n_RUS:
 -
@@ -853,7 +874,7 @@ nav_menu_i18n_RUS:
   label_api_v2:
       open_label: "Жить"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: "Жить 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -865,6 +886,7 @@ nav_menu_i18n_RUS:
   label_api_v2:
       open_label: "Блокчейн"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: "Предприятие"
@@ -873,6 +895,7 @@ nav_menu_i18n_RUS:
   label_api_v2:
       open_label: "Центр криптообмена"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: "Торговая площадка"
@@ -881,6 +904,7 @@ nav_menu_i18n_RUS:
   label_api_v2:
       open_label: "Следующий мировой хаб"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 nav_menu_i18n_DEU:
 -
@@ -896,7 +920,7 @@ nav_menu_i18n_DEU:
   label_api_v2:
       open_label: "Leben"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: "Leben 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -908,6 +932,7 @@ nav_menu_i18n_DEU:
   label_api_v2:
       open_label: "Blockchain"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: "Unternehmen"
@@ -916,6 +941,7 @@ nav_menu_i18n_DEU:
   label_api_v2:
       open_label: "Krypto-Exchange-Hub"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: "Marktplatz"
@@ -924,6 +950,7 @@ nav_menu_i18n_DEU:
   label_api_v2:
       open_label: "Next World Hub"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
 
 nav_menu_i18n_ESP:
 -
@@ -939,7 +966,7 @@ nav_menu_i18n_ESP:
   label_api_v2:
       open_label: "Vivir"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
-      role_api: #
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
           open_label: "vivir 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
@@ -951,6 +978,7 @@ nav_menu_i18n_ESP:
   label_api_v2:
       open_label: "cadena de bloques"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
 -
   menu_api_id: enterprise
   label_api: "Empresa"
@@ -959,6 +987,7 @@ nav_menu_i18n_ESP:
   label_api_v2:
       open_label: "Centro de intercambio criptográfico"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
 -
   menu_api_id: marketplace
   label_api: "Mercado"
@@ -967,6 +996,6 @@ nav_menu_i18n_ESP:
   label_api_v2:
       open_label: "Próximo centro mundial"
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
-
+      role_api: #
 
 #  ────────────────────────(END AUTOMATED BUILD SERVICE)──────────────────────────────────
