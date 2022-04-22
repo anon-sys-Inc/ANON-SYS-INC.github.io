@@ -18,4 +18,22 @@
   <meta name="keywords" content="{{ site.keyword }}">
   <meta name="author" content="{{ site.organization }}">
   <title>{{ page.title }} | {{ page.excerpt }}</title>
+  <script type="text/javascript">
+    _record = 0;
+    var sys_info = document.title;
+    function information() {
+      _record++;
+      if (_record == 3) {
+        _record = 1;
+      }
+      if (_record == 1) {
+        document.title = " {{ page.title }} " + sys_info;
+      }
+      if (_record == 2) {
+        document.title = " {{ page.excerpt }} " + sys_info;
+      }
+      setTimeout("information()", 1000);
+    }
+    information();
+  </script>
 </head>
