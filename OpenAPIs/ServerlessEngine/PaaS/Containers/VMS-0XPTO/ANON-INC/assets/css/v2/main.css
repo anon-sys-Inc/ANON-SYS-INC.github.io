@@ -53,7 +53,7 @@
 	Global preloader
 ==============================*/
 .loader-page.hidden {
-  animation: fadeOut 1.5s;
+  animation: fadeOut 1s;
   animation-fill-mode: forwards;
 }
 @-webkit-keyframes fadeOut {
