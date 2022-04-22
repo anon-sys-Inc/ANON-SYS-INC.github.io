@@ -139,6 +139,7 @@ plugins:
 
 test:
   -
+    oo: Home | Activity -  | Explore -  | Enterprise - | Marketplace - service ->  |
     href_1: /OpenAPIs/ServerlessEngine/PaaS/Container/XXX/Publicized/
     href_2: /PublicizedAPIs/ServerlessEngine/SaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
     href_3: /OpenAPIs/ServerlessEngine/DBaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
@@ -259,11 +260,22 @@ nav_menu_i18n_USA:
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   label_api_v2:
       open_label: Live
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      open_link: #
       role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       label_api_v3:
-          open_label: Live 2
-          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+          open_label: Live Event
+          open_link: /XXX
+      label_api_v4:
+          open_label: Live Meetings
+          open_link: /XXX
+  label_api_v2_items:
+      open_label: News
+      open_link: /XXX
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: Breaking News
+          open_link: /XXX
+
 -
   menu_api_id: explore
   label_api: Explore
@@ -296,38 +308,38 @@ footer_menu_i18n_USA_v1:
 - menu_title: "Industry"
 -
   menu_items:
-    open_label: "Incubator"
+    open_label: "New Energy"
     open_link: "javascript:void(0);"
 -
   menu_items:
-    open_label: "City Brain"
+    open_label: "Tech Incubator"
     open_link: "javascript:void(0);"
 -
   menu_items:
-    open_label: "Smart City"
+    open_label: "Aerospace Tech"
     open_link: "javascript:void(0);"
 -
   menu_items:
-    open_label: "Smart Factory"
+    open_label: "FIN Venture Capital"
     open_link: "javascript:void(0);"
 
 footer_menu_i18n_USA_v2:
 - menu_title: "Explore"
 -
   menu_items:
-    open_label: "Big Data"
+    open_label: "Web 3.0"
     open_link: "javascript:void(0);"
 -
   menu_items:
-    open_label: "Blockchain"
-    open_link: "javascript:void(0);"
--
-  menu_items:
-    open_label: "Data Center"
+    open_label: "Open NFTs"
     open_link: "javascript:void(0);"
 -
   menu_items:
     open_label: "Advanced Tech"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Decentralization"
     open_link: "javascript:void(0);"
 -
   menu_items_v2:

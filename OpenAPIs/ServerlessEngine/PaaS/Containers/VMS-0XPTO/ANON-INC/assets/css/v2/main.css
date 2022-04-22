@@ -399,6 +399,7 @@
   align-items: center;
   justify-content: center;
 	background-color: #0F161C;
+  z-index: 9999;
 }
 
 [sync-transformers-model-version="dark-models"] .lockedsys {
@@ -6497,7 +6498,7 @@ ul {
   padding: 25px 0 0;
 }
 .page-404__content {
-  background-color: #0f161c;
+  background-color: #1a3353;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6507,7 +6508,7 @@ ul {
   position: relative;
   width: 100%;
   max-width: 420px;
-  border: 1px solid #0f161c;
+  border: 1px solid #1a3353;
 }
 .page-404__title {
   position: relative;
