@@ -247,64 +247,207 @@ remote_network_translate_api:
   code_name: UK
 
 # PaaS Containers VMS-0XPTO i18n Menu API
-nav_menu_i18n_USA:
--
-  menu_api_id: home
+main_router_i18n_USA:
+- # Level 1 Menu => None Subset
+  router_api_id: home
   label_api: Home
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
   role_api: #
--
-  menu_api_id: activity
+- # Level 2 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: activity
   label_api: Activity
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
-  label_api_v2:
-      open_label: Live
-      open_link: #
-      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
-      label_api_v3:
-          open_label: Live Event
-          open_link: /XXX
-      label_api_v4:
-          open_label: Live Meetings
-          open_link: /XXX
-  label_api_v2_items:
-      open_label: News
-      open_link: /XXX
-      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
-      label_api_v3:
-          open_label: Breaking News
-          open_link: /XXX
-
--
-  menu_api_id: explore
+  level_menu_1:
+      level_menu_label: Live
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: Live Event
+          level_menu_link: /LiveEvent
+      level_menu_1_2:
+          level_menu_label: Live Meetings
+          level_menu_link: /LiveMeetings
+      level_menu_1_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+  level_menu_2:
+      level_menu_label: News
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: Data Report
+          level_menu_link: /DataReport
+      level_menu_2_2:
+          level_menu_label: Breaking News
+          level_menu_link: /BreakingNews
+      level_menu_2_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+  level_menu_3:
+      level_menu_label: Plans
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: Action
+          level_menu_link: /Action
+      level_menu_3_2:
+          level_menu_label: Recruit
+          level_menu_link: /Recruit
+      level_menu_3_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+- # Level 3 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: explore
   label_api: Explore
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
-  label_api_v2:
-      open_label: Blockchain
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
-      role_api: #
--
-  menu_api_id: enterprise
+  level_menu_1:
+      level_menu_label: Channel
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: New Energy
+          level_menu_link: /NewEnergy
+      level_menu_1_2:
+          level_menu_label: New Tech
+          level_menu_link: /NewTech
+      level_menu_1_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+  level_menu_2:
+      level_menu_label: Projects
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: XXX
+          level_menu_link: /XXX
+      level_menu_2_2:
+          level_menu_label: XXX
+          level_menu_link: /XXX
+      level_menu_2_3:
+          level_menu_label: XXX
+          level_menu_link: /XXX
+  level_menu_3:
+      level_menu_label: Labs
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_3_2:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_3_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+- # Level 4 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: enterprise
   label_api: Enterprise
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
-  label_api_v2:
-      open_label: Crypto Exchange Hub
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
-      role_api: #
--
-  menu_api_id: marketplace
+  level_menu_1:
+      level_menu_label: Product
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: Microsoft Cloud
+          level_menu_link: /MicrosoftCloud
+      level_menu_1_2:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_1_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+  level_menu_2:
+      level_menu_label: Solution
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: Developer Center
+          level_menu_link: /DeveloperCenter
+      level_menu_2_2:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_2_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+  level_menu_3:
+      level_menu_label: Test
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_3_2:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_3_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+- # Level 5 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: marketplace
   label_api: Marketplace
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
-  label_api_v2:
-      open_label: Next World Hub
-      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
-      role_api: #
+  level_menu_1:
+      level_menu_label: Service
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: Finance
+          level_menu_link: /Finance
+      level_menu_1_2:
+          level_menu_label: Business
+          level_menu_link: /Business
+      level_menu_1_3:
+          level_menu_label: Juridical
+          level_menu_link: /Juridical
+  level_menu_2:
+      level_menu_label: Resource
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: Download Center
+          level_menu_link: /DownloadCenter
+      level_menu_2_2:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_2_3:
+          level_menu_label: Test
+          level_menu_link: /Test
+  level_menu_3:
+      level_menu_label: Test
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_3_2:
+          level_menu_label: Test
+          level_menu_link: /Test
+      level_menu_3_3:
+          level_menu_label: Test
+          level_menu_link: /Test
 
-footer_menu_i18n_USA_v1:
+options_router_i18n_USA:
+-
+  options_label_api: About Us
+  options_link_api: /AboutUs
+-
+  options_label_api: Company Culture
+  options_link_api: /CompanyCulture
+-
+  options_label_api: Mission & Vision
+  options_link_api: /Mission&Vision
+-
+  options_label_api: Privacy Policy
+  options_link_api: /PrivacyPolicy
+-
+  options_label_api: Help Center
+  options_link_api: /HelpCenter
+
+footer_router_i18n_USA_v1:
 - menu_title: "Industry"
 -
   menu_items:
@@ -323,7 +466,7 @@ footer_menu_i18n_USA_v1:
     open_label: "FIN Venture Capital"
     open_link: "javascript:void(0);"
 
-footer_menu_i18n_USA_v2:
+footer_router_i18n_USA_v2:
 - menu_title: "Explore"
 -
   menu_items:
@@ -358,7 +501,7 @@ footer_menu_i18n_USA_v2:
     open_label: "Artificial Intelligence"
     open_link: "javascript:void(0);"
 
-footer_menu_i18n_USA_v3:
+footer_router_i18n_USA_v3:
 - menu_title: "Enterprise"
 -
   menu_items:
@@ -379,12 +522,12 @@ footer_menu_i18n_USA_v3:
 
 nav_menu_i18n_CHN:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: 首页
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: 活动
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -396,7 +539,7 @@ nav_menu_i18n_CHN:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: 探索
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -405,7 +548,7 @@ nav_menu_i18n_CHN:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: 企业
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -414,7 +557,7 @@ nav_menu_i18n_CHN:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: 市场
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -498,12 +641,12 @@ footer_menu_i18n_CHN_v3:
 
 nav_menu_i18n_HKG:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: 首頁
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/HKG
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: 活動
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -515,7 +658,7 @@ nav_menu_i18n_HKG:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: 探索
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -524,7 +667,7 @@ nav_menu_i18n_HKG:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: 企業
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -533,7 +676,7 @@ nav_menu_i18n_HKG:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: 市場
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -617,12 +760,12 @@ footer_menu_i18n_HKG_v3:
 
 nav_menu_i18n_UK:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: Home
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: Activity
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -634,7 +777,7 @@ nav_menu_i18n_UK:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: Explore
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -643,7 +786,7 @@ nav_menu_i18n_UK:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: Enterprise
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -652,7 +795,7 @@ nav_menu_i18n_UK:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: Marketplace
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -663,12 +806,12 @@ nav_menu_i18n_UK:
 
 nav_menu_i18n_JPN:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: "フロントページ"
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/JPN
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: "アクティビティ"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -680,7 +823,7 @@ nav_menu_i18n_JPN:
           open_label: Live 2
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: "探検"
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -689,7 +832,7 @@ nav_menu_i18n_JPN:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: "エンタープライズ"
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -698,7 +841,7 @@ nav_menu_i18n_JPN:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: "マーケット"
   link_api: "#"
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -782,12 +925,12 @@ footer_menu_i18n_JPN_v3:
 
 nav_menu_i18n_KOR:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: "집"
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KOR
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: "활동"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -799,7 +942,7 @@ nav_menu_i18n_KOR:
           open_label: "라이브 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: "탐구하다"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -808,7 +951,7 @@ nav_menu_i18n_KOR:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: "기업"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -817,7 +960,7 @@ nav_menu_i18n_KOR:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: "시장"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -828,12 +971,12 @@ nav_menu_i18n_KOR:
 
 nav_menu_i18n_KSA:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: "مسكن"
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KSA
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: "نشاط"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -845,7 +988,7 @@ nav_menu_i18n_KSA:
           open_label: "يعيش 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: "يستكشف"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -854,7 +997,7 @@ nav_menu_i18n_KSA:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: "مَشرُوع"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -863,7 +1006,7 @@ nav_menu_i18n_KSA:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: "المتجر"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -874,12 +1017,12 @@ nav_menu_i18n_KSA:
 
 nav_menu_i18n_RUS:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: "Дом"
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/RUS
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: "Мероприятия"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -891,7 +1034,7 @@ nav_menu_i18n_RUS:
           open_label: "Жить 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: "Проводить исследования"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -900,7 +1043,7 @@ nav_menu_i18n_RUS:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: "Предприятие"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -909,7 +1052,7 @@ nav_menu_i18n_RUS:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: "Торговая площадка"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -920,12 +1063,12 @@ nav_menu_i18n_RUS:
 
 nav_menu_i18n_DEU:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: "Heim"
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/DEU
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: "Aktivität"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -937,7 +1080,7 @@ nav_menu_i18n_DEU:
           open_label: "Leben 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: "Entdecken"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -946,7 +1089,7 @@ nav_menu_i18n_DEU:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: "Unternehmen"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -955,7 +1098,7 @@ nav_menu_i18n_DEU:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: "Marktplatz"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -966,12 +1109,12 @@ nav_menu_i18n_DEU:
 
 nav_menu_i18n_ESP:
 -
-  menu_api_id: home
+  router_api_id: home
   label_api: "Casa"
   link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/ESP
   role_api: #
 -
-  menu_api_id: activity
+  router_api_id: activity
   label_api: "Actividad"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -983,7 +1126,7 @@ nav_menu_i18n_ESP:
           open_label: "vivir 2"
           open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
 -
-  menu_api_id: explore
+  router_api_id: explore
   label_api: "Explorar"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -992,7 +1135,7 @@ nav_menu_i18n_ESP:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
       role_api: #
 -
-  menu_api_id: enterprise
+  router_api_id: enterprise
   label_api: "Empresa"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
@@ -1001,7 +1144,7 @@ nav_menu_i18n_ESP:
       open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
       role_api: #
 -
-  menu_api_id: marketplace
+  router_api_id: marketplace
   label_api: "Mercado"
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'

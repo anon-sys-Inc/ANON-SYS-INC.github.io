@@ -21,39 +21,89 @@
     </form>
     <div class="header__menu">
       <ul class="header__nav">
-        {% for i18n in site.nav_menu_i18n_USA %}
+        {% for i18n in site.main_router_i18n_USA %}
         <li class="header__nav-item">
-          <a class="header__nav-link" href="{{ i18n.link_api }}" title="{{ i18n.label_api }}" {{ i18n.role_api }} id="{{ i18n.menu_api_id }}">{{ i18n.label_api }}
-            {% if i18n.label_api_v2.open_label %}
+          <!-- Main Level Menu -->
+          <a class="header__nav-link" href="{{ i18n.link_api }}" title="{{ i18n.label_api }}" {{ i18n.role_api }} id="{{ i18n.router_api_id }}">{{ i18n.label_api }}
+            {% if i18n.level_menu_1.level_menu_label %}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
             {% endif %}
-        </a>
-          {% if i18n.label_api_v2.open_label %}
-          <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.menu_api_id }}">
+          </a>
+          {% if i18n.level_menu_1.level_menu_label %}
+          <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.router_api_id }}">
             <li class="dropdown-submenu">
-              <a class="dropdown-item" href="{{ i18n.label_api_v2.open_link }}" {{ i18n.label_api_v2.role_api }}>{{ i18n.label_api_v2.open_label }}
-              {% if i18n.label_api_v2.label_api_v3.open_label %}
+              <a class="dropdown-item" href="{{ i18n.level_menu_1.level_menu_link }}" {{ i18n.level_menu_1.level_menu_role }}>{{ i18n.level_menu_1.level_menu_label }}
+              {% if i18n.level_menu_1.level_menu_1_1.level_menu_label %}
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
               {% endif %}
               </a>
-              <a class="dropdown-item" href="{{ i18n.label_api_v2_items.open_link }}" {{ i18n.label_api_v2_items.role_api }}>{{ i18n.label_api_v2_items.open_label }}
-                {% if i18n.label_api_v2_items.label_api_v3.open_label %}
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
+              <!-- Subset Menu 1 (1.1 ~ 1.3) -->
+              {% if i18n.level_menu_1.level_menu_1_1.level_menu_label %}
+              <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.router_api_id }}">
+                <li><a href="{{ i18n.level_menu_1.level_menu_1_1.level_menu_link }}">{{ i18n.level_menu_1.level_menu_1_1.level_menu_label }}</a></li>
+                {% if i18n.level_menu_1.level_menu_1_2.level_menu_label %}
+                <li><a href="{{ i18n.level_menu_1.level_menu_1_2.level_menu_link }}">{{ i18n.level_menu_1.level_menu_1_2.level_menu_label }}</a></li>
                 {% endif %}
-              </a>
-              {% if i18n.label_api_v2.label_api_v3.open_label %}
-              <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.menu_api_id }}">
-                <li><a href="{{ i18n.label_api_v2.label_api_v3.open_link }}">{{ i18n.label_api_v2.label_api_v3.open_label }}</a></li>
-                {% if i18n.label_api_v2.label_api_v4.open_label %}
-                <li><a href="{{ i18n.label_api_v2.label_api_v4.open_link }}">{{ i18n.label_api_v2.label_api_v4.open_label }}</a></li>
+                {% if i18n.level_menu_1.level_menu_1_3.level_menu_label %}
+                <li><a href="{{ i18n.level_menu_1.level_menu_1_3.level_menu_link }}">{{ i18n.level_menu_1.level_menu_1_3.level_menu_label }}</a></li>
                 {% endif %}
               </ul>
               {% endif %}
             </li>
+            <!-- Subset Menu 2 (2.1 ~ 2.3) -->
+            {% if i18n.level_menu_2.level_menu_label %}
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" href="{{ i18n.level_menu_2.level_menu_link }}" {{ i18n.level_menu_2.level_menu_role }}>{{ i18n.level_menu_2.level_menu_label }}
+              {% if i18n.level_menu_2.level_menu_2_1.level_menu_label %}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
+              {% endif %}
+              </a>
+              {% if i18n.level_menu_2.level_menu_2_1.level_menu_label %}
+              <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.router_api_id }}">
+                <li><a href="{{ i18n.level_menu_2.level_menu_2_1.level_menu_link }}">{{ i18n.level_menu_2.level_menu_2_1.level_menu_label }}</a></li>
+                {% if i18n.level_menu_2.level_menu_2_2.level_menu_label %}
+                <li><a href="{{ i18n.level_menu_2.level_menu_2_2.level_menu_link }}">{{ i18n.level_menu_2.level_menu_2_2.level_menu_label }}</a></li>
+                {% endif %}
+                {% if i18n.level_menu_2.level_menu_2_3.level_menu_label %}
+                <li><a href="{{ i18n.level_menu_2.level_menu_2_3.level_menu_link }}">{{ i18n.level_menu_2.level_menu_2_3.level_menu_label }}</a></li>
+                {% endif %}
+              </ul>
+              {% endif %}
+            </li>
+            {% endif %}
+            <!-- Subset Menu 3 (3.1 ~ 3.3) -->
+            {% if i18n.level_menu_3.level_menu_label %}
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" href="{{ i18n.level_menu_3.level_menu_link }}" {{ i18n.level_menu_3.level_menu_role }}>{{ i18n.level_menu_3.level_menu_label }}
+              {% if i18n.level_menu_3.level_menu_3_1.level_menu_label %}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"></path></svg>
+              {% endif %}
+              </a>
+              {% if i18n.level_menu_3.level_menu_3_1.level_menu_label %}
+              <ul class="dropdown-menu header__nav-menu" aria-labelledby="{{ i18n.router_api_id }}">
+                <li><a href="{{ i18n.level_menu_3.level_menu_3_1.level_menu_link }}">{{ i18n.level_menu_3.level_menu_3_1.level_menu_label }}</a></li>
+                {% if i18n.level_menu_3.level_menu_3_2.level_menu_label %}
+                <li><a href="{{ i18n.level_menu_3.level_menu_3_2.level_menu_link }}">{{ i18n.level_menu_3.level_menu_3_2.level_menu_label }}</a></li>
+                {% endif %}
+                {% if i18n.level_menu_3.level_menu_3_3.level_menu_label %}
+                <li><a href="{{ i18n.level_menu_3.level_menu_3_3.level_menu_link }}">{{ i18n.level_menu_3.level_menu_3_3.level_menu_label }}</a></li>
+                {% endif %}
+              </ul>
+              {% endif %}
+            </li>
+            {% endif %}
           </ul>
           {% endif %}
         </li>
         {% endfor %}
+        <li class="header__nav-item">
+          <a class="header__nav-link header__nav-link--menu" role="button" id="SubsetMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,10a2,2,0,1,0,2,2A2,2,0,0,0,12,10ZM5,10a2,2,0,1,0,2,2A2,2,0,0,0,5,10Zm14,0a2,2,0,1,0,2,2A2,2,0,0,0,19,10Z"/></svg></a>
+          <ul class="dropdown-menu header__nav-menu" aria-labelledby="SubsetMenu">
+            {% for options_router_api in site.options_router_i18n_USA %}
+            <li><a href="{{ options_router_api.options_link_api }}">{{ options_router_api.options_label_api }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
       </ul>
     </div>
 
