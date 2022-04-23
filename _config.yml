@@ -259,33 +259,33 @@ main_router_i18n_USA:
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   level_menu_1:
-      level_menu_label: Live
+      level_menu_label: X Live
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_1_1:
           level_menu_label: Live Event
           level_menu_link: /LiveEvent
       level_menu_1_2:
+          level_menu_label: Live Stream
+          level_menu_link: /LiveStream
+      level_menu_1_3:
           level_menu_label: Live Meetings
           level_menu_link: /LiveMeetings
-      level_menu_1_3:
-          level_menu_label: Test
-          level_menu_link: /Test
   level_menu_2:
-      level_menu_label: News
+      level_menu_label: X News
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
+          level_menu_label: Media Flow
+          level_menu_link: /MediaFlow
+      level_menu_2_2:
           level_menu_label: Data Report
           level_menu_link: /DataReport
-      level_menu_2_2:
+      level_menu_2_3:
           level_menu_label: Breaking News
           level_menu_link: /BreakingNews
-      level_menu_2_3:
-          level_menu_label: Test
-          level_menu_link: /Test
   level_menu_3:
-      level_menu_label: Plans
+      level_menu_label: X Plans
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_3_1:
@@ -320,8 +320,8 @@ main_router_i18n_USA:
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
-          level_menu_label: XXX
-          level_menu_link: /XXX
+          level_menu_label: We Cion
+          level_menu_link: /WeCion
       level_menu_2_2:
           level_menu_label: XXX
           level_menu_link: /XXX
