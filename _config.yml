@@ -202,47 +202,47 @@ remote_network_translate_api:
   code_name: USA
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/CHN
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/CHN.svg
   code_name: CHN
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/DEU
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/DEU
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/DEU.svg
   code_name: DEU
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/ESP
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/ESP
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/ESP.svg
   code_name: ESP
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/HKG
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/HKG
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/HKG.svg
   code_name: HKG
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/JPN
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/JPN
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/JPN.svg
   code_name: JPN
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KOR
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/KOR
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KOR.svg
   code_name: KOR
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KSA
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/KSA
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KSA.svg
   code_name: KSA
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/RUS
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/RUS
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/RUS.svg
   code_name: RUS
 -
   code_id: translate-api
-  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/UK
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/UK.svg
   code_name: UK
 
@@ -303,15 +303,15 @@ main_router_i18n_USA:
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   level_menu_1:
-      level_menu_label: Channel
+      level_menu_label: Labs
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_1_1:
-          level_menu_label: New Energy
-          level_menu_link: /NewEnergy
+          level_menu_label: Test
+          level_menu_link: /Test
       level_menu_1_2:
-          level_menu_label: New Tech
-          level_menu_link: /NewTech
+          level_menu_label: Test
+          level_menu_link: /Test
       level_menu_1_3:
           level_menu_label: Test
           level_menu_link: /Test
@@ -329,25 +329,26 @@ main_router_i18n_USA:
           level_menu_label: XXX
           level_menu_link: /XXX
   level_menu_3:
-      level_menu_label: Labs
+      level_menu_label: Channel
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_3_1:
-          level_menu_label: Test
+          level_menu_label: New Energy
           level_menu_link: /Test
       level_menu_3_2:
-          level_menu_label: Test
-          level_menu_link: /Test
+          level_menu_label: New Tech
+          level_menu_link: /NewTech
       level_menu_3_3:
           level_menu_label: Test
           level_menu_link: /Test
+
 - # Level 4 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
   router_api_id: enterprise
   label_api: Enterprise
   link_api: #
   role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
   level_menu_1:
-      level_menu_label: Product
+      level_menu_label: Products
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_1_1:
@@ -360,7 +361,7 @@ main_router_i18n_USA:
           level_menu_label: Test
           level_menu_link: /Test
   level_menu_2:
-      level_menu_label: Solution
+      level_menu_label: Solutions
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
@@ -404,7 +405,7 @@ main_router_i18n_USA:
           level_menu_label: Juridical
           level_menu_link: /Juridical
   level_menu_2:
-      level_menu_label: Resource
+      level_menu_label: Resources
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
@@ -417,7 +418,7 @@ main_router_i18n_USA:
           level_menu_label: Test
           level_menu_link: /Test
   level_menu_3:
-      level_menu_label: Test
+      level_menu_label: Metaverse Club
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_3_1:
@@ -448,7 +449,7 @@ options_router_i18n_USA:
   options_link_api: /HelpCenter
 
 footer_router_i18n_USA_v1:
-- menu_title: "Industry"
+- menu_title: "Industry Park"
 -
   menu_items:
     open_label: "New Energy"
@@ -524,7 +525,7 @@ nav_menu_i18n_CHN:
 -
   router_api_id: home
   label_api: 首页
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/CHN
   role_api: #
 -
   router_api_id: activity
@@ -643,7 +644,7 @@ nav_menu_i18n_HKG:
 -
   router_api_id: home
   label_api: 首頁
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/HKG
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/HKG
   role_api: #
 -
   router_api_id: activity
@@ -762,7 +763,7 @@ nav_menu_i18n_UK:
 -
   router_api_id: home
   label_api: Home
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/UK
   role_api: #
 -
   router_api_id: activity
@@ -808,7 +809,7 @@ nav_menu_i18n_JPN:
 -
   router_api_id: home
   label_api: "フロントページ"
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/JPN
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/JPN
   role_api: #
 -
   router_api_id: activity
@@ -973,7 +974,7 @@ nav_menu_i18n_KSA:
 -
   router_api_id: home
   label_api: "مسكن"
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KSA
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/KSA
   role_api: #
 -
   router_api_id: activity
@@ -1019,7 +1020,7 @@ nav_menu_i18n_RUS:
 -
   router_api_id: home
   label_api: "Дом"
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/RUS
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/RUS
   role_api: #
 -
   router_api_id: activity
@@ -1065,7 +1066,7 @@ nav_menu_i18n_DEU:
 -
   router_api_id: home
   label_api: "Heim"
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/DEU
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/DEU
   role_api: #
 -
   router_api_id: activity
@@ -1111,7 +1112,7 @@ nav_menu_i18n_ESP:
 -
   router_api_id: home
   label_api: "Casa"
-  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/ESP
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/ESP
   role_api: #
 -
   router_api_id: activity
