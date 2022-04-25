@@ -1110,23 +1110,23 @@ ul {
 }
 
 [sync-transformers-model-version="dark-models"] input::-webkit-input-placeholder {
-  color: #bdbdbd;
+  color: #d7effe;
   font-weight: 600;
 }
 
 [sync-transformers-model-version="dark-models"] input::-moz-placeholder {
-  color: #bdbdbd;
+  color: #d7effe;
   font-weight: 600;
 }
 
 [sync-transformers-model-version="dark-models"] input:-moz-placeholder {
-  color: #bdbdbd;
+  color: #d7effe;
   font-weight: 600;
   opacity: 1;
 }
 
 [sync-transformers-model-version="dark-models"] input:-ms-input-placeholder {
-  color: #bdbdbd;
+  color: #d7effe;
   font-weight: 600;
   opacity: 1;
 }
@@ -2157,20 +2157,33 @@ ul {
   line-height: 100%;
   position: relative;
 }
-.main__title p {
+[sync-transformers-model-version="dark-models"] .main__title p {
   display: block;
   width: 100%;
   font-size: 16px;
   line-height: 26px;
-  color: #bdbdbd;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+[sync-transformers-model-version="light-models"] .main__title p {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1a3353;
   margin-top: 20px;
   margin-bottom: 0;
 }
 .main__title p b {
   font-weight: 600;
 }
-.main__title p a {
+[sync-transformers-model-version="light-models"] .main__title p a {
   color: #43CE65;
+  text-decoration: underline;
+}
+[sync-transformers-model-version="dark-models"] .main__title p a {
+  color: #00fe3c;
   text-decoration: underline;
 }
 .main__title p a:hover {
@@ -2202,15 +2215,27 @@ ul {
   font-weight: 600;
   font-family: 'Inter', sans-serif;
 }
-.main__title ol li {
+[sync-transformers-model-version="light-models"] .main__title ol li {
   font-size: 16px;
   line-height: 24px;
   color: #bdbdbd;
+  font-weight: 600;
   position: relative;
 }
-.main__title ol li b {
+[sync-transformers-model-version="dark-models"] .main__title ol li {
+  font-size: 16px;
+  line-height: 24px;
+  color: #d7effe;
+  font-weight: 600;
+  position: relative;
+}
+[sync-transformers-model-version="light-models"] .main__title ol li b {
   font-weight: 600;
   color: #bdbdbd;
+}
+[sync-transformers-model-version="dark-models"] .main__title ol li b {
+  font-weight: 600;
+  color: #d7effe;
 }
 .main__title ol li a {
   color: #eb5757;
@@ -2625,9 +2650,9 @@ ul {
   width: 100%;
   margin-top: 25px;
 }
-.breadcrumb__item {
+[sync-transformers-model-version="dark-models"] .breadcrumb__item {
   font-size: 14px;
-  color: #bdbdbd;
+  color: #d7effe;
   transition: 0.5s ease;
   position: relative;
   margin-right: 34px;
@@ -2657,14 +2682,23 @@ ul {
 .breadcrumb__item--active:before {
   display: none;
 }
-.breadcrumb__item--active:hover {
+[sync-transformers-model-version="light-models"] .breadcrumb__item--active:hover {
+  color: #00fe3c;
+}
+[sync-transformers-model-version="dark-models"] .breadcrumb__item--active:hover {
+  color: #00fe3c;
+}
+[sync-transformers-model-version="light-models"] .breadcrumb a {
   color: #bdbdbd;
 }
-.breadcrumb a {
-  color: #bdbdbd;
+[sync-transformers-model-version="dark-models"] .breadcrumb a {
+  color: #d7effe;
 }
-.breadcrumb a:hover {
+[sync-transformers-model-version="light-models"] .breadcrumb a:hover {
   color: #43CE65;
+}
+[sync-transformers-model-version="dark-models"] .breadcrumb a:hover {
+  color: #00fe3c;
 }
 /*==============================
 	Paginator
@@ -5768,7 +5802,7 @@ ul {
   display: block;
   font-size: 14px;
   line-height: 24px;
-  color: #bdbdbd;
+  color: #d7effe;
   margin-bottom: 0;
   font-weight: 600;
 }
@@ -5890,7 +5924,7 @@ ul {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 12px;
-  color: #bdbdbd;
+  color: #d7effe;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
 }
