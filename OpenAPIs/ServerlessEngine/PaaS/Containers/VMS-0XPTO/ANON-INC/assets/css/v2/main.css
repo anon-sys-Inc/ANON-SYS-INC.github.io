@@ -482,6 +482,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.content-omitted-55 {
+  display: inline-block;
+  max-width: 55px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .content-omitted-245 {
   display: inline-block;
   max-width: 245px;
@@ -5356,6 +5364,16 @@ ul {
   margin-bottom: 20px;
   border-radius: 16px;
   border: none;
+}
+.watch-container {
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgb(32 54 86 / 30%);
+}
+.flow-container {
+  box-shadow: 0 8px 20px rgb(32 54 86 / 30%);
+}
+.single-watch {
+  margin-bottom: 30px;
 }
 [sync-transformers-model-version="dark-models"] .article__content h1,
 [sync-transformers-model-version="dark-models"] .article__content h2,

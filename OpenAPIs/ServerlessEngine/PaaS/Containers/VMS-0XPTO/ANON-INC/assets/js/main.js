@@ -1,5 +1,9 @@
 $(document).ready(function () {
-	"use strict"; // start of use strict
+	"use strict"; 
+	
+	// start of use strict
+
+	console.log("\n".concat(" %c OpenAPIs"," ->"," ").concat("ServerlessEngine"," %c ANON SYS, Inc. ","\n","\n"),"color: #1a3353; background: #00fe3c; padding:5px 0;","color: #00fe3c; background: #1a3353; padding:5px 0;");
 
 	/*==============================
 	Menu

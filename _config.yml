@@ -269,7 +269,7 @@ main_router_i18n_USA:
           level_menu_link: /LiveEvent
       level_menu_1_2:
           level_menu_label: Live Stream
-          level_menu_link: /LiveStream
+          level_menu_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/Intl/LiveStream
       level_menu_1_3:
           level_menu_label: Live Meetings
           level_menu_link: /LiveMeetings
