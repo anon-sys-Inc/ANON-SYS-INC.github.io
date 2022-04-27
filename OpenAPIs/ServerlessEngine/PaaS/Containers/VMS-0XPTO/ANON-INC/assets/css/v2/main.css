@@ -500,6 +500,16 @@ body {
   height: 30px;
 }
 
+.content-omitted-370 {
+  display: inline-block;
+  max-width: 370px;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 30px;
+}
+
 .content-omitted-560 {
   display: inline-block;
   max-width: 245px;
@@ -2312,32 +2322,56 @@ ul {
   text-align: center;
   justify-content: center;
 }
-.main__link {
+[sync-transformers-model-version="light-models"] .main__link {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: #bdbdbd;
+  color: #00fe3c;
   font-weight: 600;
   margin-bottom: 5px;
 }
-.main__link svg {
+[sync-transformers-model-version="light-models"] .main__link svg {
   width: 22px;
   height: auto;
-  fill: #bdbdbd;
+  fill: #00fe3c;
   margin-left: 5px;
   transition: fill 0.5s ease;
   margin-right: -3px;
 }
-.main__link:hover {
-  color: #fff;
+[sync-transformers-model-version="light-models"] .main__link:hover {
+  color: #43CE65;
 }
-.main__link:hover svg {
+[sync-transformers-model-version="light-models"] .main__link:hover svg {
   fill: #43CE65;
 }
 .main__carousel-wrap {
   position: relative;
+}
+[sync-transformers-model-version="dark-models"] .main__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+[sync-transformers-model-version="dark-models"] .main__link svg {
+  width: 22px;
+  height: auto;
+  fill: #ffffff;
+  margin-left: 5px;
+  transition: fill 0.5s ease;
+  margin-right: -3px;
+}
+[sync-transformers-model-version="dark-models"] .main__link:hover {
+  color: #00fe3c;
+}
+[sync-transformers-model-version="dark-models"] .main__link:hover svg {
+  fill: #00fe3c;
 }
 .main__carousel .owl-dots {
   display: flex;
@@ -2485,7 +2519,7 @@ ul {
   justify-content: center;
   align-items: center;
   width: auto;
-  color: #bdbdbd;
+  color: #d7effe;
   font-size: 16px;
   background-color: #2d4148;
   border-radius: 12px;
@@ -3443,7 +3477,7 @@ ul {
 .card__author a {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  color: #bdbdbd;
+  color: #d7effe;
   font-size: 16px;
 }
 .card__author a:hover {
@@ -3468,7 +3502,7 @@ ul {
 .card__price span:first-child {
   font-size: 14px;
   line-height: 100%;
-  color: #bdbdbd;
+  color: #d7effe;
 }
 .card__price span:last-child {
   font-size: 18px;
@@ -3576,7 +3610,22 @@ ul {
 /*==============================
 	Post
 ==============================*/
-.post {
+[sync-transformers-model-version="light-models"] .post {
+  position: relative;
+  margin-top: 20px;
+  border-radius: 16px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: calc(100% - 20px);
+  box-shadow: 0 8px 20px rgb(32 54 86 / 6%);
+  
+}
+[sync-transformers-model-version="dark-models"] .post {
   position: relative;
   margin-top: 20px;
   border-radius: 16px;
@@ -3588,6 +3637,7 @@ ul {
   justify-content: flex-start;
   align-items: flex-start;
   height: calc(100% - 20px);
+  box-shadow: 0 8px 20px rgb(32 54 86 / 6%);
 }
 .post__img {
   display: block;
@@ -3616,14 +3666,26 @@ ul {
 .post__img:hover:before {
   opacity: 0.3;
 }
-.post__content {
+[sync-transformers-model-version="light-models"] .post__content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   padding: 20px;
-  background-color: #222227;
+  background-color: #ffffff;
+  border-radius: 0 0 16px 16px;
+  height: 100%;
+  position: relative;
+}
+[sync-transformers-model-version="dark-models"] .post__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  background-color: #2d41489e;
   border-radius: 0 0 16px 16px;
   height: 100%;
   position: relative;
@@ -3649,7 +3711,7 @@ ul {
 }
 .post__category:hover {
   color: #fff;
-  background-color: #222227;
+  background-color: #073042;
 }
 .post__title {
   display: block;
@@ -3662,7 +3724,11 @@ ul {
   overflow: hidden;
   width: 100%;
 }
-.post__title a {
+[sync-transformers-model-version="light-models"] .post__title a {
+  color: #1a3353;
+  display: block;
+}
+[sync-transformers-model-version="dark-models"] .post__title a {
   color: #fff;
   display: block;
 }
@@ -3678,30 +3744,58 @@ ul {
   width: 100%;
   height: 20px;
 }
-.post__date {
+[sync-transformers-model-version="light-models"] .post__date {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   font-size: 13px;
-  color: #bdbdbd;
+  color: #073042;
 }
-.post__date svg {
-  fill: #fff;
+[sync-transformers-model-version="dark-models"] .post__date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #d7effe;
+}
+[sync-transformers-model-version="light-models"] .post__date svg {
+  fill: #073042;
   width: 16px;
   height: auto;
   margin-right: 5px;
 }
-.post__comments {
+[sync-transformers-model-version="dark-models"] .post__date svg {
+  fill: #d7effe;
+  width: 16px;
+  height: auto;
+  margin-right: 5px;
+}
+[sync-transformers-model-version="light-models"] .post__comments {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   font-size: 13px;
-  color: #bdbdbd;
+  color: #073042;
 }
-.post__comments svg {
-  fill: #fff;
+[sync-transformers-model-version="light-models"] .post__comments svg {
+  fill: #073042;
+  width: 16px;
+  height: auto;
+  margin-right: 5px;
+}
+[sync-transformers-model-version="dark-models"] .post__comments {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #d7effe;
+}
+[sync-transformers-model-version="dark-models"] .post__comments svg {
+  fill: #d7effe;
   width: 16px;
   height: auto;
   margin-right: 5px;
@@ -4439,7 +4533,7 @@ ul {
   width: 100%;
   font-size: 16px;
   line-height: 26px;
-  color: #bdbdbd;
+  color: #d7effe;
   margin-bottom: 0;
   margin-top: 15px;
   font-weight: 600;
@@ -4876,7 +4970,7 @@ ul {
   width: 100%;
   font-size: 14px;
   line-height: 24px;
-  color: #bdbdbd;
+  color: #d7effe;
   font-weight: 600;
   margin-bottom: 0;
   min-height: 27px;
@@ -4906,7 +5000,7 @@ ul {
 }
 .author__followers span {
   font-size: 14px;
-  color: #bdbdbd;
+  color: #d7effe;
   line-height: 100%;
   margin-top: 8px;
 }

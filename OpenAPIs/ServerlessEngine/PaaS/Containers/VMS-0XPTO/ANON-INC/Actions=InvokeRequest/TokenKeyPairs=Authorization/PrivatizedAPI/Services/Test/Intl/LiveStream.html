@@ -34,7 +34,7 @@ excerpt: News Live Stream
                             <li class="router_menu_subset" style="padding-left: 0px;"><a class="header__nav-link" href="{{ i18n_api.code_link }}"><img src="{{ i18n_api.code_icon }}" alt="{{ i18n_api.code_name }}" style="width: 20px; height: 20px; margin: 0 10px 0px 0px;"><span>{{ i18n_api.code_name }}</span></a></li>
                             {% endfor %}
                             <li class="router_menu_subset footer_i18n" style="padding-left: 0px;">ISO Code (A ~ Z.)</li>
-                          </ul>
+						</ul>
 						<span class="article__date">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 								<path d="M12,2A10,10,0,1,0,22,12,10.01114,10.01114,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8.00917,8.00917,0,0,1,12,20ZM14.09814,9.63379,13,10.26807V7a1,1,0,0,0-2,0v5a1.00025,1.00025,0,0,0,1.5.86621l2.59814-1.5a1.00016,1.00016,0,1,0-1-1.73242Z" />
@@ -95,9 +95,8 @@ excerpt: News Live Stream
                             <path d="M8,12a1,1,0,0,0,1,1h6a1,1,0,0,0,0-2H9A1,1,0,0,0,8,12Zm2,3H7A3,3,0,0,1,7,9h3a1,1,0,0,0,0-2H7A5,5,0,0,0,7,17h3a1,1,0,0,0,0-2Zm7-8H14a1,1,0,0,0,0,2h3a3,3,0,0,1,0,6H14a1,1,0,0,0,0,2h3A5,5,0,0,0,17,7Z"></path>
                         </svg>
 						<input type="hidden" id="links" value="XAVUW3sw3ZunitokcLtemEfX3tGuX2plateWdh">
-						<button type="button" id="btnCopy">
-                            <span>Copy Link</span>
-                        </button>
+						<span>Copy Link</span>
+						<!-- <button type="button" id="btnCopy"></button> -->
                         <!--  -->
 					</a>
 				</div>
@@ -142,13 +141,13 @@ excerpt: News Live Stream
 			url: 'https://api.dogecloud.com/player/get.mp4?vcode=5ac682e6f8231991&userId=17&ext=.mp4',
 			pic: 'https://i.loli.net/2019/06/06/5cf8c5d9c57b510947.png'
 		}
-		// ,subtitle: {
-		// 	url: 'https://s-sh-17-dplayercdn.oss.dogecdn.com/hikarunara.vtt',
-		// 	type: 'webvtt',
-		// 	fontSize: '25px',
-		// 	bottom: '10%',
-		// 	color: '#00fe3c',
-		// }
+		,subtitle: {
+			url: 'https://s-sh-17-dplayercdn.oss.dogecdn.com/hikarunara.vtt',
+			type: 'webvtt',
+			fontSize: '25px',
+			bottom: '10%',
+			color: '#00fe3c',
+		}
 	});
 </script>
 

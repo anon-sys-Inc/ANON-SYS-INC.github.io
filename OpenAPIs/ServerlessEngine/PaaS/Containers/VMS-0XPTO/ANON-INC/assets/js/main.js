@@ -1,10 +1,7 @@
 $(document).ready(function () {
-	"use strict"; 
-	
+	"use strict";
 	// start of use strict
-
 	console.log("\n".concat(" %c OpenAPIs"," ->"," ").concat("ServerlessEngine"," %c ANON SYS, Inc. ","\n","\n"),"color: #1a3353; background: #00fe3c; padding:5px 0;","color: #00fe3c; background: #1a3353; padding:5px 0;");
-
 	/*==============================
 	Menu
 	==============================*/
@@ -39,7 +36,7 @@ $(document).ready(function () {
 		touchDrag: true,
 		dots: true,
 		loop: true,
-		autoplay: false,
+		autoplay: true,
 		smartSpeed: 600,
 		autoHeight: true,
 		items: 1,
@@ -170,7 +167,7 @@ $(document).ready(function () {
 		mouseDrag: true,
 		touchDrag: true,
 		dots: true,
-		loop: true,
+		loop: false,
 		autoplay: true,
 		autoplayHoverPause: true,
 		autoplayTimeout: 5000,
