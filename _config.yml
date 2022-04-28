@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -137,32 +137,6 @@ plugins:
 ##
 ##
 
-test:
-  -
-    oo: Home | Activity -  | Explore -  | Enterprise - | Marketplace - service ->  |
-    href_1: /OpenAPIs/ServerlessEngine/PaaS/Container/XXX/Publicized/
-    href_2: /PublicizedAPIs/ServerlessEngine/SaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
-    href_3: /OpenAPIs/ServerlessEngine/DBaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
-    href_4: /OpenAPIs/ServerlessEngine/FaaS/Container/XXX/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
-    href_5: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Global-Plans/Pull-Requests=PreviewPlans/NBM
-    href_6: Reaction=Actions/Publicized/Services/XXX | watch?v=IGyX98EzG3g | Events | Lives
-    label_1: ANON-INC/i18n/EN/Breaking-News/Breaking-News.yaml
-    label_2: ANON-INC/i18n/EN/Top-News/Top-News.yaml
-    label_3: ANON-INC/common/i18n/EN/xxxx
-    label_4: ANON-INC/common/i18n/CN/xxxx
-    label_5: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/USA-美国 U
-    label_6: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/CHN-中国 C
-    label_91: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/DEU-德国 D
-    label_11: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/ESP-西班牙 E
-    label_61: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/HKG-香港 H
-    label_7: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/JPN-日本 J
-    label_8: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KOR-韩国 K
-    label_12: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/KSA-沙特阿拉伯 K
-    label_10: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/RUS-俄罗斯 R
-    label_9: Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Knowledge-Graph/Biz-Knowledge-Graph/Start-Biz/UK-英国 U
-    label_47: Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPI/Services/Global-Plans/Pull-Requests=PreviewPlans/Intl=lang=
-    label_48: Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/Global-Plans/Pull-Requests=PreviewPlans/
-
 #  ────────────────────────(START AUTOMATED BUILD SERVICE)─────────────────────────────────
 
 # PaaS Containers VMS-0XPTO Configuration
@@ -269,7 +243,7 @@ main_router_i18n_USA:
           level_menu_link: /LiveEvent
       level_menu_1_2:
           level_menu_label: Live Stream
-          level_menu_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/Intl/LiveStream
+          level_menu_link: /LiveStream
       level_menu_1_3:
           level_menu_label: Live Meetings
           level_menu_link: /LiveMeetings
@@ -292,7 +266,7 @@ main_router_i18n_USA:
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_3_1:
           level_menu_label: Action
-          level_menu_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/Intl/Test
+          level_menu_link: /Action
       level_menu_3_2:
           level_menu_label: Recruit
           level_menu_link: /Recruit
