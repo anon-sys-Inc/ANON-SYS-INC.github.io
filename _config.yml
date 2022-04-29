@@ -240,39 +240,39 @@ main_router_i18n_USA:
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_1_1:
           level_menu_label: Live Event
-          level_menu_link: /LiveEvent
+          level_menu_link: javascript:void(0);
       level_menu_1_2:
           level_menu_label: Live Stream
-          level_menu_link: /LiveStream
+          level_menu_link: javascript:void(0);
       level_menu_1_3:
           level_menu_label: Live Meetings
-          level_menu_link: /LiveMeetings
+          level_menu_link: javascript:void(0);
   level_menu_2:
       level_menu_label: X News
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
           level_menu_label: Media Flow
-          level_menu_link: /MediaFlow
+          level_menu_link: javascript:void(0);
       level_menu_2_2:
           level_menu_label: Data Report
-          level_menu_link: /DataReport
+          level_menu_link: javascript:void(0);
       level_menu_2_3:
           level_menu_label: Breaking News
-          level_menu_link: /BreakingNews
+          level_menu_link: javascript:void(0);
   level_menu_3:
       level_menu_label: X Plans
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_3_1:
           level_menu_label: Action
-          level_menu_link: /Action
+          level_menu_link: javascript:void(0);
       level_menu_3_2:
           level_menu_label: Recruit
-          level_menu_link: /Recruit
+          level_menu_link: javascript:void(0);
       level_menu_3_3:
           level_menu_label: Public Welfare
-          level_menu_link: /Welfare
+          level_menu_link: javascript:void(0);
 - # Level 3 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
   router_api_id: explore
   label_api: Explore
@@ -284,39 +284,39 @@ main_router_i18n_USA:
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_1_1:
           level_menu_label: SIS-UJFXJTNT
-          level_menu_link: /Test
+          level_menu_link: javascript:void(0);
       level_menu_1_2:
           level_menu_label: APT-C31PVKCF
-          level_menu_link: /Test
+          level_menu_link: javascript:void(0);
       level_menu_1_3:
           level_menu_label: NSA-GENA3VXE
-          level_menu_link: /Test
+          level_menu_link: javascript:void(0);
   level_menu_2:
       level_menu_label: Projects
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
           level_menu_label: We Cion
-          level_menu_link: /WeCion
+          level_menu_link: javascript:void(0);
       level_menu_2_2:
           level_menu_label: We Block
-          level_menu_link: /WeBlock
+          level_menu_link: javascript:void(0);
       level_menu_2_3:
           level_menu_label: We Workload
-          level_menu_link: /WeWorkload
+          level_menu_link: javascript:void(0);
   level_menu_3:
       level_menu_label: Channel
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_3_1:
           level_menu_label: New Biz
-          level_menu_link: /NewBiz
+          level_menu_link: javascript:void(0);
       level_menu_3_2:
           level_menu_label: New Tech
-          level_menu_link: /NewTech
+          level_menu_link: javascript:void(0);
       level_menu_3_3:
           level_menu_label: New Energy
-          level_menu_link: /NewEnergy
+          level_menu_link: javascript:void(0);
 
 - # Level 4 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
   router_api_id: enterprise
@@ -329,26 +329,26 @@ main_router_i18n_USA:
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_1_1:
           level_menu_label: Enterprise Basic
-          level_menu_link: /Basic
+          level_menu_link: javascript:void(0);
       level_menu_1_2:
           level_menu_label: Enterprise Security
-          level_menu_link: /Security
+          level_menu_link: javascript:void(0);
       level_menu_1_3:
           level_menu_label: Enterprise Application
-          level_menu_link: /Application
+          level_menu_link: javascript:void(0);
   level_menu_2:
       level_menu_label: Solutions
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
           level_menu_label: Universal Solution
-          level_menu_link: /Universal
+          level_menu_link: javascript:void(0);
       level_menu_2_2:
           level_menu_label: Industry Solution
-          level_menu_link: /Industry
+          level_menu_link: javascript:void(0);
       level_menu_2_3:
           level_menu_label: Other Solution
-          level_menu_link: /Other
+          level_menu_link: javascript:void(0);
   level_menu_3:
       level_menu_label: Scenarios
       level_menu_link: #
@@ -358,10 +358,10 @@ main_router_i18n_USA:
           level_menu_link: /Covid-19
       level_menu_3_2:
           level_menu_label: Blockchain
-          level_menu_link: /Blockchain
+          level_menu_link: javascript:void(0);
       level_menu_3_3:
           level_menu_label: Sustainability
-          level_menu_link: /Sustainability
+          level_menu_link: javascript:void(0);
 - # Level 5 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
   router_api_id: marketplace
   label_api: Marketplace
@@ -373,56 +373,56 @@ main_router_i18n_USA:
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_1_1:
           level_menu_label: Finance
-          level_menu_link: /Finance
+          level_menu_link: javascript:void(0);
       level_menu_1_2:
           level_menu_label: Business
-          level_menu_link: /Business
+          level_menu_link: javascript:void(0);
       level_menu_1_3:
           level_menu_label: Juridical
-          level_menu_link: /Juridical
+          level_menu_link: javascript:void(0);
   level_menu_2:
       level_menu_label: Resources
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_2_1:
           level_menu_label: API Hub
-          level_menu_link: /APIHub
+          level_menu_link: javascript:void(0);
       level_menu_2_2:
           level_menu_label: Wiki Hub
-          level_menu_link: /WikiHub
+          level_menu_link: javascript:void(0);
       level_menu_2_3:
           level_menu_label: Library Hub
-          level_menu_link: /LibraryHub
+          level_menu_link: javascript:void(0);
   level_menu_3:
       level_menu_label: Metaverse Club
       level_menu_link: #
       level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
       level_menu_3_1:
           level_menu_label: Stock Club
-          level_menu_link: /StockClub
+          level_menu_link: javascript:void(0);
       level_menu_3_2:
           level_menu_label: PE Fund Club
-          level_menu_link: /FundClub
+          level_menu_link: javascript:void(0);
       level_menu_3_3:
           level_menu_label: Open Source Club
-          level_menu_link: /OpenSourceClub
+          level_menu_link: javascript:void(0);
 
 options_router_i18n_USA:
 -
   options_label_api: About Us
-  options_link_api: /AboutUs
+  options_link_api: javascript:void(0);
 -
   options_label_api: Company Culture
-  options_link_api: /CompanyCulture
+  options_link_api: javascript:void(0);
 -
   options_label_api: Mission & Vision
-  options_link_api: /Mission&Vision
+  options_link_api: javascript:void(0);
 -
   options_label_api: Privacy Policy
   options_link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/About/PrivacyPolicy/Intl/USA
 -
   options_label_api: Help Center
-  options_link_api: /HelpCenter
+  options_link_api: javascript:void(0);
 
 footer_router_i18n_USA_v1:
 - menu_title: "Industry Park"

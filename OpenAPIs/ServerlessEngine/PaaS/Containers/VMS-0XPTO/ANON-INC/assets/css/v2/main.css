@@ -3146,7 +3146,7 @@ ul {
   height: 4px;
   width: 10px;
   border-radius: 2px;
-  background-color: #bdbdbd;
+  background-color: #d7effe;
   transition: 0.5s ease;
 }
 .hero .owl-dot.active span {
@@ -3198,7 +3198,7 @@ ul {
 .hero__text {
   position: relative;
   z-index: 2;
-  color: #bdbdbd;
+  color: #d7effe;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 0;
@@ -3237,7 +3237,7 @@ ul {
   min-width: 140px;
   height: 50px;
   border-radius: 12px;
-  background-color: #0F161C;
+  background-color: #2d4148;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
