@@ -1,0 +1,125 @@
+# Explore & Promote Global Ecology Marketplace
+- explore_item_id: "#item_1"
+  explore_item_controls: item_1
+  explore_item_title: All
+  explore_item_active: active
+  explore_item_loops: item_1
+  explore_item_active_show: active show
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/b5f69a93671749.Y3JvcCwzOTk5LDMxMjgsMCw0MzU.jpg
+  card_link: javascript:void(0);
+  card_title: "All"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "All"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: show
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/86b104138138885.Y3JvcCwzNTk4LDI4MTUsNzAzLDA.jpg
+  card_link: javascript:void(0);
+  card_title: "All"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "All"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1 #http://dmitryvolkov.me/demo/unitok/img/cover/slide1.jpg
+  explore_item_active_show: #
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/71f995132180335.Y3JvcCwyNzYxLDIxNjAsMCww.jpg
+  card_link: javascript:void(0);
+  card_title: "All"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "All"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_1
+  explore_item_active_show: #
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/b9393a112316851.Y3JvcCwyMTI1LDE2NjIsNDEwLDQyMA.jpg
+  card_link: javascript:void(0);
+  card_title: "All"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "All"
+  card_info_2: "Get The Full Story"
+
+
+#--------------------------
+- explore_item_id: "#item_2"
+  explore_item_controls: item_2
+  explore_item_title: Business
+  explore_item_active: #
+  explore_item_loops: item_2
+  explore_item_active_show: show
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/357b05136403549.Y3JvcCwzNTc5LDI4MDAsMjEyLDA.jpg
+  card_link: javascript:void(0);
+  card_title: "Business"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Business"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_2
+  explore_item_active_show: show
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/ca1d66122163939.Y3JvcCwxOTM1LDE1MTQsMzMsMA.jpg
+  card_link: javascript:void(0);
+  card_title: "Business"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Business"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_2
+  explore_item_active_show: show
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/ca1d66122163939.Y3JvcCwxOTM1LDE1MTQsMzMsMA.jpg
+  card_link: javascript:void(0);
+  card_title: "Business"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Business"
+  card_info_2: "Get The Full Story"
+
+- explore_item_loops: item_2
+  explore_item_active_show: show
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/ca1d66122163939.Y3JvcCwxOTM1LDE1MTQsMzMsMA.jpg
+  card_link: javascript:void(0);
+  card_title: "Business"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Business"
+  card_info_2: "Get The Full Story"
+
+
+#--------------------------
+- explore_item_id: "#item_3"
+  explore_item_controls: item_3
+  explore_item_title: Technology
+  explore_item_active: #
+
+
+#--------------------------
+- explore_item_id: "#item_4"
+  explore_item_controls: item_4
+  explore_item_title: Finance
+  explore_item_active: #
+
+
+#--------------------------
+- explore_item_id: "#item_5"
+  explore_item_controls: item_5
+  explore_item_title: Education
+  explore_item_active: #
+
+
+#--------------------------
+- explore_item_id: "#item_6"
+  explore_item_controls: item_6
+  explore_item_title: Biological Tech
+  explore_item_active: #
+
+
+#--------------------------
+- explore_item_id: "#item_7"
+  explore_item_controls: item_7
+  explore_item_title: More
+  explore_item_active: #

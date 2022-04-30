@@ -11,7 +11,7 @@
   <!-- TABS NAV START -->
   <div class="col-12">
     <ul class="nav nav-tabs main__tabs" id="main__tabs" role="tablist">
-      {% for explore_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.Explore %}
+      {% for explore_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
       {% if explore_loop_1.explore_item_title %}
       <li class="nav-item">
         <a class="nav-link {{ explore_loop_1.explore_item_active }}" data-toggle="tab" href="{{ explore_loop_1.explore_item_id }}" role="tab" aria-controls="{{ explore_loop_1.explore_item_controls }}" aria-selected="true">{{ explore_loop_1.explore_item_title }}</a>
@@ -24,11 +24,11 @@
   <div class="col-12">
     <!-- TABS CONTENT START -->
     <div class="tab-content">
-      {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.Explore %}
-      <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_loops }}" role="tabpanel">
+      {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+      <div class="tab-pane fade {% if explore_loop_2.explore_item_active_show %}{{ explore_loop_2.explore_item_active_show }} {% endif %}" id="{{ explore_loop_2.explore_item_loops }}" role="tabpanel">
         <div class="row row--grid">
-          {% for explore_loop_3 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.Explore %}
-            {% if explore_loop_3.explore_item_loops > "8" %}
+          {% for explore_loop_3 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore limit: 4 %}
+            {% if explore_loop_3.explore_item_loops == explore_loop_2.explore_item_loops %}
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
               <!-- CARD -->
               <div class="card">
@@ -46,7 +46,7 @@
                   <div class="users-avatar-status-complete status-complete is-complete">
                     <img src="{{ explore_loop_3.card_author }}" alt="{{ explore_loop_3.card_author_name }}">
                   </div>
-                  <a href="" class="ml-2">{{ explore_loop_3.card_author_name }}</a>
+                  <a class="ml-2">{{ explore_loop_3.card_author_name }}</a>
                 </div>
                 <div class="card__info">
                   <div class="card__price">
@@ -81,7 +81,7 @@
   <div class="col-12">
     <div class="main__carousel-wrap">
       <div class="main__carousel main__carousel--authors owl-carousel" id="authorsc">
-        {% for breaking_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.Breaking-News %}
+        {% for breaking_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.breaking_news %}
         <div class="author">
           <a class="author__cover author__cover--bg" data-bg="{{ breaking_loop_1.author_cover }}"></a>
           <div class="author__meta">
