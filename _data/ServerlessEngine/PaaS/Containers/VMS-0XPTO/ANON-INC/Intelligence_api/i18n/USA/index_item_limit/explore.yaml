@@ -3,28 +3,28 @@
   explore_item_controls: item_1
   explore_item_title: All
   explore_item_active: active
-  explore_item_loops: item_1
   explore_item_active_show: active show
+
+- router_level: #
+  explore_item_control: item_1
   card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/b5f69a93671749.Y3JvcCwzOTk5LDMxMjgsMCw0MzU.jpg
   card_link: javascript:void(0);
-  card_title: "All"
+  card_title: "COVID-19"
   card_author: https://avatars.githubusercontent.com/u/48172110
   card_author_name: "@ANONYMOUS"
-  card_info_1: "All"
+  card_info_1: "Overview Prevention Symptoms Coronavirus disease is an infectious disease caused by the SARS-CoV-2 virus."
   card_info_2: "Get The Full Story"
-
-- explore_item_loops: item_1
-  explore_item_active_show: show
-  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/86b104138138885.Y3JvcCwzNTk4LDI4MTUsNzAzLDA.jpg
+- router_level: #
+  explore_item_control: item_1
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/725975133278961.Y3JvcCwxMzY5LDEwNzEsMjc0LDA.jpg
   card_link: javascript:void(0);
   card_title: "All"
   card_author: https://avatars.githubusercontent.com/u/48172110
   card_author_name: "@ANONYMOUS"
   card_info_1: "All"
   card_info_2: "Get The Full Story"
-
-- explore_item_loops: item_1 #http://dmitryvolkov.me/demo/unitok/img/cover/slide1.jpg
-  explore_item_active_show: #
+- router_level: #
+  explore_item_control: item_1
   card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/71f995132180335.Y3JvcCwyNzYxLDIxNjAsMCww.jpg
   card_link: javascript:void(0);
   card_title: "All"
@@ -32,10 +32,9 @@
   card_author_name: "@ANONYMOUS"
   card_info_1: "All"
   card_info_2: "Get The Full Story"
-
-- explore_item_loops: item_1
-  explore_item_active_show: #
-  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/b9393a112316851.Y3JvcCwyMTI1LDE2NjIsNDEwLDQyMA.jpg
+- router_level: All
+  explore_item_control: item_1
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/fe7b4c115771733.605c98c178a11.jpg
   card_link: javascript:void(0);
   card_title: "All"
   card_author: https://avatars.githubusercontent.com/u/48172110
@@ -49,8 +48,10 @@
   explore_item_controls: item_2
   explore_item_title: Business
   explore_item_active: #
-  explore_item_loops: item_2
-  explore_item_active_show: show
+  explore_item_active_show: #
+
+- router_level: #
+  explore_item_control: item_2
   card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/357b05136403549.Y3JvcCwzNTc5LDI4MDAsMjEyLDA.jpg
   card_link: javascript:void(0);
   card_title: "Business"
@@ -58,30 +59,27 @@
   card_author_name: "@ANONYMOUS"
   card_info_1: "Business"
   card_info_2: "Get The Full Story"
-
-- explore_item_loops: item_2
-  explore_item_active_show: show
-  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/ca1d66122163939.Y3JvcCwxOTM1LDE1MTQsMzMsMA.jpg
+- router_level: #
+  explore_item_control: item_2
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/ae0696136732537.6203b21907d32.jpg
   card_link: javascript:void(0);
   card_title: "Business"
   card_author: https://avatars.githubusercontent.com/u/48172110
   card_author_name: "@ANONYMOUS"
   card_info_1: "Business"
   card_info_2: "Get The Full Story"
-
-- explore_item_loops: item_2
-  explore_item_active_show: show
-  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/ca1d66122163939.Y3JvcCwxOTM1LDE1MTQsMzMsMA.jpg
+- router_level: #
+  explore_item_control: item_2
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/34fbc4142136369.Y3JvcCwzNzExLDI5MDMsMzk1LDA.jpg
   card_link: javascript:void(0);
   card_title: "Business"
   card_author: https://avatars.githubusercontent.com/u/48172110
   card_author_name: "@ANONYMOUS"
   card_info_1: "Business"
   card_info_2: "Get The Full Story"
-
-- explore_item_loops: item_2
-  explore_item_active_show: show
-  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/ca1d66122163939.Y3JvcCwxOTM1LDE1MTQsMzMsMA.jpg
+- router_level: #
+  explore_item_control: item_2
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/3e36fe140040291.Y3JvcCwzMjM1LDI1MzEsMCww.jpg
   card_link: javascript:void(0);
   card_title: "Business"
   card_author: https://avatars.githubusercontent.com/u/48172110
@@ -95,6 +93,44 @@
   explore_item_controls: item_3
   explore_item_title: Technology
   explore_item_active: #
+  explore_item_active_show: #
+
+- router_level: #
+  explore_item_control: item_3
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/e2a48d140180143.Y3JvcCwxMjc0LDk5Nyw5NjUsNzg.png
+  card_link: javascript:void(0);
+  card_title: "Technology"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Technology"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_3
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/d8918094321823.Y3JvcCw1MDgxLDM5NzQsNDY1LDUxNQ.png
+  card_link: javascript:void(0);
+  card_title: "Technology"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Technology"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_3
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/060f1b127057601.Y3JvcCwyMTMyLDE2NjgsMTMxLDA.png
+  card_link: javascript:void(0);
+  card_title: "Technology"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Technology"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_3
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/04e3d1115632061.Y3JvcCwzMzY3LDI2MzQsMCww.jpg
+  card_link: javascript:void(0);
+  card_title: "Technology"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Technology"
+  card_info_2: "Get The Full Story"
 
 
 #--------------------------
@@ -103,12 +139,86 @@
   explore_item_title: Finance
   explore_item_active: #
 
+- router_level: #
+  explore_item_control: item_4
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/af465a141895277.Y3JvcCwxNzI3LDEzNTAsMjM1LDQyMw.jpg
+  card_link: javascript:void(0);
+  card_title: "Finance"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Finance"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_4
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/98adba127331483.Y3JvcCwyMDY2LDE2MTUsMCww.png
+  card_link: javascript:void(0);
+  card_title: "Finance"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Finance"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_4
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/5df5e8138476245.Y3JvcCwzMjMyLDI1MjgsMCww.png
+  card_link: javascript:void(0);
+  card_title: "Finance"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Finance"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_4
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/a993a8110321929.Y3JvcCw4NDMsNjU5LDMyOSw2Ng.jpg
+  card_link: javascript:void(0);
+  card_title: "Finance"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Finance"
+  card_info_2: "Get The Full Story"
+
 
 #--------------------------
 - explore_item_id: "#item_5"
   explore_item_controls: item_5
   explore_item_title: Education
   explore_item_active: #
+
+- router_level: #
+  explore_item_control: item_5
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/a0d6f6134625191.Y3JvcCw3MDgsNTU0LDQ3LDc1.png
+  card_link: javascript:void(0);
+  card_title: "Education"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Education"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_5
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/b392d5101263743.Y3JvcCwxNDUxLDExMzUsMTI1LDA.jpg
+  card_link: javascript:void(0);
+  card_title: "Education"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Education"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_5
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/872f07124864393.Y3JvcCwxOTE3LDE1MDAsMCww.png
+  card_link: javascript:void(0);
+  card_title: "Education"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Education"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_5
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/71e16692401457.Y3JvcCwzODM1LDMwMDAsMzcwLDA.jpg
+  card_link: javascript:void(0);
+  card_title: "Education"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Education"
+  card_info_2: "Get The Full Story"
 
 
 #--------------------------
@@ -117,9 +227,47 @@
   explore_item_title: Biological Tech
   explore_item_active: #
 
+- router_level: #
+  explore_item_control: item_6
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/97cdfe26394835.555c6a5e0cbcf.jpg
+  card_link: javascript:void(0);
+  card_title: "Biological Tech"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Biological Tech"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_6
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/a2720d103257199.Y3JvcCw4MTYsNjM4LDQyMiw2MDg.jpg
+  card_link: javascript:void(0);
+  card_title: "Biological Tech"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Biological Tech"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_6
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/3c0832136471933.Y3JvcCwxNDAwLDEwOTUsMCwxNTI.jpg
+  card_link: javascript:void(0);
+  card_title: "Biological Tech"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Biological Tech"
+  card_info_2: "Get The Full Story"
+- router_level: #
+  explore_item_control: item_6
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/95a8e661748817.Y3JvcCw2NTYsNTE0LDM3NiwxNjI.jpg
+  card_link: javascript:void(0);
+  card_title: "Biological Tech"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANONYMOUS"
+  card_info_1: "Biological Tech"
+  card_info_2: "Get The Full Story"
+
 
 #--------------------------
-- explore_item_id: "#item_7"
-  explore_item_controls: item_7
-  explore_item_title: More
-  explore_item_active: #
+- router_item_id: "#item_7"
+  router_item_controls: item_7
+  router_item_title: More
+  router_item_active: #
+  router_item_link: /test

@@ -18,49 +18,235 @@
       </li>
       {% endif %}
       {% endfor %}
+
+      {% for explore_loop_1 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+      {% if explore_loop_1.router_item_title %}
+      <li class="nav-item">
+        <a class="nav-link {{ explore_loop_1.router_item_active }}" href="{{ explore_loop_1.router_item_link }}" role="tab" aria-controls="{{ explore_loop_1.router_item_controls }}" aria-selected="true">{{ explore_loop_1.router_item_title }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
     </ul>
   </div>
+
   <!-- TABS NAV END -->
   <div class="col-12">
     <!-- TABS CONTENT START -->
     <div class="tab-content">
       {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
-      <div class="tab-pane fade {% if explore_loop_2.explore_item_active_show %}{{ explore_loop_2.explore_item_active_show }} {% endif %}" id="{{ explore_loop_2.explore_item_loops }}" role="tabpanel">
+      <!-- Router Level 1 -->
+      {% if explore_loop_2.explore_item_controls == "item_1" %}
+      <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_controls }}" role="tabpanel">
         <div class="row row--grid">
-          {% for explore_loop_3 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore limit: 4 %}
-            {% if explore_loop_3.explore_item_loops == explore_loop_2.explore_item_loops %}
-            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-              <!-- CARD -->
-              <div class="card">
-                <a href="{{ explore_loop_3.card_link }}" class="card__cover">
-                  <img src="{{ explore_loop_3.card_cover }}" alt="{{ explore_loop_3.card_title }}">
-                  <span class="card__time card__time--clock">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <path d="M8.46777,8.39453l-.00225.00183-.00214.00208ZM18.42188,8.208a1.237,1.237,0,0,0-.23-.17481.99959.99959,0,0,0-1.39941.41114,5.78155,5.78155,0,0,1-1.398,1.77734,8.6636,8.6636,0,0,0,.1333-1.50977,8.71407,8.71407,0,0,0-4.40039-7.582,1.00009,1.00009,0,0,0-1.49121.80567A7.017,7.017,0,0,1,7.165,6.87793l-.23047.1875a8.51269,8.51269,0,0,0-1.9873,1.8623A8.98348,8.98348,0,0,0,8.60254,22.83594.99942.99942,0,0,0,9.98,21.91016a1.04987,1.04987,0,0,0-.0498-.3125,6.977,6.977,0,0,1-.18995-2.58106,9.004,9.004,0,0,0,4.3125,4.0166.997.997,0,0,0,.71534.03809A8.99474,8.99474,0,0,0,18.42188,8.208ZM14.51709,21.03906a6.964,6.964,0,0,1-3.57666-4.40234,8.90781,8.90781,0,0,1-.17969-.96387,1.00025,1.00025,0,0,0-.79931-.84473A.982.982,0,0,0,9.77,14.80957a.99955.99955,0,0,0-.8667.501,8.9586,8.9586,0,0,0-1.20557,4.71777,6.98547,6.98547,0,0,1-1.17529-9.86816,6.55463,6.55463,0,0,1,1.562-1.458.74507.74507,0,0,0,.07422-.05469s.29669-.24548.30683-.2511a8.96766,8.96766,0,0,0,2.89874-4.63269,6.73625,6.73625,0,0,1,1.38623,8.08789,1.00024,1.00024,0,0,0,1.18359,1.418,7.85568,7.85568,0,0,0,3.86231-2.6875,7.00072,7.00072,0,0,1-3.2793,10.457Z"/>
-                    </svg>
-                    <span class="card__clock card__clock--2"></span>
-                  </span>
-                </a>
-                <h3 class="card__title"><a class="content-omitted-245" href="{{ explore_loop_3.card_link }}">{{ explore_loop_3.card_title }}</a></h3>
-                <div class="card__author">
-                  <div class="users-avatar-status-complete status-complete is-complete">
-                    <img src="{{ explore_loop_3.card_author }}" alt="{{ explore_loop_3.card_author_name }}">
-                  </div>
-                  <a class="ml-2">{{ explore_loop_3.card_author_name }}</a>
+          {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+          {% if explore_loop_2.explore_item_control == "item_1" %}
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <!-- CARD -->
+            <div class="card">
+              <a href="{{ explore_loop_2.card_link }}" class="card__cover">
+                <img src="{{ explore_loop_2.card_cover }}" alt="{{ explore_loop_2.card_title }}">
+                <span class="card__time">Latest Release</span>
+              </a>
+              <h3 class="card__title"><a class="content-omitted-245" href="{{ explore_loop_2.card_link }}">{{ explore_loop_2.card_title }}</a></h3>
+              <div class="card__author card__author--verified">
+                <div class="users-avatar-status-complete status-complete is-complete">
+                  <img src="{{ explore_loop_2.card_author }}" alt="{{ explore_loop_2.card_author_name }}">
                 </div>
-                <div class="card__info">
-                  <div class="card__price">
-                    <span class="content-omitted-245">{{ explore_loop_3.card_info_1 }}</span>
-                    <span class="content-omitted-245">{{ explore_loop_3.card_info_2 }}</span>
-                  </div>
+                <a class="ml-2">{{ explore_loop_2.card_author_name }}</a>
+              </div>
+              <div class="card__info">
+                <div class="card__price">
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_1 }}</span>
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_2 }}</span>
                 </div>
               </div>
-              <!-- CARD END -->
             </div>
-            {% endif %}
+            <!-- CARD END -->
+          </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
+      {% endif %}
+
+      <!-- Router Level 2 -->
+      {% if explore_loop_2.explore_item_controls == "item_2" %}
+      <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_controls }}" role="tabpanel">
+        <div class="row row--grid">
+          {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+          {% if explore_loop_2.explore_item_control == "item_2" %}
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <!-- CARD -->
+            <div class="card">
+              <a href="{{ explore_loop_2.card_link }}" class="card__cover">
+                <img src="{{ explore_loop_2.card_cover }}" alt="{{ explore_loop_2.card_title }}">
+                <span class="card__time card__time--clock">
+                  <i class="ri-history-line" style="margin-right: 3px; font-size: 16px;"></i>
+                  <span class="card__clock card__clock--2"></span>
+                </span>
+              </a>
+              <h3 class="card__title"><a class="content-omitted-245" href="{{ explore_loop_2.card_link }}">{{ explore_loop_2.card_title }}</a></h3>
+              <div class="card__author card__author--verified">
+                <div class="users-avatar-status-complete status-complete is-complete">
+                  <img src="{{ explore_loop_2.card_author }}" alt="{{ explore_loop_2.card_author_name }}">
+                </div>
+                <a class="ml-2">{{ explore_loop_2.card_author_name }}</a>
+              </div>
+              <div class="card__info">
+                <div class="card__price">
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_1 }}</span>
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_2 }}</span>
+                </div>
+              </div>
+            </div>
+            <!-- CARD END -->
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Router Level 3 -->
+      {% if explore_loop_2.explore_item_controls == "item_3" %}
+      <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_controls }}" role="tabpanel">
+        <div class="row row--grid">
+          {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+          {% if explore_loop_2.explore_item_control == "item_3" %}
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <!-- CARD -->
+            <div class="card">
+              <a href="{{ explore_loop_2.card_link }}" class="card__cover">
+                <img src="{{ explore_loop_2.card_cover }}" alt="{{ explore_loop_2.card_title }}">
+                <span class="card__time">15 minutes left</span>
+              </a>
+              <h3 class="card__title"><a class="content-omitted-245" href="{{ explore_loop_2.card_link }}">{{ explore_loop_2.card_title }}</a></h3>
+              <div class="card__author card__author--verified">
+                <div class="users-avatar-status-complete status-complete is-complete">
+                  <img src="{{ explore_loop_2.card_author }}" alt="{{ explore_loop_2.card_author_name }}">
+                </div>
+                <a class="ml-2">{{ explore_loop_2.card_author_name }}</a>
+              </div>
+              <div class="card__info">
+                <div class="card__price">
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_1 }}</span>
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_2 }}</span>
+                </div>
+              </div>
+            </div>
+            <!-- CARD END -->
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Router Level 4 -->
+      {% if explore_loop_2.explore_item_controls == "item_4" %}
+      <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_controls }}" role="tabpanel">
+        <div class="row row--grid">
+          {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+          {% if explore_loop_2.explore_item_control == "item_4" %}
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <!-- CARD -->
+            <div class="card">
+              <a href="{{ explore_loop_2.card_link }}" class="card__cover">
+                <img src="{{ explore_loop_2.card_cover }}" alt="{{ explore_loop_2.card_title }}">
+                <span class="card__time">15 minutes left</span>
+              </a>
+              <h3 class="card__title"><a class="content-omitted-245" href="{{ explore_loop_2.card_link }}">{{ explore_loop_2.card_title }}</a></h3>
+              <div class="card__author card__author--verified">
+                <div class="users-avatar-status-complete status-complete is-complete">
+                  <img src="{{ explore_loop_2.card_author }}" alt="{{ explore_loop_2.card_author_name }}">
+                </div>
+                <a class="ml-2">{{ explore_loop_2.card_author_name }}</a>
+              </div>
+              <div class="card__info">
+                <div class="card__price">
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_1 }}</span>
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_2 }}</span>
+                </div>
+              </div>
+            </div>
+            <!-- CARD END -->
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Router Level 5 -->
+      {% if explore_loop_2.explore_item_controls == "item_5" %}
+      <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_controls }}" role="tabpanel">
+        <div class="row row--grid">
+          {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+          {% if explore_loop_2.explore_item_control == "item_5" %}
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <!-- CARD -->
+            <div class="card">
+              <a href="{{ explore_loop_2.card_link }}" class="card__cover">
+                <img src="{{ explore_loop_2.card_cover }}" alt="{{ explore_loop_2.card_title }}">
+                <span class="card__time">15 minutes left</span>
+              </a>
+              <h3 class="card__title"><a class="content-omitted-245" href="{{ explore_loop_2.card_link }}">{{ explore_loop_2.card_title }}</a></h3>
+              <div class="card__author card__author--verified">
+                <div class="users-avatar-status-complete status-complete is-complete">
+                  <img src="{{ explore_loop_2.card_author }}" alt="{{ explore_loop_2.card_author_name }}">
+                </div>
+                <a class="ml-2">{{ explore_loop_2.card_author_name }}</a>
+              </div>
+              <div class="card__info">
+                <div class="card__price">
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_1 }}</span>
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_2 }}</span>
+                </div>
+              </div>
+            </div>
+            <!-- CARD END -->
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Router Level 6 -->
+      {% if explore_loop_2.explore_item_controls == "item_6" %}
+      <div class="tab-pane fade {{ explore_loop_2.explore_item_active_show }}" id="{{ explore_loop_2.explore_item_controls }}" role="tabpanel">
+        <div class="row row--grid">
+          {% for explore_loop_2 in site.data.ServerlessEngine.PaaS.Containers.VMS-0XPTO.ANON-INC.Intelligence_api.i18n.USA.index_item_limit.explore %}
+          {% if explore_loop_2.explore_item_control == "item_6" %}
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <!-- CARD -->
+            <div class="card">
+              <a href="{{ explore_loop_2.card_link }}" class="card__cover">
+                <img src="{{ explore_loop_2.card_cover }}" alt="{{ explore_loop_2.card_title }}">
+                <span class="card__time">15 minutes left</span>
+              </a>
+              <h3 class="card__title"><a class="content-omitted-245" href="{{ explore_loop_2.card_link }}">{{ explore_loop_2.card_title }}</a></h3>
+              <div class="card__author card__author--verified">
+                <div class="users-avatar-status-complete status-complete is-complete">
+                  <img src="{{ explore_loop_2.card_author }}" alt="{{ explore_loop_2.card_author_name }}">
+                </div>
+                <a class="ml-2">{{ explore_loop_2.card_author_name }}</a>
+              </div>
+              <div class="card__info">
+                <div class="card__price">
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_1 }}</span>
+                  <span class="content-omitted-245">{{ explore_loop_2.card_info_2 }}</span>
+                </div>
+              </div>
+            </div>
+            <!-- CARD END -->
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
       {% endfor %}
     </div>
     <!-- TABS CONTENT END -->
@@ -139,7 +325,7 @@
 	<div class="col-12 col-sm-6 col-lg-4">
 		<div class="post">
 			<a href="javascript:void(0);" class="post__img">
-				<img src="http://dmitryvolkov.me/demo/unitok/img/posts/1.jpg" alt="">
+				<img src="https://mir-s3-cdn-cf.behance.net/projects/404/1c38ad140695041.Y3JvcCw3NDksNTg2LDMyNCwxMDA.png" alt="">
 			</a>
 			<div class="post__content">
 				<a href="javascript:void(0);" class="post__category">Charity</a>
@@ -148,14 +334,10 @@
 				</h3>
 				<div class="post__meta">
 					<span class="post__date">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-							<path d="M12,2A10,10,0,1,0,22,12,10.01114,10.01114,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8.00917,8.00917,0,0,1,12,20ZM14.09814,9.63379,13,10.26807V7a1,1,0,0,0-2,0v5a1.00025,1.00025,0,0,0,1.5.86621l2.59814-1.5a1.00016,1.00016,0,1,0-1-1.73242Z" />
-						</svg> April 25, 2021
+						<i class="ri-timer-2-line" style="margin-right: 6px; font-size: 16px;"></i> April 25, 2021
 					</span>
 					<span class="post__comments">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-							<path d="M17,9H7a1,1,0,0,0,0,2H17a1,1,0,0,0,0-2Zm-4,4H7a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2ZM12,2A10,10,0,0,0,2,12a9.89,9.89,0,0,0,2.26,6.33l-2,2a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,22h9A10,10,0,0,0,12,2Zm0,18H5.41l.93-.93a1,1,0,0,0,0-1.41A8,8,0,1,1,12,20Z" />
-						</svg> 119
+            <i class="ri-profile-line" style="margin-right: 6px; font-size: 16px;"></i> Get Reading
 					</span>
 				</div>
 			</div>
@@ -167,7 +349,7 @@
 	<div class="col-12 col-sm-6 col-lg-4">
 		<div class="post">
 			<a href="javascript:void(0);" class="post__img">
-				<img src="http://dmitryvolkov.me/demo/unitok/img/posts/2.jpg" alt="">
+				<img src="https://mir-s3-cdn-cf.behance.net/projects/404/21735d112766309.Y3JvcCwxMjY1LDk5MCw2NSww.png" alt="">
 			</a>
 			<div class="post__content">
 				<a href="javascript:void(0);" class="post__category">Digital Art</a>
@@ -176,14 +358,10 @@
 				</h3>
 				<div class="post__meta">
 					<span class="post__date">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-							<path d="M12,2A10,10,0,1,0,22,12,10.01114,10.01114,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8.00917,8.00917,0,0,1,12,20ZM14.09814,9.63379,13,10.26807V7a1,1,0,0,0-2,0v5a1.00025,1.00025,0,0,0,1.5.86621l2.59814-1.5a1.00016,1.00016,0,1,0-1-1.73242Z" />
-						</svg> April 24, 2021
+						<i class="ri-timer-2-line" style="margin-right: 6px; font-size: 16px;"></i> April 24, 2021
 					</span>
 					<span class="post__comments">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-							<path d="M17,9H7a1,1,0,0,0,0,2H17a1,1,0,0,0,0-2Zm-4,4H7a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2ZM12,2A10,10,0,0,0,2,12a9.89,9.89,0,0,0,2.26,6.33l-2,2a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,22h9A10,10,0,0,0,12,2Zm0,18H5.41l.93-.93a1,1,0,0,0,0-1.41A8,8,0,1,1,12,20Z" />
-						</svg> 88
+            <i class="ri-profile-line" style="margin-right: 6px; font-size: 16px;"></i> Get Reading
 					</span>
 				</div>
 			</div>
@@ -195,7 +373,7 @@
 	<div class="col-12 col-sm-6 col-lg-4">
 		<div class="post">
 			<a href="javascript:void(0);" class="post__img">
-				<img src="http://dmitryvolkov.me/demo/unitok/img/posts/3.jpg" alt="">
+				<img src="https://mir-s3-cdn-cf.behance.net/projects/404/64c4f4110822343.Y3JvcCwxMTkyLDkzMywxMDMsMA.png" alt="">
 			</a>
 			<div class="post__content">
 				<a href="javascript:void(0);" class="post__category">Digital Art</a>
@@ -204,14 +382,10 @@
 				</h3>
 				<div class="post__meta">
 					<span class="post__date">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-							<path d="M12,2A10,10,0,1,0,22,12,10.01114,10.01114,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8.00917,8.00917,0,0,1,12,20ZM14.09814,9.63379,13,10.26807V7a1,1,0,0,0-2,0v5a1.00025,1.00025,0,0,0,1.5.86621l2.59814-1.5a1.00016,1.00016,0,1,0-1-1.73242Z" />
-						</svg> April 22, 2021
+						<i class="ri-timer-2-line" style="margin-right: 6px; font-size: 16px;"></i> April 22, 2021
 					</span>
 					<span class="post__comments">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-							<path d="M17,9H7a1,1,0,0,0,0,2H17a1,1,0,0,0,0-2Zm-4,4H7a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2ZM12,2A10,10,0,0,0,2,12a9.89,9.89,0,0,0,2.26,6.33l-2,2a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,22h9A10,10,0,0,0,12,2Zm0,18H5.41l.93-.93a1,1,0,0,0,0-1.41A8,8,0,1,1,12,20Z" />
-						</svg> 54
+            <i class="ri-profile-line" style="margin-right: 6px; font-size: 16px;"></i> Get Reading
 					</span>
 				</div>
 			</div>
