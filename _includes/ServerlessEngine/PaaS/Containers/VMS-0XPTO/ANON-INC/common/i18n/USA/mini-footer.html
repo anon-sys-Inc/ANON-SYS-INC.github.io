@@ -51,42 +51,87 @@
 <footer class="un-bottom-navigation filter-blur" id="MINI-UI">
   <div class="em_body_navigation border-0 -active-links">
       <div class="item_link">
-          <a href="javascript:void(0);" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="ltr_1" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-compass-4-line"></i></div>
               <div class="icon_active"><i class="ri-compass-4-fill"></i></div>
           </a>
       </div>
       <div class="item_link">
-          <a href="javascript:void(0);" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="ltr_2" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-newspaper-line"></i></div>
               <div class="icon_active"><i class="ri-newspaper-fill"></i></div>
-              <!-- <div class="icon_current"><i class="ri-search-2-line"></i></div>
-              <div class="icon_active"><i class="ri-search-2-fill"></i></div> -->
           </a>
       </div>
       <div class="item_link">
-        <a href="{{ site.remote_network_api_i18n_USA }}" class="btn btn_navLink active" aria-label="btnNavigation">
+        <a href="{{ site.remote_network_api_i18n_USA }}" id="mini_home" class="btn btn_navLink active" aria-label="btnNavigation">
             <div class="icon_current"><i class="ri-home-5-line"></i></div>
             <div class="icon_active"><i class="ri-home-5-fill"></i></div>
         </a>
-    </div>
-      <!-- <div class="item_link">
-          <button type="button" name="uploadItem" aria-label="uploadItem" class="btn btn_navLink without_active"
-          data-bs-toggle="modal" data-bs-target="#mdllUploadItem" aria-label="btnNavigation">
-              <div class="btn btnCircle_default"><i class="ri-add-line"></i></div>
-          </button>
-      </div> -->
+      </div>
       <div class="item_link">
-          <a href="javascript:void(0);" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="rtl_1" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-stock-line"></i></div>
               <div class="icon_active"><i class="ri-stock-fill"></i></div>
           </a>
       </div>
       <div class="item_link">
-          <a href="javascript:void(0);" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="rtl_2" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-user-4-line"></i></div>
               <div class="icon_active"><i class="ri-user-4-fill"></i></div>
           </a>
+          <script>
+            window.addEventListener("click", function () {
+                $("#ltr_1").click(function (){
+                  $("#ltr_1").addClass("active");
+                  $("#ltr_2").removeClass("active");
+                  $("#mini_home").removeClass("active");
+                  $("#rtl_1").removeClass("active");
+                  $("#rtl_2").removeClass("active");
+                })
+                $("#ltr_2").click(function (){
+                  $("#ltr_1").removeClass("active");
+                  $("#ltr_2").addClass("active");
+                  $("#mini_home").removeClass("active");
+                  $("#rtl_1").removeClass("active");
+                  $("#rtl_2").removeClass("active");
+                })
+                $("#mini_home").click(function (){
+                  $("#ltr_1").removeClass("active");
+                  $("#ltr_2").removeClass("active");
+                  $("#mini_home").addClass("active");
+                  $("#rtl_1").removeClass("active");
+                  $("#rtl_2").removeClass("active");
+                })
+                $("#rtl_1").click(function (){
+                  $("#ltr_1").removeClass("active");
+                  $("#ltr_2").removeClass("active");
+                  $("#mini_home").removeClass("active");
+                  $("#rtl_1").addClass("active");
+                  $("#rtl_2").removeClass("active");
+                })
+                $("#rtl_2").click(function (){
+                  $("#ltr_1").removeClass("active");
+                  $("#ltr_2").removeClass("active");
+                  $("#mini_home").removeClass("active");
+                  $("#rtl_1").removeClass("active");
+                  $("#rtl_2").addClass("active");
+                })
+
+                // function test() {
+                //     var id = a1;
+                //     window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
+                //     $("#a1").addClass("visited active");
+                //     $("#a2").removeClass("active");
+                // }
+                // $("#a1").click(function (){
+                //                         window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
+                //     $("#a1").addClass("visited active");
+                //     $("#a2").removeClass("active");
+                // })
+            });
+
+
+          </script>
       </div>
   </div>
 </footer>
