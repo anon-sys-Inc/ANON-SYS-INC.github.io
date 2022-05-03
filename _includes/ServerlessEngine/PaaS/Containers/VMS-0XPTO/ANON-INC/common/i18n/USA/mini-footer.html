@@ -81,133 +81,143 @@
           </a>
        </div>
 
-       <script language="javascript" type="text/javascript">
+       <script type="text/javascript">
 
-        /* Cookies Function */
-        function setCookie(cname, cvalue, exhours) {
+
+        // /* Cookies Function */
+        // function setCookie(cname, cvalue, exhours) {
+        //     var d = new Date();
+        //     var minutes = 1000 * 60;
+        //     var hours = minutes * 60;
+        //     var days = hours * 24;
+        //     /* d.setTime(d.getTime() + (30*60*1000)); 30 Minutes */
+        //     d.setTime(d.getTime() + days); /* 1days */
+        //     var expires = "expires=" + d.toString();
+        //     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        // }
+
+        // function getCookie(cname) {
+        //     var name = cname + "=";
+        //     var decodedCookie = decodeURIComponent(document.cookie);
+        //     var ca = decodedCookie.split(';');
+        //     for (var i = 0; i < ca.length; i++) {
+        //         var c = ca[i];
+        //         while (c.charAt(0) == ' ') {
+        //             c = c.substring(1);
+        //         }
+        //         if (c.indexOf(name) == 0) {
+        //             return c.substring(name.length, c.length);
+        //         }
+        //     }
+        //     return "";
+        // }
+
+        //设置cookie
+        var passKey = '4c05c54d952b11e691d76c0b843ea7f9';
+        function setCookie(cname, cvalue, exdays) {
             var d = new Date();
-            var minutes = 1000 * 60;
-            var hours = minutes * 60;
-            var days = hours * 24;
-            /* d.setTime(d.getTime() + (30*60*1000)); 30 Minutes */
-            d.setTime(d.getTime() + days); /* 1days */
-            var expires = "expires=" + d.toString();
-            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+            var expires = "expires="+d.toUTCString();
+            document.cookie = cname + "=" + encrypt(escape(cvalue), passKey) + "; " + expires;
         }
 
+        //获取cookie
         function getCookie(cname) {
             var name = cname + "=";
-            var decodedCookie = decodeURIComponent(document.cookie);
-            var ca = decodedCookie.split(';');
-            for (var i = 0; i < ca.length; i++) {
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++) {
                 var c = ca[i];
-                while (c.charAt(0) == ' ') {
-                    c = c.substring(1);
-                }
-                if (c.indexOf(name) == 0) {
-                    return c.substring(name.length, c.length);
+                while (c.charAt(0)==' ') c = c.substring(1);
+                if (c.indexOf(name) != -1){
+                  var cnameValue = unescape(c.substring(name.length, c.length));
+                  return decrypt(cnameValue, passKey);
                 }
             }
             return "";
         }
-        // window.onload = function() {
-        // $("#rtl_2").click(function (){
-              // $("#ltr_1").removeClass("active");
-              // $("#ltr_2").removeClass("active");
-              // $("#mini_home").removeClass("active");
-              // $("#rtl_1").removeClass("active");
-              // $("#rtl_2").addClass("active");
-              // window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
-          // });
-        //   var user=getCookie("active");
-        //   if (user!=""){
-        //     alert("欢迎 " + user + " 再次访问");
-        //   } else {
-        //     var user=$("#rtl_2").addClass("active");
-        //         setCookie("active", user, 30);
-        //     }
-        // }
+
+
+
         window.addEventListener("click", function () {
-            $("#ltr_1").click(function (){
-              $("#ltr_1").addClass("active");
-              $("#ltr_2").removeClass("active");
-              $("#mini_home").removeClass("active");
-              $("#rtl_1").removeClass("active");
-              $("#rtl_2").removeClass("active");
-            });
-            $("#ltr_2").click(function (){
-              $("#ltr_1").removeClass("active");
-              $("#ltr_2").addClass("active");
-              $("#mini_home").removeClass("active");
-              $("#rtl_1").removeClass("active");
-              $("#rtl_2").removeClass("active");
-            });
-            $("#mini_home").click(function (){
-              $("#ltr_1").removeClass("active");
-              $("#ltr_2").removeClass("active");
-              $("#mini_home").addClass("active")
-              $("#rtl_1").removeClass("active");
-              $("#rtl_2").removeClass("active");
-            });
-            $("#rtl_1").click(function (){
-              $("#ltr_1").removeClass("active");
-              $("#ltr_2").removeClass("active");
-              $("#mini_home").removeClass("active");
-              $("#rtl_1").addClass("active");
-              $("#rtl_2").removeClass("active");
-            });
 
+          $(function(){
+            var ltr_1 = getCookie('ltr_1');
+            var mini_home = getCookie('mini_home');
+            if(ltr_1 != "" && mini_home != ""){
+              $("#ltr_1").val(ltr_1);
+              alert($("#ltr_1").val(ltr_1));
+              $("#mini_home").val(mini_home);
+             }
+            // if(getCookie('ltr_1')&&getCookie('mini_home')){
+            //     $('#ltr_1').val(getCookie('ltr_1'));
+            //     $('#mini_home').val(getCookie('mini_home'));
+            // }
+            // else{
+            //     $('#ltr_1').val('');
+            //     $('#mini_home').val('');
+            // }
+        });
 
+        $('#ltr_1').click(function(){
+                var ltr_1 = $('#ltr_1').addClass("active");
+                var mini_home = $('#mini_home').removeClass("active");
+                setCookie("ltr_1", ltr_1);
+                setCookie("mini_home", mini_home);
+        });
+          // $("#ltr_1").click(function(evt) {
+          //   $(event.target).addClass("active");
+          //   $("#mini_home").removeClass("active");
+          //   window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
+          // });
 
+        //   $("#ltr_1").click(function (){
+        //     list = ['#ltr_2', '#mini_home', '#rtl_1', 'rtl_2'];
+        //     for(var id in list) {
+        //       if (id != "#ltr_1"){
+        //         alert(id);
+        //         $(id).removeClass("active");
+        //       }
+        //       $(id).removeClass("up").addClass("down");
+        //     }
+        // });
 
+            // $("#ltr_1").click(function (){
+            //   $("#ltr_1").addClass("active");
+            //   $("#ltr_2").removeClass("active");
+            //   $("#mini_home").removeClass("active");
+            //   $("#rtl_1").removeClass("active");
+            //   $("#rtl_2").removeClass("active");
+            // });
+            // $("#ltr_2").click(function (){
+            //   $("#ltr_1").removeClass("active");
+            //   $("#ltr_2").addClass("active");
+            //   $("#mini_home").removeClass("active");
+            //   $("#rtl_1").removeClass("active");
+            //   $("#rtl_2").removeClass("active");
+            // });
+            // $("#mini_home").click(function (){
+            //   $("#ltr_1").removeClass("active");
+            //   $("#ltr_2").removeClass("active");
+            //   $("#mini_home").addClass("active")
+            //   $("#rtl_1").removeClass("active");
+            //   $("#rtl_2").removeClass("active");
+            // });
+            // $("#rtl_1").click(function (){
+            //   $("#ltr_1").removeClass("active");
+            //   $("#ltr_2").removeClass("active");
+            //   $("#mini_home").removeClass("active");
+            //   $("#rtl_1").addClass("active");
+            //   $("#rtl_2").removeClass("active");
+            // });
+            // $("#rtl_2").click(function (){
+            //       $("#ltr_1").removeClass("active");
+            //       $("#ltr_2").removeClass("active");
+            //       $("#mini_home").removeClass("active");
+            //       $("#rtl_1").removeClass("active");
+            //       $("#rtl_2").addClass("active");
+            //       window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
+            //   });
 
-              // $("#ltr_1").removeClass("active");
-              // $("#ltr_2").removeClass("active");
-              // $("#mini_home").removeClass("active");
-              // $("#rtl_1").removeClass("active");
-              // $("#rtl_2").addClass("active");
-
-
-              
-              // return false;
-              // var $ckVal = getCookie('ckClass');
-              // // alert($ckVal)
-              // if ($ckVal) {
-              //   if ($ckVal == 'btn btn_navLink active') {
-              //     $('#rtl_2').attr('class', '').addClass('btn btn_navLink active');
-              //   } else {
-              //     $('#rtl_2').attr('class', '').addClass('btn btn_navLink visited');
-              //   }
-              // }
-              // var $ckVal2 = getCookie('ckClass');
-              // // alert($ckVal)
-              // if ($ckVal2) {
-              //   if ($ckVal2 == 'btn btn_navLink active') {
-              //     $('#mini_home').attr('class', '').removeClass('btn btn_navLink active');
-              //   } else {
-              //     $('#mini_home').attr('class', '').removeClass('btn btn_navLink visited');
-              //   }
-              // }
-              // $("#rtl_2").addClass("active").load(location.href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details");;
-              // 
-              // setCookie("show_item", $("#rtl_2").addClass("active"));
-              
-              // if (getCookie("show_item")) {
-              //   $('#rtl_2').val(getCookie("add_active"));
-              //   $('#mini_home').val(getCookie("remove_active"));
-              // }
-              // var add_active = "btn btn_navLink";
-              // setCookie("add_active", add_active);
-              // var remove_active = "btn btn_navLink active";
-              // setCookie("remove_active", remove_active);
-              // alert(remove_active);
-              // console.log(remove_active);
-
-              
-
-              // alert(getCookie("show_item"));
-              
-            
         });
       </script>
   </div>

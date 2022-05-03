@@ -3479,11 +3479,17 @@ ul {
   height: calc(100% - 20px);
   box-shadow: 0 8px 20px rgb(32 54 86 / 6%);
 }
-.post__img {
+[sync-transformers-model-version="light-models"] .post__img {
   display: block;
   width: 100%;
   position: relative;
-  background-color: #000;
+  background-color: #fff;
+}
+[sync-transformers-model-version="dark-models"] .post__img {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: #222227;
 }
 .post__img:before {
   content: '';
