@@ -2231,7 +2231,7 @@ ul {
   height: 4px;
   width: 10px;
   border-radius: 2px;
-  background-color: #bdbdbd;
+  background-color: #c6dcea;
   transition: 0.5s ease;
 }
 .main__carousel .owl-dot.active span {
@@ -2993,6 +2993,7 @@ ul {
 }
 .hero .owl-stage-outer {
   border-radius: 16px;
+  box-shadow: 0 8px 20px rgb(32 54 86 / 30%);
 }
 .hero__slide {
   display: flex;
@@ -3402,6 +3403,7 @@ ul {
   font-weight: 600;
   padding: 0 12px;
   backdrop-filter: blur(121px);
+  -webkit-backdrop-filter: blur(121px);
 }
 
 [sync-transformers-model-version="light-models"] .card__time {
@@ -3420,6 +3422,7 @@ ul {
   font-weight: 600;
   padding: 0 12px;
   backdrop-filter: blur(121px);
+  -webkit-backdrop-filter: blur(121px);
 }
 
 .card__time svg {
@@ -3461,7 +3464,6 @@ ul {
   align-items: flex-start;
   height: calc(100% - 20px);
   box-shadow: 0 8px 20px rgb(32 54 86 / 6%);
-  
 }
 [sync-transformers-model-version="dark-models"] .post {
   position: relative;

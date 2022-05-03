@@ -79,60 +79,137 @@
               <div class="icon_current"><i class="ri-user-4-line"></i></div>
               <div class="icon_active"><i class="ri-user-4-fill"></i></div>
           </a>
-          <script>
-            window.addEventListener("click", function () {
-                $("#ltr_1").click(function (){
-                  $("#ltr_1").addClass("active");
-                  $("#ltr_2").removeClass("active");
-                  $("#mini_home").removeClass("active");
-                  $("#rtl_1").removeClass("active");
-                  $("#rtl_2").removeClass("active");
-                })
-                $("#ltr_2").click(function (){
-                  $("#ltr_1").removeClass("active");
-                  $("#ltr_2").addClass("active");
-                  $("#mini_home").removeClass("active");
-                  $("#rtl_1").removeClass("active");
-                  $("#rtl_2").removeClass("active");
-                })
-                $("#mini_home").click(function (){
-                  $("#ltr_1").removeClass("active");
-                  $("#ltr_2").removeClass("active");
-                  $("#mini_home").addClass("active");
-                  $("#rtl_1").removeClass("active");
-                  $("#rtl_2").removeClass("active");
-                })
-                $("#rtl_1").click(function (){
-                  $("#ltr_1").removeClass("active");
-                  $("#ltr_2").removeClass("active");
-                  $("#mini_home").removeClass("active");
-                  $("#rtl_1").addClass("active");
-                  $("#rtl_2").removeClass("active");
-                })
-                $("#rtl_2").click(function (){
-                  $("#ltr_1").removeClass("active");
-                  $("#ltr_2").removeClass("active");
-                  $("#mini_home").removeClass("active");
-                  $("#rtl_1").removeClass("active");
-                  $("#rtl_2").addClass("active");
-                })
+       </div>
 
-                // function test() {
-                //     var id = a1;
-                //     window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
-                //     $("#a1").addClass("visited active");
-                //     $("#a2").removeClass("active");
-                // }
-                // $("#a1").click(function (){
-                //                         window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
-                //     $("#a1").addClass("visited active");
-                //     $("#a2").removeClass("active");
-                // })
+       <script language="javascript" type="text/javascript">
+
+        /* Cookies Function */
+        function setCookie(cname, cvalue, exhours) {
+            var d = new Date();
+            var minutes = 1000 * 60;
+            var hours = minutes * 60;
+            var days = hours * 24;
+            /* d.setTime(d.getTime() + (30*60*1000)); 30 Minutes */
+            d.setTime(d.getTime() + days); /* 1days */
+            var expires = "expires=" + d.toString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+        // window.onload = function() {
+        // $("#rtl_2").click(function (){
+              // $("#ltr_1").removeClass("active");
+              // $("#ltr_2").removeClass("active");
+              // $("#mini_home").removeClass("active");
+              // $("#rtl_1").removeClass("active");
+              // $("#rtl_2").addClass("active");
+              // window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
+          // });
+        //   var user=getCookie("active");
+        //   if (user!=""){
+        //     alert("欢迎 " + user + " 再次访问");
+        //   } else {
+        //     var user=$("#rtl_2").addClass("active");
+        //         setCookie("active", user, 30);
+        //     }
+        // }
+        window.addEventListener("click", function () {
+            $("#ltr_1").click(function (){
+              $("#ltr_1").addClass("active");
+              $("#ltr_2").removeClass("active");
+              $("#mini_home").removeClass("active");
+              $("#rtl_1").removeClass("active");
+              $("#rtl_2").removeClass("active");
+            });
+            $("#ltr_2").click(function (){
+              $("#ltr_1").removeClass("active");
+              $("#ltr_2").addClass("active");
+              $("#mini_home").removeClass("active");
+              $("#rtl_1").removeClass("active");
+              $("#rtl_2").removeClass("active");
+            });
+            $("#mini_home").click(function (){
+              $("#ltr_1").removeClass("active");
+              $("#ltr_2").removeClass("active");
+              $("#mini_home").addClass("active")
+              $("#rtl_1").removeClass("active");
+              $("#rtl_2").removeClass("active");
+            });
+            $("#rtl_1").click(function (){
+              $("#ltr_1").removeClass("active");
+              $("#ltr_2").removeClass("active");
+              $("#mini_home").removeClass("active");
+              $("#rtl_1").addClass("active");
+              $("#rtl_2").removeClass("active");
             });
 
 
-          </script>
-      </div>
+
+
+
+              // $("#ltr_1").removeClass("active");
+              // $("#ltr_2").removeClass("active");
+              // $("#mini_home").removeClass("active");
+              // $("#rtl_1").removeClass("active");
+              // $("#rtl_2").addClass("active");
+
+
+              
+              // return false;
+              // var $ckVal = getCookie('ckClass');
+              // // alert($ckVal)
+              // if ($ckVal) {
+              //   if ($ckVal == 'btn btn_navLink active') {
+              //     $('#rtl_2').attr('class', '').addClass('btn btn_navLink active');
+              //   } else {
+              //     $('#rtl_2').attr('class', '').addClass('btn btn_navLink visited');
+              //   }
+              // }
+              // var $ckVal2 = getCookie('ckClass');
+              // // alert($ckVal)
+              // if ($ckVal2) {
+              //   if ($ckVal2 == 'btn btn_navLink active') {
+              //     $('#mini_home').attr('class', '').removeClass('btn btn_navLink active');
+              //   } else {
+              //     $('#mini_home').attr('class', '').removeClass('btn btn_navLink visited');
+              //   }
+              // }
+              // $("#rtl_2").addClass("active").load(location.href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details");;
+              // 
+              // setCookie("show_item", $("#rtl_2").addClass("active"));
+              
+              // if (getCookie("show_item")) {
+              //   $('#rtl_2').val(getCookie("add_active"));
+              //   $('#mini_home').val(getCookie("remove_active"));
+              // }
+              // var add_active = "btn btn_navLink";
+              // setCookie("add_active", add_active);
+              // var remove_active = "btn btn_navLink active";
+              // setCookie("remove_active", remove_active);
+              // alert(remove_active);
+              // console.log(remove_active);
+
+              
+
+              // alert(getCookie("show_item"));
+              
+            
+        });
+      </script>
   </div>
 </footer>
 <!-- FOOTER END -->
