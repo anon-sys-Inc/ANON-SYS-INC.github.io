@@ -85,6 +85,18 @@
 	left:45%
 }
 
+[sync-transformers-model-version="dark-models"] .nav-indicator {
+	content:"";
+	background-color: #00ffa9;
+	width:5px;
+	height:5px;
+	border-radius:50%;
+	position:absolute;
+	bottom:3px;
+	opacity:1;
+	left:45%;
+}
+
 .un-bottom-navigation .em_body_navigation .item_link .btn_navLink .icon_active {
 	display:none
 }

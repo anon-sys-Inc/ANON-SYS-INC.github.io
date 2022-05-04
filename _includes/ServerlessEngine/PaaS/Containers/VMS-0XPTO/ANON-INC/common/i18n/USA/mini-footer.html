@@ -51,175 +51,395 @@
 <footer class="un-bottom-navigation filter-blur" id="MINI-UI">
   <div class="em_body_navigation border-0 -active-links">
       <div class="item_link">
-          <a href="javascript:void(0);" id="ltr_1" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="mini_router_ltr_1" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-compass-4-line"></i></div>
               <div class="icon_active"><i class="ri-compass-4-fill"></i></div>
           </a>
       </div>
       <div class="item_link">
-          <a href="javascript:void(0);" id="ltr_2" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="mini_router_ltr_2" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-newspaper-line"></i></div>
               <div class="icon_active"><i class="ri-newspaper-fill"></i></div>
           </a>
       </div>
       <div class="item_link">
-        <a href="{{ site.remote_network_api_i18n_USA }}" id="mini_home" class="btn btn_navLink active" aria-label="btnNavigation">
+        <!-- {{ site.remote_network_api_i18n_USA }} -->
+        <a href="javascript:void(0);" id="mini_router_home" class="btn btn_navLink active" aria-label="btnNavigation">
             <div class="icon_current"><i class="ri-home-5-line"></i></div>
             <div class="icon_active"><i class="ri-home-5-fill"></i></div>
         </a>
       </div>
       <div class="item_link">
-          <a href="javascript:void(0);" id="rtl_1" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="mini_router_rtl_1" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-stock-line"></i></div>
               <div class="icon_active"><i class="ri-stock-fill"></i></div>
           </a>
       </div>
       <div class="item_link">
-          <a href="javascript:void(0);" id="rtl_2" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="javascript:void(0);" id="mini_router_rtl_2" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-user-4-line"></i></div>
               <div class="icon_active"><i class="ri-user-4-fill"></i></div>
           </a>
        </div>
 
        <script type="text/javascript">
-
-
-        // /* Cookies Function */
-        // function setCookie(cname, cvalue, exhours) {
-        //     var d = new Date();
-        //     var minutes = 1000 * 60;
-        //     var hours = minutes * 60;
-        //     var days = hours * 24;
-        //     /* d.setTime(d.getTime() + (30*60*1000)); 30 Minutes */
-        //     d.setTime(d.getTime() + days); /* 1days */
-        //     var expires = "expires=" + d.toString();
-        //     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-        // }
-
-        // function getCookie(cname) {
-        //     var name = cname + "=";
-        //     var decodedCookie = decodeURIComponent(document.cookie);
-        //     var ca = decodedCookie.split(';');
-        //     for (var i = 0; i < ca.length; i++) {
-        //         var c = ca[i];
-        //         while (c.charAt(0) == ' ') {
-        //             c = c.substring(1);
-        //         }
-        //         if (c.indexOf(name) == 0) {
-        //             return c.substring(name.length, c.length);
-        //         }
-        //     }
-        //     return "";
-        // }
-
-        //设置cookie
-        var passKey = '4c05c54d952b11e691d76c0b843ea7f9';
-        function setCookie(cname, cvalue, exdays) {
-            var d = new Date();
-            d.setTime(d.getTime() + (exdays*24*60*60*1000));
-            var expires = "expires="+d.toUTCString();
-            document.cookie = cname + "=" + encrypt(escape(cvalue), passKey) + "; " + expires;
+       const indicator = document.querySelector('.btn_navLink active');
+       const items = document.querySelectorAll('.btn_navLink');
+       function handleIndicator(el) {
+         items.forEach(item => {
+            item.classList.remove('active');
+          });
+          el.classList.add('active');
         }
+        items.forEach((item, index) => {
+          item.addEventListener('click', e => {handleIndicator(e.target);});
+          item.classList.contains('active') && handleIndicator(item);
+        });
+       </script>
 
-        //获取cookie
+       <!-- <script type="text/javascript">
+        /* Cookies Function */
+        function setCookie(cname, cvalue, exhours) {
+            var d = new Date();
+            var minutes = 1000 * 60;
+            var hours = minutes * 60;
+            var days = hours * 24;
+             d.setTime(d.getTime() + (1*60*1000)); /*30 Minutes */
+            // d.setTime(d.getTime() + days); /* 1days */
+            var expires = "expires=" + d.toString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
         function getCookie(cname) {
             var name = cname + "=";
-            var ca = document.cookie.split(';');
-            for(var i=0; i<ca.length; i++) {
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
                 var c = ca[i];
-                while (c.charAt(0)==' ') c = c.substring(1);
-                if (c.indexOf(name) != -1){
-                  var cnameValue = unescape(c.substring(name.length, c.length));
-                  return decrypt(cnameValue, passKey);
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
                 }
             }
             return "";
         }
+        function deleteCookie(cname) {
+          var d = new Date();
+          d.setTime(d.getTime() - 999999); // 1/1000 second
+          var expires = "expires=" + d.toString();
+          document.cookie = cname + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT" + ";path=/";
+        }
+        window.addEventListener("load", function () {
+          var router_status = "active"
+          var router_ltr1_ltr1 = getCookie('router_ltr1_ltr1');
+          if (router_ltr1_ltr1 != "") {
+            $("#mini_router_ltr_1").addClass(router_ltr1_ltr1);
+            $("#mini_router_ltr_2").removeClass("active");
+            $("#mini_router_home").removeClass("active");
+            $("#mini_router_rtl_1").removeClass("active");
+            $("#mini_router_rtl_2").removeClass("active");
+          }
+          var router_ltr2_ltr2 = getCookie('router_ltr2_ltr2');
+          if (router_ltr2_ltr2 != "") {
+            $("#mini_router_ltr_1").removeClass("active");
+            $("#mini_router_ltr_2").addClass(router_ltr2_ltr2);
+            $("#mini_router_home").removeClass("active");
+            $("#mini_router_rtl_1").removeClass("active");
+            $("#mini_router_rtl_2").removeClass("active");
+          }
+          var router_home_home = getCookie('router_home_home');
+          if (router_home_home != "") {
+            $("#mini_router_ltr_1").removeClass("active");
+            $("#mini_router_ltr_2").removeClass("active");
+            $("#mini_router_home").addClass(router_home_home);
+            $("#mini_router_rtl_1").removeClass("active");
+            $("#mini_router_rtl_2").removeClass("active");
+          }
+          var router_rtl1_rtl1 = getCookie('router_rtl1_rtl1');
+          if (router_rtl1_rtl1 != "") {
+            $("#mini_router_ltr_1").removeClass("active");
+            $("#mini_router_ltr_2").removeClass("active");
+            $("#mini_router_home").removeClass("active");
+            $("#mini_router_rtl_1").addClass(router_rtl1_rtl1);
+            $("#mini_router_rtl_2").removeClass("active");
+          }
+          var router_rtl2_rtl2 = getCookie('router_rtl2_rtl2');
+          if (router_rtl2_rtl2 != "") {
+            $("#mini_router_ltr_1").removeClass("active");
+            $("#mini_router_ltr_2").removeClass("active");
+            $("#mini_router_home").removeClass("active");
+            $("#mini_router_rtl_1").removeClass("active");
+            $("#mini_router_rtl_2").addClass(router_rtl2_rtl2);
+          }
 
+          $('#mini_router_ltr_1').click(function(){
+              setCookie("router_ltr1_ltr1", router_status);
+              $("#mini_router_ltr_1").addClass("active");
+              $("#mini_router_ltr_2").removeClass("active");
+              $("#mini_router_home").removeClass("active");
+              $("#mini_router_rtl_1").removeClass("active");
+              $("#mini_router_rtl_2").removeClass("active");
+          });
+          $('#mini_router_ltr_2').click(function(){
+              setCookie("router_ltr2_ltr2", router_status);
+              $("#mini_router_ltr_1").removeClass("active");
+              $("#mini_router_ltr_2").addClass("active");
+              $("#mini_router_home").removeClass("active");
+              $("#mini_router_rtl_1").removeClass("active");
+              $("#mini_router_rtl_2").removeClass("active");
+          });
+          $('#mini_router_home').click(function(){
+              setCookie("router_home_home", router_status);
+              $("#mini_router_ltr_1").removeClass("active");
+              $("#mini_router_ltr_2").removeClass("active");
+              $("#mini_router_home").addClass("active");
+              $("#mini_router_rtl_1").removeClass("active");
+              $("#mini_router_rtl_2").removeClass("active");
+          });
+          $('#mini_router_rtl_1').click(function(){
+              setCookie("router_rtl1_rtl1", router_status);
+              $("#mini_router_ltr_1").removeClass("active");
+              $("#mini_router_ltr_2").removeClass("active");
+              $("#mini_router_home").removeClass("active");
+              $("#mini_router_rtl_1").addClass("active");
+              $("#mini_router_rtl_2").removeClass("active");
+          });
+          $('#mini_router_rtl_2').click(function(){
+              setCookie("router_rtl2_rtl2", router_status);
+              $("#mini_router_ltr_1").removeClass("active");
+              $("#mini_router_ltr_2").removeClass("active");
+              $("#mini_router_home").removeClass("active");
+              $("#mini_router_rtl_1").removeClass("active");
+              $("#mini_router_rtl_2").addClass("active");
+          });
 
-
-        window.addEventListener("click", function () {
-
-          $(function(){
-            var ltr_1 = getCookie('ltr_1');
-            var mini_home = getCookie('mini_home');
-            if(ltr_1 != "" && mini_home != ""){
-              $("#ltr_1").val(ltr_1);
-              alert($("#ltr_1").val(ltr_1));
-              $("#mini_home").val(mini_home);
-             }
-            // if(getCookie('ltr_1')&&getCookie('mini_home')){
-            //     $('#ltr_1').val(getCookie('ltr_1'));
-            //     $('#mini_home').val(getCookie('mini_home'));
-            // }
-            // else{
-            //     $('#ltr_1').val('');
-            //     $('#mini_home').val('');
-            // }
         });
 
-        $('#ltr_1').click(function(){
-                var ltr_1 = $('#ltr_1').addClass("active");
-                var mini_home = $('#mini_home').removeClass("active");
-                setCookie("ltr_1", ltr_1);
-                setCookie("mini_home", mini_home);
-        });
-          // $("#ltr_1").click(function(evt) {
-          //   $(event.target).addClass("active");
-          //   $("#mini_home").removeClass("active");
-          //   window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
-          // });
 
-        //   $("#ltr_1").click(function (){
-        //     list = ['#ltr_2', '#mini_home', '#rtl_1', 'rtl_2'];
-        //     for(var id in list) {
-        //       if (id != "#ltr_1"){
-        //         alert(id);
-        //         $(id).removeClass("active");
-        //       }
-        //       $(id).removeClass("up").addClass("down");
-        //     }
+        // window.addEventListener("click", function () {
+
+        //   $('#mini_router_ltr_1').click(function(){
+        //     var router_status = "active"
+        //     var router_ltr1_ltr1 = router_status;
+        //     var router_ltr1_ltr2 = router_status
+        //     var router_ltr1_home = router_status;
+        //     var router_ltr1_rtl1 = router_status;
+        //     var router_ltr1_rtl2 = router_status;
+        //     $("#mini_router_ltr_1").addClass(router_status);
+        //     $("#mini_router_ltr_2").removeClass(router_status);
+        //     $("#mini_router_home").removeClass(router_status);
+        //     $("#mini_router_rtl_1").removeClass(router_status);
+        //     $("#mini_router_rtl_2").removeClass(router_status);
+        //     setCookie("router_ltr1_ltr1", router_ltr1_ltr1);
+        //     // setCookie("router_ltr1_ltr2", router_ltr1_ltr2);
+        //     // setCookie("router_ltr1_home", router_ltr1_home);
+        //     // setCookie("router_ltr1_rtl1", router_ltr1_rtl1);
+        //     // setCookie("router_ltr1_rtl2", router_ltr1_rtl2);
+        //     // window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details"
+        //   });
+        //   $('#mini_router_ltr_2').click(function(){
+        //     var router_status = "active"
+        //     var router_ltr2_ltr1 = router_status;
+        //     var router_ltr2_ltr2 = router_status
+        //     var router_ltr2_home = router_status;
+        //     var router_ltr2_rtl1 = router_status;
+        //     var router_ltr2_rtl2 = router_status;
+        //     $("#mini_router_ltr_1").removeClass(router_status);
+        //     $("#mini_router_ltr_2").addClass(router_status);
+        //     $("#mini_router_home").removeClass(router_status);
+        //     $("#mini_router_rtl_1").removeClass(router_status);
+        //     $("#mini_router_rtl_2").removeClass(router_status);
+        //     // setCookie("router_ltr2_ltr1", router_ltr2_ltr1);
+        //     setCookie("router_ltr2_ltr2", router_ltr2_ltr2);
+        //     // setCookie("router_ltr2_home", router_ltr2_home);
+        //     // setCookie("router_ltr2_rtl1", router_ltr2_rtl1);
+        //     // setCookie("router_ltr2_rtl2", router_ltr2_rtl2);
+        //     // window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_List"
+        //   });
+        //   $('#mini_router_home').click(function(){
+        //     var router_status = "active"
+        //     var router_home_ltr1 = router_status;
+        //     var router_home_ltr2 = router_status
+        //     var router_home_home = router_status;
+        //     var router_home_rtl1 = router_status;
+        //     var router_home_rtl2 = router_status;
+        //     $("#mini_router_ltr_1").removeClass(router_status);
+        //     $("#mini_router_ltr_2").removeClass(router_status);
+        //     $("#mini_router_home").addClass(router_status);
+        //     $("#mini_router_rtl_1").removeClass(router_status);
+        //     $("#mini_router_rtl_2").removeClass(router_status);
+        //     // setCookie("router_home_ltr1", router_home_ltr1);
+        //     // setCookie("router_home_ltr2", router_home_ltr2);
+        //     setCookie("router_home_home", router_home_home);
+        //     // setCookie("router_home_rtl1", router_home_rtl1);
+        //     // setCookie("router_home_rtl2", router_home_rtl2);
+        //   });
+        //   $('#mini_router_rtl_1').click(function(){
+        //     var router_status = "active"
+        //     var router_rtl1_ltr1 = router_status;
+        //     var router_rtl1_ltr2 = router_status
+        //     var router_rtl1_home = router_status;
+        //     var router_rtl1_rtl1 = router_status;
+        //     var router_rtl1_rtl2 = router_status;
+        //     $("#mini_router_ltr_1").removeClass(router_status);
+        //     $("#mini_router_ltr_2").removeClass(router_status);
+        //     $("#mini_router_home").removeClass(router_status);
+        //     $("#mini_router_rtl_1").addClass(router_status);
+        //     $("#mini_router_rtl_2").removeClass(router_status);
+        //     // setCookie("router_rtl1_ltr1", router_rtl1_ltr1);
+        //     // setCookie("router_rtl1_ltr2", router_rtl1_ltr2);
+        //     // setCookie("router_rtl1_home", router_rtl1_home);
+        //     setCookie("router_rtl1_rtl1", router_rtl1_rtl1);
+        //     // setCookie("router_rtl1_rtl2", router_rtl1_rtl2);
+        //     // window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/News_Details"
+        //   });
+        //   $('#mini_router_rtl_2').click(function(){
+        //     var router_status = "active"
+        //     var router_rtl2_ltr1 = router_status;
+        //     var router_rtl2_ltr2 = router_status
+        //     var router_rtl2_home = router_status;
+        //     var router_rtl2_rtl1 = router_status;
+        //     var router_rtl2_rtl2 = router_status;
+        //     $("#mini_router_ltr_1").removeClass(router_status);
+        //     $("#mini_router_ltr_2").removeClass(router_status);
+        //     $("#mini_router_home").removeClass(router_status);
+        //     $("#mini_router_rtl_1").removeClass(router_status);
+        //     $("#mini_router_rtl_2").addClass(router_status);
+        //     // setCookie("router_rtl2_ltr1", router_rtl2_ltr1);
+        //     // setCookie("router_rtl2_ltr2", router_rtl2_ltr2);
+        //     // setCookie("router_rtl2_home", router_rtl2_home);
+        //     // setCookie("router_rtl2_rtl1", router_rtl2_rtl1);
+        //     setCookie("router_rtl2_rtl2", router_rtl2_rtl2);
+        //     // window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/News_List"
+        //   });
+
+        //   // function mini_router(){
+        //   //   var router_ltr1_ltr1 = getCookie('router_ltr1_ltr1');
+        //   //   var router_ltr1_ltr2 = getCookie('router_ltr1_ltr2');
+        //   //   var router_ltr1_home = getCookie('router_ltr1_home');
+        //   //   var router_ltr1_rtl1 = getCookie('router_ltr1_rtl1');
+        //   //   var router_ltr1_rtl2 = getCookie('router_ltr1_rtl2');
+        //   //   if (router_ltr1_ltr1 != "" && router_ltr1_ltr2 != "" && router_ltr1_home != "" && router_ltr1_rtl1 != "" && router_ltr1_rtl2 != ""){
+        //   //     $("#mini_router_ltr_1").addClass(router_ltr1_ltr1);
+        //   //     $("#mini_router_ltr_2").removeClass(router_ltr1_ltr2);
+        //   //     $("#mini_router_home").removeClass(router_ltr1_home);
+        //   //     $("#mini_router_rtl_1").removeClass(router_ltr1_rtl1);
+        //   //     $("#mini_router_rtl_2").removeClass(router_ltr1_rtl2);
+        //   //    }
+
+        //   //     var router_ltr2_ltr1 = getCookie('router_ltr2_ltr1');
+        //   //     var router_ltr2_ltr2 = getCookie('router_ltr2_ltr2');
+        //   //     var router_ltr2_home = getCookie('router_ltr2_home');
+        //   //     var router_ltr2_rtl1 = getCookie('router_ltr2_rtl1');
+        //   //     var router_ltr2_rtl2 = getCookie('router_ltr2_rtl2');
+        //   //     if (router_ltr2_ltr1 != "" && router_ltr2_ltr2 != "" && router_ltr2_home != "" && router_ltr2_rtl1 != "" && router_ltr2_rtl2 != ""){
+        //   //       $("#mini_router_ltr_1").removeClass(router_ltr2_ltr1);
+        //   //       $("#mini_router_ltr_2").addClass(router_ltr2_ltr2);
+        //   //       $("#mini_router_home").removeClass(router_ltr2_home);
+        //   //       $("#mini_router_rtl_1").removeClass(router_ltr2_rtl1);
+        //   //       $("#mini_router_rtl_2").removeClass(router_ltr2_rtl2);
+        //   //     }
+
+        //   //     var router_home_ltr1 = getCookie('router_home_ltr1');
+        //   //     var router_home_ltr2 = getCookie('router_home_ltr2');
+        //   //     var router_home_home = getCookie('router_home_home');
+        //   //     var router_home_rtl1 = getCookie('router_home_rtl1');
+        //   //     var router_home_rtl2 = getCookie('router_home_rtl2');
+        //   //     if (router_home_ltr1 != "" && router_home_ltr2 != "" && router_home_home != "" && router_home_rtl1 != "" && router_home_rtl2 != ""){
+        //   //       $("#mini_router_ltr_1").removeClass(router_home_ltr1);
+        //   //       $("#mini_router_ltr_2").removeClass(router_home_ltr2);
+        //   //       $("#mini_router_home").addClass(router_home_home);
+        //   //       $("#mini_router_rtl_1").removeClass(router_home_rtl1);
+        //   //       $("#mini_router_rtl_2").removeClass(router_home_rtl2);
+        //   //     }
+
+        //   //     var router_rtl1_ltr1 = getCookie('router_rtl1_ltr1');
+        //   //     var router_rtl1_ltr2 = getCookie('router_rtl1_ltr2');
+        //   //     var router_rtl1_home = getCookie('router_rtl1_home');
+        //   //     var router_rtl1_rtl1 = getCookie('router_rtl1_rtl1');
+        //   //     var router_rtl1_rtl2 = getCookie('router_rtl1_rtl2');
+        //   //     if (router_rtl1_ltr1 != "" && router_rtl1_ltr2 != "" && router_rtl1_home != "" && router_rtl1_rtl1 != "" && router_rtl1_rtl2 != ""){
+        //   //       $("#mini_router_ltr_1").removeClass(router_rtl1_ltr1);
+        //   //       $("#mini_router_ltr_2").removeClass(router_rtl1_ltr2);
+        //   //       $("#mini_router_home").removeClass(router_rtl1_home);
+        //   //       $("#mini_router_rtl_1").addClass(router_rtl1_rtl1);
+        //   //       $("#mini_router_rtl_2").removeClass(router_rtl1_rtl2);
+        //   //     }
+
+        //   //     var router_rtl2_ltr1 = getCookie('router_rtl2_ltr1');
+        //   //     var router_rtl2_ltr2 = getCookie('router_rtl2_ltr2');
+        //   //     var router_rtl2_home = getCookie('router_rtl1_home');
+        //   //     var router_rtl2_rtl1 = getCookie('router_rtl2_rtl1');
+        //   //     var router_rtl2_rtl2 = getCookie('router_rtl2_rtl2');
+        //   //     if (router_rtl2_ltr1 != "" && router_rtl2_ltr2 != "" && router_rtl2_home != "" && router_rtl2_rtl1 != "" && router_rtl2_rtl2 != ""){
+        //   //       $("#mini_router_ltr_1").removeClass(router_rtl2_ltr1);
+        //   //       $("#mini_router_ltr_2").removeClass(router_rtl2_ltr2);
+        //   //       $("#mini_router_home").removeClass(router_rtl2_home);
+        //   //       $("#mini_router_rtl_1").removeClass(router_rtl2_rtl1);
+        //   //       $("#mini_router_rtl_2").addClass(router_rtl2_rtl2);
+        //   //     }
+        //   //   }
+        //   //   mini_router();
+
+
+
+        //   // $("#ltr_1").click(function(evt) {
+        //   //   $(event.target).addClass("active");
+        //   //   $("#mini_home").removeClass("active");
+        //   //   window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
+        //   // });
+
+        // //   $("#ltr_1").click(function (){
+        // //     list = ['#ltr_2', '#mini_home', '#rtl_1', 'rtl_2'];
+        // //     for(var id in list) {
+        // //       if (id != "#ltr_1"){
+        // //         alert(id);
+        // //         $(id).removeClass("active");
+        // //       }
+        // //       $(id).removeClass("up").addClass("down");
+        // //     }
+        // // });
+
+        //     // $("#ltr_1").click(function (){
+        //     //   $("#ltr_1").addClass("active");
+        //     //   $("#ltr_2").removeClass("active");
+        //     //   $("#mini_home").removeClass("active");
+        //     //   $("#rtl_1").removeClass("active");
+        //     //   $("#rtl_2").removeClass("active");
+        //     // });
+        //     // $("#ltr_2").click(function (){
+        //     //   $("#ltr_1").removeClass("active");
+        //     //   $("#ltr_2").addClass("active");
+        //     //   $("#mini_home").removeClass("active");
+        //     //   $("#rtl_1").removeClass("active");
+        //     //   $("#rtl_2").removeClass("active");
+        //     // });
+        //     // $("#mini_home").click(function (){
+        //     //   $("#ltr_1").removeClass("active");
+        //     //   $("#ltr_2").removeClass("active");
+        //     //   $("#mini_home").addClass("active")
+        //     //   $("#rtl_1").removeClass("active");
+        //     //   $("#rtl_2").removeClass("active");
+        //     // });
+        //     // $("#rtl_1").click(function (){
+        //     //   $("#ltr_1").removeClass("active");
+        //     //   $("#ltr_2").removeClass("active");
+        //     //   $("#mini_home").removeClass("active");
+        //     //   $("#rtl_1").addClass("active");
+        //     //   $("#rtl_2").removeClass("active");
+        //     // });
+        //     // $("#rtl_2").click(function (){
+        //     //       $("#ltr_1").removeClass("active");
+        //     //       $("#ltr_2").removeClass("active");
+        //     //       $("#mini_home").removeClass("active");
+        //     //       $("#rtl_1").removeClass("active");
+        //     //       $("#rtl_2").addClass("active");
+        //     //       window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
+        //     //   });
         // });
 
-            // $("#ltr_1").click(function (){
-            //   $("#ltr_1").addClass("active");
-            //   $("#ltr_2").removeClass("active");
-            //   $("#mini_home").removeClass("active");
-            //   $("#rtl_1").removeClass("active");
-            //   $("#rtl_2").removeClass("active");
-            // });
-            // $("#ltr_2").click(function (){
-            //   $("#ltr_1").removeClass("active");
-            //   $("#ltr_2").addClass("active");
-            //   $("#mini_home").removeClass("active");
-            //   $("#rtl_1").removeClass("active");
-            //   $("#rtl_2").removeClass("active");
-            // });
-            // $("#mini_home").click(function (){
-            //   $("#ltr_1").removeClass("active");
-            //   $("#ltr_2").removeClass("active");
-            //   $("#mini_home").addClass("active")
-            //   $("#rtl_1").removeClass("active");
-            //   $("#rtl_2").removeClass("active");
-            // });
-            // $("#rtl_1").click(function (){
-            //   $("#ltr_1").removeClass("active");
-            //   $("#ltr_2").removeClass("active");
-            //   $("#mini_home").removeClass("active");
-            //   $("#rtl_1").addClass("active");
-            //   $("#rtl_2").removeClass("active");
-            // });
-            // $("#rtl_2").click(function (){
-            //       $("#ltr_1").removeClass("active");
-            //       $("#ltr_2").removeClass("active");
-            //       $("#mini_home").removeClass("active");
-            //       $("#rtl_1").removeClass("active");
-            //       $("#rtl_2").addClass("active");
-            //       window.location.href = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details";
-            //   });
-
-        });
-      </script>
+      </script> -->
   </div>
 </footer>
 <!-- FOOTER END -->
