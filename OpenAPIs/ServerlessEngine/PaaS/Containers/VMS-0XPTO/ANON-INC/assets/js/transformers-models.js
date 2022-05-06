@@ -1,4 +1,4 @@
 window.addEventListener("load", function () {
-    const loader = document.querySelector(".loader-page");
+    const loader = document.querySelector(".global-preloader");
     loader.className += " hidden";
 });
