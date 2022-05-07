@@ -64,7 +64,7 @@
       </div>
       <div class="item_link">
         <!-- {{ site.remote_network_api_i18n_USA }} -->
-        <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC" id="mini_router_home" class="btn btn_navLink">
+        <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC" id="mini_router_home" class="btn btn_navLink" aria-label="btnNavigation">
             <div class="icon_current"><i class="ri-home-5-line"></i></div>
             <div class="icon_active"><i class="ri-home-5-fill"></i></div>
         </a>
@@ -87,6 +87,24 @@
 
 <script src="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/mini-navbar/mini-navbar.js"></script>
 
+<script type="text/javascript">
+        var mini_router_ltr_1 = document.getElementsByClassName("btn btn_navLink active");
+        var mini_router_ltr_2 = document.getElementById("mini_router_ltr_2");
+        var mini_router_home = document.getElementById("mini_router_home");
+        var mini_router_rtl_1 = document.getElementById("mini_router_rtl_1");
+        var mini_router_rtl_2 = document.getElementById("mini_router_rtl_2");
+
+        // timeFn(mini_router_ltr_1, mini_router_ltr_2, mini_router_home, mini_router_rtl_1, mini_router_rtl_2);
+        function Fn(item1) {
+        // function timeFn(item1, item2, item3, item4, item5) {
+            item1.removeClass('active');
+            // item2.style.display = "none";
+            // item3.style.display = "none";
+            // item4.style.display = "none";
+            // item5.style.display = "none";
+        }
+        Fn(mini_router_ltr_1);
+</script>
 <script type="text/javascript">
 //  const indicator = document.querySelector('.btn_navLink active');
 //  const items = document.querySelectorAll('.btn_navLink');
