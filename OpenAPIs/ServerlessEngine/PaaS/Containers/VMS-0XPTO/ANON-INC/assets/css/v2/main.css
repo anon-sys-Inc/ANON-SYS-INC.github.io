@@ -3392,7 +3392,7 @@ ul {
   justify-content: flex-start;
   align-items: center;
   height: 32px;
-  border-radius: 50px;
+  border-radius: 16px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3412,7 +3412,7 @@ ul {
   justify-content: flex-start;
   align-items: center;
   height: 32px;
-  border-radius: 50px;
+  border-radius: 16px;
   position: absolute;
   bottom: 0;
   left: 0;
