@@ -51,32 +51,39 @@
 <footer class="un-bottom-navigation filter-blur" id="MINI-UI">
   <div class="em_body_navigation border-0 -active-links">
       <div class="item_link">
-          <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_List" id="mini_router_ltr_1" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_List" id="mini_router_ltr_1" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-compass-4-line"></i></div>
               <div class="icon_active"><i class="ri-compass-4-fill"></i></div>
           </a>
       </div>
       <div class="item_link">
-          <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details" id="mini_router_ltr_2" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/LiveStream_Details" id="mini_router_ltr_2" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-newspaper-line"></i></div>
               <div class="icon_active"><i class="ri-newspaper-fill"></i></div>
           </a>
       </div>
+
       <div class="item_link">
-        <!-- {{ site.remote_network_api_i18n_USA }} -->
-        <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC" id="mini_router_home" class="btn btn_navLink" aria-label="btnNavigation">
+        <a href="{{ site.remote_network_api_i18n_USA }}" id="mini_router_home" class="btn btn_navLink" aria-label="btnNavigation">
             <div class="icon_current"><i class="ri-home-5-line"></i></div>
             <div class="icon_active"><i class="ri-home-5-fill"></i></div>
         </a>
       </div>
+      <!-- <div class="item_link">
+        <button type="button" name="uploadItem" aria-label="uploadItem" class="btn btn_navLink" data-bs-toggle="modal" data-bs-target="mdllUploadItem">
+            <div class="btn btnCircle_default">
+                <i class="ri-add-line"></i>
+            </div>
+        </button>
+    </div> -->
       <div class="item_link">
-          <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/News_List" id="mini_router_rtl_1" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/News_List" id="mini_router_rtl_1" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-stock-line"></i></div>
               <div class="icon_active"><i class="ri-stock-fill"></i></div>
           </a>
       </div>
       <div class="item_link">
-          <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/News_Details" id="mini_router_rtl_2" class="btn btn_navLink" aria-label="btnNavigation">
+          <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/TestPage/News_Details" id="mini_router_rtl_2" class="btn btn_navLink" aria-label="btnNavigation">
               <div class="icon_current"><i class="ri-user-4-line"></i></div>
               <div class="icon_active"><i class="ri-user-4-fill"></i></div>
           </a>
@@ -84,26 +91,26 @@
   </div>
 </footer>
 <!-- FOOTER END -->
-
-<script src="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/mini-navbar/mini-navbar.js"></script>
+<!-- <script src="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/mini-navbar/swiper-bundle.min.js"></script> -->
+<!-- <script src="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/mini-navbar/service-workerc.js"></script> -->
 
 <script type="text/javascript">
-        var mini_router_ltr_1 = document.getElementsByClassName("btn btn_navLink active");
-        var mini_router_ltr_2 = document.getElementById("mini_router_ltr_2");
-        var mini_router_home = document.getElementById("mini_router_home");
-        var mini_router_rtl_1 = document.getElementById("mini_router_rtl_1");
-        var mini_router_rtl_2 = document.getElementById("mini_router_rtl_2");
+        // var mini_router_ltr_1 = document.getElementsByClassName("btn btn_navLink active");
+        // var mini_router_ltr_2 = document.getElementById("mini_router_ltr_2");
+        // var mini_router_home = document.getElementById("mini_router_home");
+        // var mini_router_rtl_1 = document.getElementById("mini_router_rtl_1");
+        // var mini_router_rtl_2 = document.getElementById("mini_router_rtl_2");
 
-        // timeFn(mini_router_ltr_1, mini_router_ltr_2, mini_router_home, mini_router_rtl_1, mini_router_rtl_2);
-        function Fn(item1) {
-        // function timeFn(item1, item2, item3, item4, item5) {
-            item1.removeClass('active');
-            // item2.style.display = "none";
-            // item3.style.display = "none";
-            // item4.style.display = "none";
-            // item5.style.display = "none";
-        }
-        Fn(mini_router_ltr_1);
+        // // timeFn(mini_router_ltr_1, mini_router_ltr_2, mini_router_home, mini_router_rtl_1, mini_router_rtl_2);
+        // function Fn(item1) {
+        // // function timeFn(item1, item2, item3, item4, item5) {
+        //     item1.removeClass('active');
+        //     // item2.style.display = "none";
+        //     // item3.style.display = "none";
+        //     // item4.style.display = "none";
+        //     // item5.style.display = "none";
+        // }
+        // Fn(mini_router_ltr_1);
 </script>
 <script type="text/javascript">
 //  const indicator = document.querySelector('.btn_navLink active');
