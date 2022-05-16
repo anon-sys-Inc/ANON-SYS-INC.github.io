@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     'use strict'
-
     /*==================================
 	 ADD CLASS - VISITED IN LOCAL STORAGE
 	==================================*/
@@ -39,13 +38,20 @@ document.addEventListener('DOMContentLoaded', () => {
 	==================================*/
     const activePage = window.location.pathname;
 	// console.log(`${activePage}`);
-    const navLinks = document.querySelectorAll('.-active-links a').forEach(link => {
+    const navLinks = document.querySelectorAll('.-active-links a').forEach( link => {
 		// link.classList.add('active');
-		// console.log(link.href.includes(`${activePage}`));
-		link.classList.remove('active');
-
+		console.log(activePage);
+		// link.classList.remove('active');
+        // link.classList.add('active');
+        // if (link.href) {
+        //     link.classList.add('active');
+        // }
+        // if (link.href.includes(`${activePage}`)) {
+        //     link.classList.remove('active');
+        // }
         if (link.href.includes(`${activePage}`)) {
             link.classList.add('active');
         }
+
     });
 });
