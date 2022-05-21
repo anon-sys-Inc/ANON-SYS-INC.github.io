@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	// console.log(`${activePage}`);
     const navLinks = document.querySelectorAll('.-active-links a').forEach( link => {
 		// link.classList.add('active');
-		console.log(activePage);
+		// console.log(activePage);
 		// link.classList.remove('active');
         // link.classList.add('active');
         // if (link.href) {
@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //     link.classList.remove('active');
         // }
         if (link.href.includes(`${activePage}`)) {
+            link.classList.remove('active');
             link.classList.add('active');
         }
 
