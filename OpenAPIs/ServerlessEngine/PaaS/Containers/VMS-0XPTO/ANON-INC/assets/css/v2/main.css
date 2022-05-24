@@ -98,7 +98,7 @@
   color: #1a3353;
   font-weight: 600;
   font-size: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 0;
   line-height: 140%;
 }
@@ -142,7 +142,7 @@
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   padding: 0 20px;
   margin-top: 20px;
@@ -204,7 +204,7 @@
   color: #fff;
   font-weight: 600;
   font-size: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 0;
   line-height: 140%;
 }
@@ -248,7 +248,7 @@
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   padding: 0 20px;
   margin-top: 20px;
@@ -314,7 +314,7 @@ html, body {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   background-color: #f5fafe;
   -webkit-font-smoothing: antialiased;
@@ -358,7 +358,7 @@ body {
 }
 
 [sync-transformers-model-version="dark-models"] {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   background: #19232B;
   -webkit-font-smoothing: antialiased;
@@ -427,7 +427,7 @@ body {
     font-weight: 600;
     transition: color 0.5s ease;
     position: relative;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 [sync-transformers-model-version="light-models"] .main__title--border-top{
@@ -465,7 +465,7 @@ body {
 }
 
 [sync-transformers-model-version="light-models"] .feature__title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 17px;
   line-height: 28px;
   font-weight: 600;
@@ -522,7 +522,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 [sync-transformers-model-version="light-models"] .header__nav-link--menu svg {
@@ -562,7 +562,7 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #1a3353;
   font-size: 26px;
@@ -603,7 +603,7 @@ body {
 }
 
 [sync-transformers-model-version="light-models"] .card__author a {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #2d4148;
   font-size: 16px;
@@ -651,7 +651,7 @@ body {
   color: #1a3353;
   margin-bottom: 0;
   font-weight: 600;
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 [sync-transformers-model-version="light-models"] .footer__nav a {
@@ -659,7 +659,7 @@ body {
   line-height: 24px;
   margin-bottom: 12px;
   color: #1a3353;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 
@@ -709,7 +709,7 @@ body {
   font-size: 13px;
   color: #1a3353;
   margin-top: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 
@@ -767,7 +767,7 @@ body {
   font-size: 14px;
   color: #ffffff;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 [sync-transformers-model-version="light-models"] .paginator__list a svg {
@@ -801,7 +801,7 @@ body {
   line-height: 100%;
   color: #1a3353;
   margin-bottom: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 [sync-transformers-model-version="light-models"] .author__nickname a:hover {
@@ -829,7 +829,7 @@ body {
 }
 
 [sync-transformers-model-version="dark-models"] body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   background-color: #19232B;
   -webkit-font-smoothing: antialiased;
@@ -1403,7 +1403,7 @@ ul {
   border-radius: 12px;
   border: none;
   padding: 0 45px 0 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 [sync-transformers-model-version="light-models"] .header__search input {
@@ -1415,7 +1415,7 @@ ul {
   border-radius: 12px;
   border: none;
   padding: 0 45px 0 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .header__search input:focus {
@@ -1492,7 +1492,7 @@ ul {
   justify-content: flex-start;
   align-items: center;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .header__nav-link svg {
   fill: #ffffff;
@@ -1566,7 +1566,7 @@ ul {
   font-weight: 600;
   transition: color 0.5s ease;
   position: relative;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 [sync-transformers-model-version="dark-models"] .header__nav-menu a svg {
   fill: #ffffff;
@@ -1643,7 +1643,7 @@ ul {
   line-height: 22px;
   font-size: 14px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .header__profile-btn span {
@@ -1732,7 +1732,7 @@ ul {
   font-weight: 600;
   transition: color 0.5s ease;
   position: relative;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .header__profile-menu a svg {
   fill: #fff;
@@ -1757,13 +1757,13 @@ ul {
     width: auto;
     padding-left: 22px;
   }
-  .header__action--signin:before {
+  [sync-transformers-model-version="light-models"] .header__action--signin:before {
     content: '';
     position: absolute;
     display: block;
     width: 1px;
     height: 24px;
-    background-color: #222227;
+    background-color: #fff;
     top: 50%;
     left: 0;
     margin-top: -11px;
@@ -1782,7 +1782,7 @@ ul {
     color: #bdbdbd;
     font-size: 14px;
     margin-right: 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 600;
     transition: color 0.5s ease;
   }
@@ -1966,28 +1966,26 @@ ul {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #073042;
   font-size: 30px;
   line-height: 140%;
   margin-bottom: 0;
   position: relative;
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 [sync-transformers-model-version="dark-models"] .main__title h1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #fff;
   font-size: 30px;
   line-height: 140%;
   margin-bottom: 0;
   position: relative;
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .main__title h1 b {
@@ -2004,7 +2002,7 @@ ul {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #fff;
   font-size: 26px;
@@ -2032,7 +2030,7 @@ ul {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   font-size: 24px;
   color: #fff;
@@ -2096,7 +2094,7 @@ ul {
   margin-bottom: 0;
   margin-top: 20px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 [sync-transformers-model-version="dark-models"] .main__title ol h4 {
   font-size: 16px;
@@ -2105,7 +2103,7 @@ ul {
   margin-bottom: 0;
   margin-top: 20px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 [sync-transformers-model-version="light-models"] .main__title ol li {
   font-size: 16px;
@@ -2281,7 +2279,7 @@ ul {
   border-radius: 12px;
   border: none;
   padding: 0 60px 0 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .main__filter-search input:focus {
   border-color: #222227;
@@ -2320,7 +2318,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin: 30px auto 0;
   transition: 0.5s ease;
@@ -2391,7 +2389,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-top: 30px;
 }
@@ -2664,7 +2662,7 @@ ul {
   font-size: 14px;
   color: #ffffff;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .paginator__list a svg {
   width: 22px;
@@ -2690,14 +2688,14 @@ ul {
     font-size: 14px;
     color: #ffffff;
     font-weight: 600;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
   [sync-transformers-model-version="light-models"] .paginator__pages {
     display: block;
     font-size: 14px;
     color: #1a3353;
     font-weight: 600;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 }
 /*==============================
@@ -2721,7 +2719,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .filter-wrap__btn:hover {
@@ -2791,7 +2789,7 @@ ul {
   font-size: 14px;
   color: #bdbdbd;
   margin-bottom: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .filter__label b {
   font-weight: 600;
@@ -2813,7 +2811,7 @@ ul {
   width: 100%;
   padding: 0 20px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .filter__select:focus {
   border-color: #43CE65;
@@ -2828,7 +2826,7 @@ ul {
   font-size: 14px;
   width: 100%;
   padding: 0 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .filter__input:focus {
   border-color: #43CE65;
@@ -2860,7 +2858,7 @@ ul {
   cursor: pointer;
   padding-left: 36px;
   line-height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
   transition: color 0.5s ease;
 }
@@ -2935,7 +2933,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .filter__btn:hover {
@@ -3024,7 +3022,7 @@ ul {
   color: #fff;
   font-weight: 600;
   font-size: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 0;
   line-height: 140%;
 }
@@ -3086,7 +3084,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   padding: 0 20px;
   margin-top: 20px;
@@ -3253,7 +3251,7 @@ ul {
   width: 100%;
   color: #fff;
   word-wrap: break-word;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 15px;
@@ -3314,7 +3312,7 @@ ul {
   border: 3px solid #2d41489e;
 }
 .card__author a {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #d7effe;
   font-size: 16px;
@@ -3562,7 +3560,7 @@ ul {
 }
 .post__title {
   display: block;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   font-size: 24px;
   line-height: 140%;
@@ -3686,7 +3684,7 @@ ul {
   width: 100%;
 }
 .asset__desc h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 18px;
   font-weight: 600;
   color: #fff;
@@ -3734,7 +3732,7 @@ ul {
   font-size: 14px;
   line-height: 100%;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -3773,7 +3771,7 @@ ul {
   margin-right: 10px;
 }
 .asset__author a {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #bdbdbd;
   font-size: 16px;
@@ -3828,7 +3826,7 @@ ul {
   font-size: 14px;
   line-height: 22px;
   color: #bdbdbd;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -3868,7 +3866,7 @@ ul {
   color: #bdbdbd;
   position: relative;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   white-space: nowrap;
 }
 .asset__tabs a:before {
@@ -3920,7 +3918,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   padding: 0 20px;
   margin-top: 20px;
@@ -4148,7 +4146,7 @@ ul {
   border-radius: 16px;
 }
 .sellers-list__author a {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #fff;
   font-size: 16px;
@@ -4229,7 +4227,7 @@ ul {
   white-space: nowrap;
   text-overflow: ellipsis;
   word-wrap: break-word;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 15px;
@@ -4248,7 +4246,7 @@ ul {
   font-size: 16px;
   line-height: 26px;
   color: #bdbdbd;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -4366,7 +4364,7 @@ ul {
   fill: #6164ff;
 }
 .feature__title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 17px;
   line-height: 28px;
   font-weight: 600;
@@ -4436,7 +4434,7 @@ ul {
   border-radius: 12px;
   width: 50px;
   height: 50px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 100%;
   font-weight: 600;
   font-size: 22px;
@@ -4444,7 +4442,7 @@ ul {
   background-color: rgba(97,100,255,0.15);
 }
 .step__title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 18px;
   font-weight: 600;
   color: #fff;
@@ -4495,7 +4493,7 @@ ul {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 18px;
   font-weight: 600;
   color: #fff;
@@ -4569,7 +4567,7 @@ ul {
   margin-top: 50px;
 }
 .faq__title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #fff;
   font-weight: 600;
   font-size: 24px;
@@ -4662,7 +4660,7 @@ ul {
   text-align: center;
   font-size: 16px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -4787,7 +4785,7 @@ ul {
   width: 100%;
   font-size: 18px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -4802,7 +4800,7 @@ ul {
   width: 100%;
   font-size: 16px;
   color: #43CE65;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -4843,7 +4841,7 @@ ul {
   line-height: 100%;
   color: #fff;
   margin-bottom: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .author__followers span {
   font-size: 14px;
@@ -4865,7 +4863,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   box-shadow: 0 8px 20px rgb(18 17 21 / 12%);
 }
@@ -4932,7 +4930,7 @@ ul {
   background-color: transparent;
   color: #bdbdbd;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -5011,7 +5009,7 @@ ul {
   font-size: 14px;
   line-height: 20px;
   color: #bdbdbd;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .author__link svg {
@@ -5091,7 +5089,7 @@ ul {
   color: #bdbdbd;
   position: relative;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   white-space: nowrap;
 }
 .profile__tabs a:hover {
@@ -5167,7 +5165,7 @@ ul {
 .contacts__list a {
   font-size: 16px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .contacts__list a:hover {
@@ -5264,7 +5262,7 @@ ul {
   font-size: 13px;
   color: #073042;
   height: 28px;
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 [sync-transformers-model-version="dark-models"] .article__date {
   display: flex;
@@ -5274,7 +5272,7 @@ ul {
   font-size: 13px;
   color: #fff;
   height: 28px;
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 [sync-transformers-model-version="dark-models"] .article__date svg {
   fill: #fff;
@@ -5322,7 +5320,7 @@ ul {
 [sync-transformers-model-version="dark-models"] .article__content h4,
 [sync-transformers-model-version="dark-models"] .article__content h5,
 [sync-transformers-model-version="dark-models"] .article__content h6 {
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #fff;
   margin-bottom: 15px;
@@ -5334,7 +5332,7 @@ ul {
 [sync-transformers-model-version="light-models"] .article__content h4,
 [sync-transformers-model-version="light-models"] .article__content h5,
 [sync-transformers-model-version="light-models"] .article__content h6 {
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #1a3353;
   margin-bottom: 15px;
@@ -5401,7 +5399,7 @@ ul {
 [sync-transformers-model-version="dark-models"] .article__content blockquote {
   display: block;
   position: relative;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding: 0 0 0 20px;
   font-size: 16px;
   line-height: 28px;
@@ -5412,7 +5410,7 @@ ul {
 [sync-transformers-model-version="light-models"] .article__content blockquote {
   display: block;
   position: relative;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding: 0 0 0 20px;
   font-size: 16px;
   line-height: 28px;
@@ -5565,7 +5563,7 @@ ul {
   color: #fff;
   font-size: 14px;
   background-color: #43CE65;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .share__link svg {
   fill: #fff;
@@ -5625,7 +5623,7 @@ ul {
   line-height: 100%;
   margin-bottom: 0;
   position: relative;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .comments__title span {
   display: flex;
@@ -5662,7 +5660,7 @@ ul {
   color: #fff;
   line-height: 20px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .comments__time {
   display: block;
@@ -5877,7 +5875,7 @@ ul {
   color: #d7effe;
   margin-bottom: 0;
   font-weight: 600;
-  font-family: 'Do Hyeon', 'Inter', sans-serif;
+  font-family: 'Do Hyeon', 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .footer__links {
   display: flex;
@@ -5945,7 +5943,7 @@ ul {
   font-size: 13px;
   color: #ffffff;
   margin-top: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .footer__copyright a {
@@ -5974,7 +5972,7 @@ ul {
   margin-top: 30px;
   font-size: 16px;
   color: #1a3353;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -5983,7 +5981,7 @@ ul {
   margin-top: 30px;
   font-size: 16px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -5998,7 +5996,7 @@ ul {
   line-height: 24px;
   margin-bottom: 12px;
   color: #d7effe;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .footer__nav a:last-child {
@@ -6200,7 +6198,7 @@ ul {
 .sign__title {
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #fff;
   margin-bottom: 20px;
 }
@@ -6225,7 +6223,7 @@ ul {
   font-size: 16px;
   width: 100%;
   padding: 0 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .sign__input:focus {
   border-color: #43CE65;
@@ -6242,7 +6240,7 @@ ul {
   width: 100%;
   padding: 0 20px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .sign__select:focus {
   border-color: #43CE65;
@@ -6258,7 +6256,7 @@ ul {
   width: 100%;
   padding: 15px 20px;
   resize: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .sign__textarea:focus {
   border-color: #43CE65;
@@ -6360,7 +6358,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin: 15px auto;
 }
@@ -6461,7 +6459,7 @@ ul {
   display: block;
   font-weight: 600;
   margin-left: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .sign__radio {
   position: relative;
@@ -6555,7 +6553,7 @@ ul {
   font-size: 16px;
   cursor: pointer;
   transition: 0.5s ease;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
 }
 .sign__file label:hover {
@@ -6627,7 +6625,7 @@ ul {
   font-size: 100px;
   margin-bottom: 10px;
   font-weight: 600;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Do Hyeon', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .page-404__text {
   text-align: center;
@@ -6637,7 +6635,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 30px;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Do Hyeon', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .page-404__btn {
   width: 100%;
@@ -6653,7 +6651,7 @@ ul {
   position: relative;
   z-index: 2;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   margin: 0 auto;
 }
@@ -6824,7 +6822,7 @@ ul {
   color: #fff;
   padding: 0 18px 0 0;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   transition: 0.5s ease;
 }
@@ -6868,7 +6866,7 @@ ul {
 .select2-results__option {
   padding: 0 0;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
   color: #fff;
   height: 36px;
