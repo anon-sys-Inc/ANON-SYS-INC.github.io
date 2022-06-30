@@ -1,0 +1,24 @@
+# live_list
+- live_cover: https://mir-s3-cdn-cf.behance.net/projects/404/e7e51a43161909.Y3JvcCwxMDIxLDc5OSw2MjAsMA.jpg
+  live_news_link: javascript:void(0);
+  live_title: "Save Thousands Of Lives Through This NFT"
+  live_content: "Apparently, decentralized finance means re-incentivized crime right now – a recent report highlighting that a staggering $1.3bn has been swiped in Q1 2022 alone."
+  live_label: "Live"
+  live_text: Join Live
+  live_update: '{{ "now" | date: "%m-%d-%Y" }}'
+
+- live_cover: https://mir-s3-cdn-cf.behance.net/projects/404/dfd3787456281.Y3JvcCw4NjIsNjc1LDE3MCww.jpg
+  live_news_link: javascript:void(0);
+  live_title: "A Month of Rare Digital Art from MakersPlace"
+  live_content: "Apparently, decentralized finance means re-incentivized crime right now – a recent report highlighting that a staggering $1.3bn has been swiped in Q1 2022 alone."
+  live_label: "Live"
+  live_text: Join Live
+  live_update: '{{ "now" | date: "%m-%d-%Y" }}'
+
+- live_cover: https://mir-s3-cdn-cf.behance.net/projects/404/e1be7d67188083.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg
+  live_news_link: javascript:void(0);
+  live_title: "The beginners guide to creating & selling digital art NFTs"
+  live_content: "Apparently, decentralized finance means re-incentivized crime right now – a recent report highlighting that a staggering $1.3bn has been swiped in Q1 2022 alone."
+  live_label: "Live"
+  live_text: Join Live
+  live_update: '{{ "now" | date: "%m-%d-%Y" }}'

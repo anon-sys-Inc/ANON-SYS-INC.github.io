@@ -1,5 +1,5 @@
 # Breaking News
-- author_cover: https://mir-s3-cdn-cf.behance.net/projects/404/c46aef142487227.Y3JvcCwxNjAwLDEyNTEsMCwzNzI.jpg
+- author_cover: https://mir-s3-cdn-cf.behance.net/projects/404/6c7251140386225.Y3JvcCwxNzI1LDEzNTAsMzU4LDA.png
   author_avatar_link: javascript:void(0);
   author_avatar: https://avatars.githubusercontent.com/u/48172110
   author_news_link: javascript:void(0);
@@ -7,10 +7,10 @@
   author_avatar_name: "@ANONYMOUS"
   author_content: "Apparently, decentralized finance means re-incentivized crime right now – a recent report highlighting that a staggering $1.3bn has been swiped in Q1 2022 alone."
   author_update: '{{ "now" | date: "%m-%d-%Y" }}'
-  author_text: InvestorPlace
+  author_text: Investor Park
   get_reading_link: javascript:void(0);
 
-- author_cover: https://mir-s3-cdn-cf.behance.net/projects/404/b3a17699541563.Y3JvcCwzMDAwLDIzNDYsMCwzMjY.jpg
+- author_cover: https://mir-s3-cdn-cf.behance.net/projects/404/6115bf145522263.Y3JvcCwxMzA5LDEwMjQsMCww.png
   author_avatar_link: javascript:void(0);
   author_avatar: https://avatars.githubusercontent.com/u/48172110
   author_news_link: javascript:void(0);
@@ -18,18 +18,18 @@
   author_avatar_name: "@ANONYMOUS"
   author_content: "One of the banks that has taken its first steps in introducing digital asset-related services is German-based Commerzbank, which has announced its application for the country’s Federal Financial Supervisory Authority (BaFin) license for a crypto custody business. "
   author_update: '{{ "now" | date: "%m-%d-%Y" }}'
-  author_text: InvestorPlace
+  author_text: Investor Park
   get_reading_link: javascript:void(0);
 
-- author_cover: https://mir-s3-cdn-cf.behance.net/projects/404/6c7251140386225.Y3JvcCwxNzI1LDEzNTAsMzU4LDA.png
+- author_cover: https://mir-s3-cdn-cf.behance.net/projects/404/3aa2a8146689353.Y3JvcCwxMjM4LDk2OSwzMjIsMjk3.png
   author_avatar_link: javascript:void(0);
   author_avatar: https://avatars.githubusercontent.com/u/48172110
   author_news_link: javascript:void(0);
-  author_title: "Investment in 5G network in Croatia to bring 1.3 bln euro in value added in 5 years – study"
+  author_title: "Investment in 6G network in Croatia to bring 1.3 bln euro in value added in 5 years – study"
   author_avatar_name: "@ANONYMOUS"
   author_content: "ZAGREB (Croatia), April 20 (SeeNews) - Investments in development of the 5G network in Croatia in the next few years are expected to bring more than 10 billion kuna ($1.4 billion/1.3 billion euro) value added to the country's economy, a research showed on Wednesday."
   author_update: '{{ "now" | date: "%m-%d-%Y" }}'
-  author_text: InvestorPlace
+  author_text: Investor Park
   get_reading_link: javascript:void(0);
 
 - author_cover: https://mir-s3-cdn-cf.behance.net/projects/404/393c50123847597.Y3JvcCwxMzkwLDEwODgsMTM3MCww.jpg
@@ -40,5 +40,5 @@
   author_avatar_name: "@ANONYMOUS"
   author_content: "U.S. crude exports rose last week to the highest since March 2020, U.S. Energy Information Administration data showed on Wednesday."
   author_update: '{{ "now" | date: "%m-%d-%Y" }}'
-  author_text: InvestorPlace
+  author_text: Investor Park
   get_reading_link: javascript:void(0);

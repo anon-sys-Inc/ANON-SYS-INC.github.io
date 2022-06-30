@@ -8,8 +8,8 @@
           <h1 class="hero__title" style="font-family: 'Do Hyeon', sans-serif;">{{ top_news.news_title }}</h1>
           <p class="hero__text" style="font-family: 'Do Hyeon', sans-serif;">{{ top_news.news_content }}</p>
           <div class="hero__btns">
-            <a href="{{ top_news.news_click_1_link }}" class="hero__btn hero__btn--clr">{{ top_news.news_click_1_title }}</a>
-            <a href="{{ top_news.news_click_2_link }}" class="hero__btn">{{ top_news.news_click_2_title }}</a>
+            <a href="{{ top_news.news_click_1_link }}" class="hero__btn hero__btn--clr"><i class="ri-gps-line" style="margin: 0px 5px -1.5px 0px; font-size: 17px;"></i>{{ top_news.news_click_1_title }}</a>
+            <a href="{{ top_news.news_click_2_link }}" class="hero__btn"><i class="ri-exchange-funds-fill" style="margin: 0px 5px -1.5px 0px; font-size: 17px;"></i>{{ top_news.news_click_2_title }}</a>
           </div>
         </div>
         {% endfor %}

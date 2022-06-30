@@ -797,7 +797,7 @@ body {
 
 [sync-transformers-model-version="light-models"] .author__followers p {
   /* font-size: 20px; */
-  font-size: 16px;
+  font-size: 14px;
   line-height: 100%;
   color: #1a3353;
   margin-bottom: 0;
@@ -4837,7 +4837,7 @@ ul {
   align-items: flex-start;
 }
 .author__followers p {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 100%;
   color: #fff;
   margin-bottom: 0;
