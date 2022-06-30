@@ -14,7 +14,16 @@
   card_author_name: "@ANON REPORT"
   card_info_1: "Overview Prevention Symptoms Coronavirus disease is an infectious disease caused by the SARS-CoV-2 virus."
   card_info_2: "Get The Full Story"
-- router_level: All
+- router_level: #
+  explore_item_control: item_1
+  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/21e61c146834761.Y3JvcCwxNDkyLDExNjcsNjY0LDQ4.jpg
+  card_link: javascript:void(0);
+  card_title: "TIT Sloan seriesSloan Series"
+  card_author: https://avatars.githubusercontent.com/u/48172110
+  card_author_name: "@ANON REPORT"
+  card_info_1: "Digital business needs new KPIs. Here’s why they matter by Brian Eastwood"
+  card_info_2: "Get The Full Story"
+- router_level: #
   explore_item_control: item_1
   card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/460f09117137463.Y3JvcCwxMDA3LDc4OCw0NCww.jpg
   card_link: javascript:void(0);
@@ -32,16 +41,6 @@
   card_author_name: "@ANON REPORT"
   card_info_1: "Connect is a collaborative platform for managing regulated content, processes and compliance in the life sciences. It connects the users to their data and their team anywhere in the world."
   card_info_2: "Get The Full Story"
-- router_level: #
-  explore_item_control: item_1
-  card_cover: https://mir-s3-cdn-cf.behance.net/projects/404/21e61c146834761.Y3JvcCwxNDkyLDExNjcsNjY0LDQ4.jpg
-  card_link: javascript:void(0);
-  card_title: "TIT Sloan seriesSloan Series"
-  card_author: https://avatars.githubusercontent.com/u/48172110
-  card_author_name: "@ANON REPORT"
-  card_info_1: "Digital business needs new KPIs. Here’s why they matter by Brian Eastwood"
-  card_info_2: "Get The Full Story"
-
 
 
 #--------------------------

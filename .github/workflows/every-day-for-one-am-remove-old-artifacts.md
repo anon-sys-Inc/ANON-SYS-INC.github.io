@@ -1,4 +1,4 @@
-# every-day-for-one-am-remove-old-artifacts
+# every-day-for-one-am-remove-old-artifacts.yml
 
 name: Every Day For One Am Remove Old Artifacts
 
