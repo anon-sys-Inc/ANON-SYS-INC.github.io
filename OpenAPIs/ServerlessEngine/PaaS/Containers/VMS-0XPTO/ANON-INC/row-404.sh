@@ -1,6 +1,6 @@
 ---
 permalink: /404
-layout: ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/common/i18n/USA/singleton_model/core
+layout: ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/common/i18n/USA/core
 title: 🚫 404 :(
 excerpt: The Page You Are Looking For Not Available :(
 ---
@@ -11,10 +11,7 @@ excerpt: The Page You Are Looking For Not Available :(
     <!-- IMPORT BREADCRUMB START -->
     <div class="col-12">
       <ul class="breadcrumb">
-        <li class="breadcrumb__item">
-          <!-- <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}">Home</a> -->
-          <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/USA">Home</a>
-        </li>
+        <li class="breadcrumb__item"><a href="{{ site.remote_network_vm_for_anon_inc_base_network }}">Home</a></li>
         <li class="breadcrumb__item breadcrumb__item--active">Error 404 :(</li>
       </ul>
     </div>
@@ -28,8 +25,7 @@ excerpt: The Page You Are Looking For Not Available :(
           <div class="page-404__content">
             <h1 class="page-404__title">404 :(</h1>
             <p class="page-404__text">The Page You Are Looking For Not Available :(</p>
-            <!-- <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}" class="page-404__btn">Go Back</a> -->
-            <a href="/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/USA" class="page-404__btn">Go Back</a>
+            <a href="{{ site.remote_network_vm_for_anon_inc_base_network }}" class="page-404__btn">Go Back</a>
           </div>
         </div>
       </div>

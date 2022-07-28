@@ -1,0 +1,52 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=5.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="msapplication-tap-highlight" content="no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="format-detection" content="telephone=no">
+  <!-- IMPORT SHARE INFORMATION -->
+  <meta data-n-head="ssr" property="og:title" content="{{ page.title }}"/>
+  <meta data-n-head="ssr" property="og:description" content="{{ page.excerpt }}" />
+  <meta data-n-head="ssr" property="og:image" content="https://img.foresightnews.pro/vertical_logo.png" />
+  <meta data-n-head="ssr" data-hid="og:image_width" property="og:image:width" content="1400">
+  <meta data-n-head="ssr" data-hid="og:image_height" property="og:image:height" content="700">
+  <!-- IMPORT STATIC CSS -->
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/global_preloader.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/owl.carousel.min.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/magnific-popup.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/select2.min.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/v2/main.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/mini-navbar/mini-navbar.css">
+  <link rel="stylesheet" href="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/mini-navbar/remixicon.min.css">
+  <!-- IMPORT STATIC ICONS -->
+  <link rel="apple-touch-icon" href="{{ site.remote_network_vm_for_anon_inc_favicon }}" sizes="144x144">
+  <link rel="icon" type="image/png" href="{{ site.remote_network_vm_for_anon_inc_favicon }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ site.remote_network_vm_for_anon_inc_favicon }}" sizes="96x96">
+  <meta name="description" content="{{ site.remote_network_vm_for_anon_inc_description }}">
+  <meta name="keywords" content="{{ site.keyword }}">
+  <meta name="author" content="{{ site.organization }}">
+  <title>{{ page.title }}  |  {{ page.excerpt }}</title>
+  <script type="text/javascript">
+    _record = 0;
+    var sys_info = document.title;
+    function information() {
+      _record++;
+      if (_record == 3) {
+        _record = 1;
+      }
+      if (_record == 1) {
+        document.title = " {{ page.title }} | " + sys_info;
+      }
+      if (_record == 2) {
+        document.title = " {{ page.excerpt }} | " + sys_info;
+      }
+      setTimeout("information()", 1000);
+    }
+    information();
+  </script>
+</head>

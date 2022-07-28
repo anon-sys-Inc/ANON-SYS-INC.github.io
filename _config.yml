@@ -147,6 +147,9 @@ remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Con
 remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/
 remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
 
+remote_network_vm_for_products_projects_anon_okrs_dark_models_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/products/projects/anon_okrs/anon_okrs_dark_models.webp
+remote_network_vm_for_products_projects_anon_okrs_light_models_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/products/projects/anon_okrs/anon_okrs_light_models.webp
+
 # PaaS Containers VMS-0XPTO i18n All Configuration
 remote_network_api_i18n_USA: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
 remote_network_api_i18n_Placeholder_USA: "Explore global crypto, news and more..."
@@ -169,7 +172,7 @@ remote_network_api_i18n_Placeholder_RUS: "Исследуйте глобальн�
 remote_network_api_i18n_UK: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
 remote_network_api_i18n_Placeholder_UK: "Explore global crypto, news and more..."
 
-# PaaS Containers VMS-0XPTO i18n Translate API onfiguration
+# PaaS Containers VMS-0XPTO i18n Translate API Configuration
 remote_network_translate_api:
 -
   code_id: translate-api
@@ -221,6 +224,61 @@ remote_network_translate_api:
   code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/UK
   code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/UK.svg
   code_name: UK
+
+
+# PaaS Containers VMS-0XPTO i18n Singleton Model - Anon OKR - Translate API Configuration
+remote_network_anon_okr_translate_api:
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/USA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/USA.svg
+  code_name: USA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/CHN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/CHN.svg
+  code_name: CHN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/DEU
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/DEU.svg
+  code_name: DEU
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/ESP
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/ESP.svg
+  code_name: ESP
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/HKG
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/HKG.svg
+  code_name: HKG
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/JPN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/JPN.svg
+  code_name: JPN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/KOR
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KOR.svg
+  code_name: KOR
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/KSA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KSA.svg
+  code_name: KSA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/RUS
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/RUS.svg
+  code_name: RUS
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/USA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/UK.svg
+  code_name: UK
+
 
 # PaaS Containers VMS-0XPTO i18n Menu API
 main_router_i18n_USA:
@@ -482,11 +540,11 @@ footer_router_i18n_USA_v3:
 - menu_title: "Enterprise"
 -
   menu_items:
-    open_label: "Crypto Dance"
+    open_label: "ANON TOKEN"
     open_link: "javascript:void(0);"
 -
   menu_items:
-    open_label: "Next World Hub"
+    open_label: "ANON OKRs-E"
     open_link: "javascript:void(0);"
 -
   menu_items:
