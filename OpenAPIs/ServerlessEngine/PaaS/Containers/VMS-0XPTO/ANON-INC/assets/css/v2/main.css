@@ -5365,7 +5365,8 @@ ul {
 .article__content h6 {
   font-size: 16px;
 }
-[sync-transformers-model-version="light-models"] .article__content p {
+/* [sync-transformers-model-version="light-models"] .article__content p { */
+[sync-transformers-model-version="light-models"] .article__content {
   display: block;
   font-size: 16px;
   line-height: 26px;
@@ -5373,7 +5374,8 @@ ul {
   color: #1a3353;
   margin-bottom: 20px;
 }
-[sync-transformers-model-version="dark-models"] .article__content p {
+/* [sync-transformers-model-version="dark-models"] .article__content p { */
+[sync-transformers-model-version="dark-models"] .article__content {
   display: block;
   font-size: 16px;
   line-height: 26px;
