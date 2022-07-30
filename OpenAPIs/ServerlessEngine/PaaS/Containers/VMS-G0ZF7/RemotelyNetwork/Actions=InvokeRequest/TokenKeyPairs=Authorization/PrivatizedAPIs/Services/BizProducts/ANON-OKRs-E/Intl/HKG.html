@@ -49,7 +49,7 @@ excerpt: 📡  我們是匿名者, 正在為下一階段做準備, 期待我們.
 						<div class="watch-container" id="WATCH?LM=APTXGKS0Q"></div>
 					</div>
 					<div class="article__meta">
-                        <a class="article__category" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="translate-api"><i class="translate-icons ri-translate-2" style="margin-right: 5px;">推文翻譯</i></a>
+                        <a class="article__category" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="translate-api"><i class="translate-icons ri-translate-2" style="margin-right: 5px;"></i>推文翻譯</a>
                         <ul class="router_menu dropdown-menu header__profile-menu" aria-labelledby="translate-api">
                             {% for i18n_api in site.remote_network_anon_okr_translate_api %}
                             <li class="router_menu_subset" style="padding-left: 0px;"><a class="header__nav-link" href="{{ i18n_api.code_link }}"><img src="{{ i18n_api.code_icon }}" alt="{{ i18n_api.code_name }}" style="width: 20px; height: 20px; margin: 0 10px 0px 0px;"><span>{{ i18n_api.code_name }}</span></a></li>
@@ -225,26 +225,31 @@ excerpt: 📡  我們是匿名者, 正在為下一階段做準備, 期待我們.
 <script src="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/new_media/v2/watch.min.js"></script>
 
 <script type="text/javascript">
+	const remote_media_flow_network_i18n = "zh-tw";
+	const remote_media_flow_network_live = "true";
+	const remote_media_flow_network_logo = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/common/anon_sys_v_compression_300.png";
+	const remote_media_flow_network_cover = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_news_cover.png";
+	const remote_media_flow_network_subtitle = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_okr_i18n_hkg.vtt";
+	const remote_media_flow_network_service = "https://finder.video.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBEeQibtsx5EBb1WicqAt2yVzk21P235iazaAIszlG0KCoACoKETTAnYQTKze39wVbJRgK3SicjaZdcZPS2b2JSIg0V&token=AxricY7RBHdXlbAcjOmoYTofWjgykv0wLj0SnJKI5ibzibpjPxg2teyspcP2PrHu5TASEgpCV4AiaW8&idx=1&adaptivelytrans=0&bizid=1023&dotrans=3071&hy=SH&m="
 	const dp = new DPlayer({
 		container: document.getElementById('WATCH?LM=APTXGKS0Q'),
 		theme: '#00fe3c',
 		volume: 0.7,
-		loop: true,
+		loop: false,
 		airplay: true,
 		hotkey: true,
 		mutex: true,
 		preload: 'auto',
 		autoplay: false,
 		screenshot: true,
-		// live: true,
-		lang: 'en',
-		logo: '/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/common/anon_sys_v_compression_300.png',
+		lang: remote_media_flow_network_i18n,
+		logo: remote_media_flow_network_logo,
 		video: {
 			type: 'auto',
-			url: 'https://finder.video.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBEeQibtsx5EBb1WicqAt2yVzk21P235iazaAIszlG0KCoACoKETTAnYQTKze39wVbJRgK3SicjaZdcZPS2b2JSIg0V&token=AxricY7RBHdXne6UibSXxWfdnQI4iaj86xP0DEqHctj4YRKWQUm1ibY1HoHwS6NIJuyqIO0QrXcu9Qc&idx=1&adaptivelytrans=0&bizid=1023&dotrans=3071&hy=SH&m=',
-			pic: '/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_news_cover.png'
+			url: remote_media_flow_network_service,
+			pic: remote_media_flow_network_cover
 		}, subtitle: {
-			url: '/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_okr_hkg.vtt',
+			url: remote_media_flow_network_subtitle,
 			type: 'webvtt',
 			fontSize: '16px',
 			bottom: '8%',
