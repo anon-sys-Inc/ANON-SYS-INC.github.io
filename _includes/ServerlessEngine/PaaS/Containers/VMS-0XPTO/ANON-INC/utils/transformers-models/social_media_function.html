@@ -1,39 +1,17 @@
-<!-- Client Share Code -->
-<div style="display:none" id="__topbar">{{ page.title }}  |  {{ page.excerpt }}</div>
-<div style="display:none" id="__orientation">{{ page.title }}  |  {{ page.excerpt }}</div>
-<div style="display:none" id="__sharetext">{{ page.title }}  |  {{ page.excerpt }}</div>
-<div style="display:none" id="__sharephotourl">https://qrcode-1300538791.cos.ap-guangzhou.myqcloud.com/2022/07-31/3c56991db7f948c7bb2942d15d82ed633wcn266423.jpeg</div>
-<div style="display:none" id="__sharewxthumburl">https://qrcode-1300538791.cos.ap-guangzhou.myqcloud.com/2022/07-31/3c56991db7f948c7bb2942d15d82ed633wcn266423.jpeg</div>
-<div style="display:none" id="__sharewxtitle">{{ page.title }}  |  {{ page.excerpt }}</div>
-<div style="display:none" id="__sharewxtext">{{ page.title }}  |  {{ page.excerpt }}</div>
-
 <!-- Share Code -->
-<!-- <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script> -->
-<script src="https://datanews.caixin.com/mobile/webjs/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js" onload="getShareContent()"></script>
+<script src="https://datanews.caixin.com/mobile/webjs/jweixin-1.0.0.js" onload="getShareContent()"></script>
 <script src="https://datanews.caixin.com/mobile/webjs/get_wx_config.js"></script>
 <script>
   function getShareContent(thingId, thingVol, thingTitle){
-  	var str;
-  	if(parseInt(thingId)==0)
-  		str = "{{ page.title }}  |  {{ page.excerpt }}"
-  	else{
-  		var tmp = thingTitle.split("<br/>")
-  		var title = ""
-  		for(var i=0; i<tmp.length; i++){
-  			title+=tmp[i]+" "
-  		}
-
-  		if(parseInt(thingId)>40) thingVol="{{ page.excerpt }}"
-  		str = "{{ page.title }}｜"+thingVol+"："+title
-  	}
+  	var titles = "{{ page.title }}  |  {{ page.excerpt }}";
   	console.log(str)
-  	$("#__sharewxtitle").html(str)
     getWXConfig();
     var imgUrl = "https://qrcode-1300538791.cos.ap-guangzhou.myqcloud.com/2022/07-31/3c56991db7f948c7bb2942d15d82ed633wcn266423.jpeg";
     var lineLink = "https://anon-sys-inc.github.io/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/USA";
-    var shareTitle = str;
+    var shareTitle = titles;
     var descContent = '{{ page.title }}  |  {{ page.excerpt }}';
-    var appid = '';
+    var appid = 'wx68361248acdb4609';
     wx.ready(function(){
         wx.onMenuShareTimeline({
             title: shareTitle,
