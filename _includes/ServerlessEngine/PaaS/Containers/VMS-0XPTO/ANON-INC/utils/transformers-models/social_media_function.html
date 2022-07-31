@@ -50,3 +50,29 @@
 <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
 <script src="https://datanews.caixin.com/mobile/webjs/jweixin-1.0.0.js"></script>
 <script src="https://datanews.caixin.com/mobile/webjs/get_wx_config.js"></script>
+<script type="text/javascript" src="https://wwcdn.weixin.qq.com/node/wwmng/wwmng/js/lib/wxUtils$798953cf.js"></script>
+
+<script>var shareIcon = 'http://wework.qpic.cn/wwpic/902746_7oQDq8WbScGod9B_1651035969/0';
+    document.addEventListener('WeixinJSBridgeReady', function () {}, false);
+    if (/MicroMessenger/ig.test(navigator.userAgent)) {
+    wxUtils.onMenuShareAppMessage({
+    title: '{{ page.title }}',
+    desc: '{{ page.excerpt }}',
+    link: window.location.href.split('?')[0],
+    imgUrl: shareIcon,
+    success: function () {
+    },
+    cancel: function () {
+    }
+    });
+    wxUtils.onMenuShareTimeline({
+    title: '{{ page.title }}',
+    link: window.location.href.split('?')[0],
+    imgUrl: shareIcon,
+    success: function () {
+    },
+    cancel: function () {
+    }
+    })
+    }
+</script>
