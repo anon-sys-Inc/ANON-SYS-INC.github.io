@@ -214,13 +214,15 @@ excerpt: 📡  우리는 익명이고 다음 단계를 준비하고 있으며 �
 
 <script type="text/javascript">
 	const remote_media_flow_network_i18n = "en";
-	const remote_media_flow_network_live = "true";
+	const remote_media_flow_network_live = "false";
 	const remote_media_flow_network_logo = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/common/anon_sys_v_compression_300.png";
 	const remote_media_flow_network_cover = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_news_cover.png";
-	const remote_media_flow_network_subtitle = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_okr_i18n_kor.vtt";
-	const anon_token = "AxricY7RBHdUnKhT42aOLtJcvkruH8NiamwlcREbWnTwhibM9tSWyZ4N0hFDbSsnMdzvjfG1YqpYFE";
+	const remote_media_flow_network_subtitle = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_okr_i18n_usa.vtt";
+	const compressed_pointer = "&idx=1&adaptivelytrans=0&bizid=1023&dotrans=2991&hy=SZ&m=73ea83bfb53c56ea389ba6942044463e&web=1&X-snsvideoflag=xV3&taskid=0";
+	const anon_token = "AxricY7RBHdVPwmnb9INtnKB9nZBj6j3JiaLn20SZGGF0dUrZzhZEnllUc62mM4WZNl8xsf1n8mos";
 	const remote_media_flow_network_service = "https://finder.video.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBEeQibtsx5EBb1WicqAt2yVzk21P235iazaAIszlG0KCoACoKETTAnYQTKze39wVbJRgK3SicjaZdcZPS2b2JSIg0V&token=" + anon_token;
-	const dp = new DPlayer({
+
+	const dp = new ANON_WATCH({
 		container: document.getElementById('WATCH?LM=APTXGKS0Q'),
 		theme: '#00fe3c',
 		volume: 0.7,
@@ -231,6 +233,7 @@ excerpt: 📡  우리는 익명이고 다음 단계를 준비하고 있으며 �
 		preload: 'auto',
 		autoplay: false,
 		screenshot: true,
+		live: false,
 		lang: remote_media_flow_network_i18n,
 		logo: remote_media_flow_network_logo,
 		video: {
