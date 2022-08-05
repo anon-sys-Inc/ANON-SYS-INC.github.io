@@ -1396,6 +1396,8 @@ ul {
 }
 .header__search input {
   width: calc(100% - 30px);
+}
+[sync-transformers-model-version="dark-models"] .header__search input {
   height: 40px;
   background-color: #19232b;
   color: #fff;
@@ -1407,7 +1409,6 @@ ul {
   font-weight: 600;
 }
 [sync-transformers-model-version="light-models"] .header__search input {
-  /* width: calc(100% - 30px); */
   height: 40px;
   background-color: #f5fafe;
   color: #1a3353;
