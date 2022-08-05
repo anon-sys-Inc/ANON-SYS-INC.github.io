@@ -44,7 +44,7 @@ excerpt: 📡  Wir sind Anonym und bereiten uns auf die nächste Phase vor, freu
                             <li class="router_menu_subset" style="padding-left: 0px;"><a class="header__nav-link" href="{{ i18n_api.code_link }}"><img src="{{ i18n_api.code_icon }}" alt="{{ i18n_api.code_name }}" style="width: 20px; height: 20px; margin: 0 10px 0px 0px;"><span>{{ i18n_api.code_name }}</span></a></li>
                             {% endfor %}
                             <li class="router_menu_subset footer_i18n" style="padding-left: 0px;">ISO Code (A ~ Z.)</li>
-                          </ul>
+						</ul>
 						<span class="article__date">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 								<path d="M12,2A10,10,0,1,0,22,12,10.01114,10.01114,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8.00917,8.00917,0,0,1,12,20ZM14.09814,9.63379,13,10.26807V7a1,1,0,0,0-2,0v5a1.00025,1.00025,0,0,0,1.5.86621l2.59814-1.5a1.00016,1.00016,0,1,0-1-1.73242Z" />
@@ -213,16 +213,17 @@ excerpt: 📡  Wir sind Anonym und bereiten uns auf die nächste Phase vor, freu
 <script src="{{ site.remote_network_vm_for_anon_inc_base_addr }}css/plugin_library/new_media/v2/watch.min.js"></script>
 
 <script type="text/javascript">
+	const remote_media_flow_network_watch_subtitle_language = "anon_okr_i18n_deu.vtt";
 	const remote_media_flow_network_i18n = "en";
 	const remote_media_flow_network_live = "false";
 	const remote_media_flow_network_logo = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/common/anon_sys_v_compression_300.png";
 	const remote_media_flow_network_cover = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_news_cover.png";
-	const remote_media_flow_network_subtitle = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_okr_i18n_usa.vtt";
+	const remote_media_flow_network_subtitle = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/" + remote_media_flow_network_watch_subtitle_language;
 	const compressed_pointer = "&idx=1&adaptivelytrans=0&bizid=1023&dotrans=2991&hy=SZ&m=73ea83bfb53c56ea389ba6942044463e&web=1&X-snsvideoflag=xV3&taskid=0";
 	const anon_token = "x5Y29zUxcibAibsNCn1Sfskr8icWzTtuomxoliaG45E7eMZbK13zgaReutYnytdDJiaZRsDC1DkCowzM";
 	const remote_media_flow_network_service = "https://finder.video.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBEeQibtsx5EBb1WicqAt2yVzk21P235iazaAIszlG0KCoACoKETTAnYQTKze39wVbJRgK3SicjaZdcZPS2b2JSIg0V&token=" + anon_token;
 
-	const dp = new ANON_WATCH({
+	const anon_watch_container = new ANON_WATCH({
 		container: document.getElementById('WATCH?LM=APTXGKS0Q'),
 		theme: '#00fe3c',
 		volume: 0.7,
