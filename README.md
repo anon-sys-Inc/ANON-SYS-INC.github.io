@@ -6,7 +6,7 @@
 [![License Source](https://img.shields.io/badge/License%20-GPL%203.0-brightgreen.svg?style=for-the-badge&logo=authy&cacheSeconds=3600&colorA=4481eb&colorB=04befe)]()
 
 <div align="center">
-  <img src="./.github/resource/anonymous_sys_org-v3.png" width="85%" alt="ANON SYS, INC." title="ANON SYS, INC."><br><br>
+  <img src="./.github/resource/anon_sys_inc_v4.png" width="85%" alt="ANON SYS, INC." title="ANON SYS, INC."><br><br>
   <h4 style="color: #31d278;"> -- WE ARE ANON SYS. WE ARE LEGION. -- </h4>
   <br>
   <p dir="auto" align="center">
