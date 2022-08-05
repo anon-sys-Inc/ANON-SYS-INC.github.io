@@ -1,0 +1,26 @@
+<script language="javascript" type="text/javascript">
+    window.onload = function () {
+      setInterval("NowTime()", 1000);
+    };
+
+    function NowTime() {
+      var now = new Date();
+      var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      var mons = months[now.getMonth()];
+      var dd = now.getDate() + "th, ";
+      var yy = now.getFullYear();
+      var hh = now.getHours();
+      var mm = now.getMinutes();
+
+      hh = check(hh);
+      mm = check(mm);
+
+      var i18nTime = mons + " " + dd + yy + " " + hh + ":" + mm;
+      document.getElementById("i18nTime").innerText = i18nTime;
+    }
+
+    function check(i) {
+      var num = i < 10 ? "0" + i : i;
+      return num;
+    }
+</script>
