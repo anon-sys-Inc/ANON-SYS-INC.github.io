@@ -9,20 +9,20 @@
   news_click_2_title: Explore
 
 
-- news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_nnp_plan.webp"
-  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>Discovery NNP Plan'
-  news_content: "Under The Wave Of Digitalization, Competition Among Enterprises Is Becoming Increasingly Fierce, <br>And Enterprise Development Is Facing Internal And External Troubles. The Continuous Innovation Of Business Models Has Led To A Blowout Growth Of Enterprise Applications. It Is Imperative To Systematically Promote Enterprise Digital Reshaping On A Platform."
-  news_click_1_link: javascript:void(0);
-  news_click_1_title: More Details
-  news_click_2_link: javascript:void(0);
-  news_click_2_title: Explore
-
-
 - news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_crypto_platform.webp"
   news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>Next World Hub <b style="font-size: 17px; color:bisque;">(Crypto Exchange Platform)</b>'
   news_content: "Next World Hub - Real-Time Data And Market-Leading Analysis Driven By The Cloud, <br>Open The Global Anon Encryption Exchang Platform."
   news_click_1_link: javascript:void(0);
   news_click_1_title: Start Free Trial
+  news_click_2_link: javascript:void(0);
+  news_click_2_title: Explore
+
+
+- news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_nnp_plan.webp"
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>Discovery NNP Plan'
+  news_content: "Under The Wave Of Digitalization, Competition Among Enterprises Is Becoming Increasingly Fierce, <br>And Enterprise Development Is Facing Internal And External Troubles. The Continuous Innovation Of Business Models Has Led To A Blowout Growth Of Enterprise Applications. It Is Imperative To Systematically Promote Enterprise Digital Reshaping On A Platform."
+  news_click_1_link: javascript:void(0);
+  news_click_1_title: More Details
   news_click_2_link: javascript:void(0);
   news_click_2_title: Explore
 
