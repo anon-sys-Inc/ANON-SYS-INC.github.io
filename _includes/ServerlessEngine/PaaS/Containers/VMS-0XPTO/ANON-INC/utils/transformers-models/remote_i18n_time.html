@@ -7,7 +7,8 @@
       var now = new Date();
       var months_detailed = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
       var months_abbreviation = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      var mons = months_detailed[now.getMonth()];
+      var mons_det = months_detailed[now.getMonth()];
+      var mons_addr = months_abbreviation[now.getMonth()];
       var dd = now.getDate() + "th, ";
       var yy = now.getFullYear();
       var hh = now.getHours();
@@ -16,7 +17,7 @@
       hh = check(hh);
       mm = check(mm);
 
-      var IntlTime_0x00qzi6 = mons + " " + dd + yy + " " + hh + ":" + mm;
+      var IntlTime_0x00qzi6 = mons_addr + " " + dd + yy + " " + hh + ":" + mm;
       document.getElementById("IntlTime_0x00qzi6").innerText = IntlTime_0x00qzi6;
     }
 
