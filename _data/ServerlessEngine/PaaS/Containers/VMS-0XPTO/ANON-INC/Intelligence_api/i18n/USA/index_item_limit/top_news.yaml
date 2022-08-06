@@ -1,5 +1,14 @@
 # top_news_list
 
+- news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_okr.webp"
+  news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>ANON OKRs-E<br> See How We Can Assist In Comprehensive Change.'
+  news_content: "The Future Depends On Our Continuous Exploration Of Lofty Goals, <br>We Can Build And Create Long-term Value For Society Through The Key Results Of The Achieved Goals, WE ARE ANON SYS, Expect Us."
+  news_click_1_link: javascript:void(0);
+  news_click_1_title: More Details
+  news_click_2_link: javascript:void(0);
+  news_click_2_title: Explore
+
+
 - news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_natt_plan.webp"
   news_title: '<i class="ri-bubble-chart-fill" style="margin-right: 5px;"></i>We Will Pre-Release <br> NATT Plan <b style="font-size: 17px; color:bisque;">Public Version</b>'
   news_content: "The NATT Plan As A Characteristic And New Type Of Explorer And Practitioner, <br>We Will Concentrate On Mining Data Theory And Continuously Innovate Management Practices. We Actively Learn And Learn From The World's Top Cutting-Edge Concepts And Management Practices, And Continue To Promote Through Multiple Channels Such As International Research Cooperation. International Top Academic Exchanges And Management Experience Sharing, The NATT Plan While Providing Rich And Valuable Content, Is Committed To Building A Three-Dimensional Professional Life Circle Media;"
@@ -27,31 +36,31 @@
   news_click_2_title: Explore
 
 
-- news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_6cfb75ce82.webp"
-  news_title: 'XXX'
-  news_content: "XXX"
-  news_click_1_link: javascript:void(0);
-  news_click_1_title: More Details
-  news_click_2_link: javascript:void(0);
-  news_click_2_title: Explore
+# - news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_6cfb75ce82.webp"
+#   news_title: 'XXX'
+#   news_content: "XXX"
+#   news_click_1_link: javascript:void(0);
+#   news_click_1_title: More Details
+#   news_click_2_link: javascript:void(0);
+#   news_click_2_title: Explore
 
 
-- news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_fb75cb07.webp"
-  news_title: 'XXX'
-  news_content: "XXX"
-  news_click_1_link: javascript:void(0);
-  news_click_1_title: More Details
-  news_click_2_link: javascript:void(0);
-  news_click_2_title: Explore
+# - news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_fb75cb07.webp"
+#   news_title: 'XXX'
+#   news_content: "XXX"
+#   news_click_1_link: javascript:void(0);
+#   news_click_1_title: More Details
+#   news_click_2_link: javascript:void(0);
+#   news_click_2_title: Explore
 
 
-- news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_2e7738.webp"
-  news_title: 'XXX'
-  news_content: "XXX"
-  news_click_1_link: javascript:void(0);
-  news_click_1_title: More Details
-  news_click_2_link: javascript:void(0);
-  news_click_2_title: Explore
+# - news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/anon_cover_2e7738.webp"
+#   news_title: 'XXX'
+#   news_content: "XXX"
+#   news_click_1_link: javascript:void(0);
+#   news_click_1_title: More Details
+#   news_click_2_link: javascript:void(0);
+#   news_click_2_title: Explore
 
 
 # - news_cover: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=activity/anon_cover/0x0069vk/XXX"

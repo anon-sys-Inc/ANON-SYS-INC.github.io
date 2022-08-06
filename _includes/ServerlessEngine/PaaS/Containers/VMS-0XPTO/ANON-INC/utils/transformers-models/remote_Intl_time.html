@@ -1,13 +1,12 @@
 <script language="javascript" type="text/javascript">
-    window.onload = function () {
-      setInterval("NowTime()", 1000);
-    };
+    setInterval("NowTime()", 1000);
 
     function NowTime() {
       var now = new Date();
       var months_detailed = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
       var months_abbreviation = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      var mons = months_detailed[now.getMonth()];
+      var mons_det = months_detailed[now.getMonth()];
+      var mons_addr = months_abbreviation[now.getMonth()];
       var dd = now.getDate() + "th, ";
       var yy = now.getFullYear();
       var hh = now.getHours();
@@ -16,8 +15,10 @@
       hh = check(hh);
       mm = check(mm);
 
-      var IntlTime_0x00qzi6 = mons + " " + dd + yy + " " + hh + ":" + mm;
-      document.getElementById("IntlTime_0x00qzi6").innerText = IntlTime_0x00qzi6;
+      var IntlTime_0x00q64c = mons_addr + " " + dd + yy;
+      $(".IntlTime_0x00q64c").html(IntlTime_0x00q64c);
+      var IntlTime_0x00m8c3 = mons_det + " " + dd + yy;
+      $(".IntlTime_0x00m8c3").html(IntlTime_0x00m8c3);
     }
 
     function check(i) {
