@@ -1,0 +1,26 @@
+<script language="javascript" type="text/javascript">
+    // setInterval("NowTime()", 1000);
+    function NowTime() {
+      var now = new Date();
+      var yy = now.getFullYear();
+      var mons = String(now.getMonth() + 1).padStart(2, '0')
+      var dd = String(now.getDate()).padStart(2, '0');
+      var hh = String(now.getHours()).padStart(2, '0');
+      var mm = String(now.getMinutes()).padStart(2, '0');
+      var ss = String(now.getSeconds()).padStart(2, '0');
+
+      hh = check(hh);
+      mm = check(mm);
+      var IntlTime_format_0x00m8c3 = yy + "-" + mons + "-" + dd + "T" + hh + ":" + mm + ":" + ss + "+00:00";
+      var className = "time-ago";
+      var contentHtml = '<time class="'+className+'"  title="'+ IntlTime_format_0x00m8c3 +'"></time>';
+      var oBox = document.getElementById("IntlTime_format_0x00m8c3");
+      oBox.innerHTML = contentHtml;
+    }
+
+    function check(i) {
+      var num = i < 10 ? "0" + i : i;
+      return num;
+    }
+    NowTime();
+</script>
