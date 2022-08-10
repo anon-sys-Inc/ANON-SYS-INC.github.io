@@ -109,6 +109,33 @@
         function o(t) {
             return e.inWords(n(t))
         }
+        /*!
+         * span class="article__date" id="IntlTime_0x00qzi6"
+         * include ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/utils/transformers-models/remote_i18n_time.html
+         * span
+         */
+        setInterval(NowTime(), 1000);
+        function NowTime() {
+            var now = new Date();
+            var yy = now.getFullYear();
+            var mons = String(now.getMonth() + 1).padStart(2, '0')
+            var dd = String(now.getDate()).padStart(2, '0');
+            var hh = now.getHours();
+            var mm = now.getMinutes();
+            var ss = now.getSeconds();
+            hh = check(hh);
+            mm = check(mm);
+            ss = check(ss);
+            var IntlTime_format_0x00m8c3 = yy + "-" + mons + "-" + dd + "T" + hh + ":" + mm + ":" + ss + "Z+00:00";
+            var className = "time-ago";
+            var writeContent = '<span class="' + className + '"  title="' + IntlTime_format_0x00m8c3 + '"></span>';
+            var IntlTime_format = document.getElementById("IntlTime_format_0x00m8c3");
+            IntlTime_format.innerHTML = writeContent;
+        }
+        function check(i) {
+            var num = i < 10 ? "0" + i : i;
+            return num;
+        }
 
         function n(t) {
             return (new Date).getTime() - t.getTime()
