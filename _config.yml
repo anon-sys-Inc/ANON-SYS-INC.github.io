@@ -147,7 +147,7 @@ remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Con
 remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/
 remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
 
-remote_network_anon_token_api: "AxricY7RBHdW62TqXT0IGictLYuR92DQl55M7LsLgyehrupiaZO9zFwI4ELOB9BO2nk4HHxrf983Uw"
+remote_network_anon_token_api: "AxricY7RBHdU3wRsiakaiabEMPLh8ELJrEuvwcNh522HXYOToBvw6xqkA25CQN8huSJpo82CaCiaqrI"
 remote_network_vm_for_products_projects_anon_okrs_dark_models_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/products/projects/anon_okrs/anon_okrs_dark_models_v5.webp
 remote_network_vm_for_products_projects_anon_okrs_light_models_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/products/projects/anon_okrs/anon_okrs_light_models_v5.webp
 
