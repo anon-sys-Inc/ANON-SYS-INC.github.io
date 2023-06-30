@@ -213,8 +213,9 @@ excerpt: 🥷  우리는 익명이고 다음 단계를 준비하고 있으며 �
 	const remote_media_flow_network_cover = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/anon_news_cover.png";
 	const remote_media_flow_network_subtitle = "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/remote_media_flow/watch=privatized-network/anon_okr/" + remote_media_flow_network_watch_subtitle_language;
 	const compressed_pointer = "&idx=1&adaptivelytrans=0&bizid=1023&dotrans=2991&hy=SZ&m=73ea83bfb53c56ea389ba6942044463e&web=1&X-snsvideoflag=xV3&taskid=0";
+	const anon_verify = '{{ site.remote_network_anon_token_verify }}';
 	const anon_token = '{{ site.remote_network_anon_token_api }}';
-	const remote_media_flow_network_service = "https://finder.video.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBEeQibtsx5EBb1WicqAt2yVzk21P235iazaAIszlG0KCoACoKETTAnYQTKze39wVbJRgK3SicjaZdcZPS2b2JSIg0V&token=" + anon_token;
+	const remote_media_flow_network_service = "https://finder.video.qq.com/251/20302/stodownload?encfilekey=" + anon_verify + "&token=" + anon_token;
 
 	const anon_watch_container = new ANON_WATCH({
 		container: document.getElementById('WATCH?LM=APTXGKS0Q'),
